@@ -258,14 +258,25 @@ app.use((req, res, next) => {
     next()
   }
 })
-
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "page", "index.html"))
 })
-
-app.get("/admin/dashboard", (req, res) => {
+app.get("/admin/dashboard", requireAuthForDashboard, (req, res) => {
   res.sendFile(path.join(__dirname, "page", "dashboard.html"))
 })
+app.get("/api/auth/check", async (req, res) => {
+  try {
+    if (req.session.userId) {
+      const user = await User.findById(req.session.userId).select('-passwordHash');
+      if (user) {
+        return res.json({ status: true, user });
+      }
+    }
+    res.json({ status: false });
+  } catch (error) {
+    res.json({ status: false });
+  }
+});
 
 app.get("/login", (req, res) => {
   res.sendFile(path.join(__dirname, "page", "login.html"))
