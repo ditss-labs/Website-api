@@ -9,7 +9,6 @@ import dotenv from "dotenv"
 import { WebSocketServer } from "ws"
 import cookieParser from "cookie-parser"
 import session from "express-session"
-import MongoStore from "connect-mongo"
 import { requireAuthForDashboard } from './src/middleware/auth.js';
 import { connectDB } from './src/database/db.js'
 import { createLogger } from './src/middleware/logger.js'
@@ -49,20 +48,14 @@ app.set("json spaces", 2)
 
 app.use(cookieParser())
 app.use(session({
-  secret: process.env.SESSION_SECRET ||
-    'ditss-the-token-siseun-sikrit-2026-asuma-api',
+  name: 'asuma.sid',
+  secret: process.env.SESSION_SECRET || 'ditss-666-secret-2026',
   resave: false,
   saveUninitialized: false,
-  store: MongoStore.create({
-    mongoUrl: process.env.MONGODB_URI,
-    collectionName: "sessions",
-    ttl: 7 * 24 * 60 * 60, // 7 hari
-    autoRemove: "native"
-  }),
   cookie: {
-    secure: false, // set true kalau sudah HTTPS
+    secure: false,
     httpOnly: true,
-    sameSite: "lax",
+    sameSite: 'lax',
     maxAge: 7 * 24 * 60 * 60 * 1000
   }
 }))
