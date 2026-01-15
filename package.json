@@ -33,7 +33,6 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^4.19.2",
-    "connect-mongo": "^5.1.0"
     "express-session": "^1.18.0",
     "file-type": "^16.5.3",
     "form-data": "^4.0.2",
