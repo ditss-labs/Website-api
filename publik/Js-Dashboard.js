@@ -1,65 +1,97 @@
 class DashboardManager {
     constructor() {
         this.userData = null;
+        console.log('🚀 DashboardManager initialized');
         this.init();
     }
     
     async init() {
-        await this.checkAuth();
-        this.loadUserData();
-        this.bindEvents();
-        this.loadApiKeys();
-        this.loadStats();
+        console.log('🔍 Checking authentication...');
+        const isAuthenticated = await this.checkAuth();
+        
+        if (isAuthenticated) {
+            console.log('✅ User authenticated, loading dashboard...');
+            this.loadUserData();
+            this.bindEvents();
+            this.loadApiKeys();
+            this.loadStats();
+        } else {
+            console.log('❌ User not authenticated, redirecting to login...');
+            window.location.href = '/login';
+        }
     }
     
     async checkAuth() {
         try {
+            console.log('📡 Sending auth check request...');
             const response = await fetch('/api/auth/check', {
                 method: 'GET',
-                credentials: 'include'
+                credentials: 'include',
+                headers: {
+                    'Cache-Control': 'no-cache, no-store, must-revalidate',
+                    'Pragma': 'no-cache',
+                    'Expires': '0'
+                }
             });
             
+            console.log('📥 Auth check response status:', response.status);
             const data = await response.json();
+            console.log('📦 Auth check response data:', data);
             
             if (data.status && data.loggedIn) {
                 this.userData = data.user;
-                this.updateUserUI();
-            } else {
-                window.location.href = '/login';
+                console.log('✅ User authenticated:', data.user.username);
+                return true;
             }
+            
+            console.log('❌ Auth check failed, loggedIn:', data.loggedIn);
+            return false;
+            
         } catch (error) {
-            console.error('Auth check error:', error);
-            window.location.href = '/login';
+            console.error('🔥 Auth check error:', error);
+            return false;
         }
     }
     
     updateUserUI() {
         if (!this.userData) return;
         
+        console.log('🎨 Updating UI for user:', this.userData.username);
+        
         // Update username
         const usernameEl = document.getElementById('username-display');
-        if (usernameEl) usernameEl.textContent = this.userData.username;
+        if (usernameEl) {
+            usernameEl.textContent = this.userData.username;
+            console.log('✓ Username updated');
+        }
         
         // Update role
         const roleEl = document.getElementById('user-role');
         if (roleEl) {
-            roleEl.textContent = this.userData.role.charAt(0).toUpperCase() + this.userData.role.slice(1);
+            const role = this.userData.role.charAt(0).toUpperCase() + this.userData.role.slice(1);
+            roleEl.textContent = role;
+            console.log('✓ Role updated:', role);
         }
         
         // Update email
         const emailEl = document.getElementById('user-email');
-        if (emailEl) emailEl.textContent = this.userData.email || `${this.userData.username}@asuma.my.id`;
+        if (emailEl) {
+            emailEl.textContent = this.userData.email || `${this.userData.username}@asuma.my.id`;
+            console.log('✓ Email updated');
+        }
         
         // Update avatar
         const avatarEl = document.getElementById('user-avatar');
         if (avatarEl) {
             const initial = this.userData.username.charAt(0).toUpperCase();
             avatarEl.innerHTML = `<span>${initial}</span>`;
+            console.log('✓ Avatar updated');
         }
     }
     
     async loadUserData() {
         try {
+            console.log('📡 Loading user data...');
             const response = await fetch('/api/user/apikeys', {
                 method: 'GET',
                 credentials: 'include'
@@ -67,10 +99,13 @@ class DashboardManager {
             
             const data = await response.json();
             if (data.status) {
+                console.log('✅ User data loaded, API keys:', data.data.apikeys?.length || 0);
                 this.renderApiKeys(data.data.apikeys || []);
+            } else {
+                console.error('❌ Failed to load user data:', data.error);
             }
         } catch (error) {
-            console.error('Load user data error:', error);
+            console.error('🔥 Load user data error:', error);
         }
     }
     
@@ -78,12 +113,16 @@ class DashboardManager {
         const container = document.getElementById('api-keys-container');
         if (!container) return;
         
+        console.log('🎨 Rendering API keys:', apiKeys.length);
+        
         if (apiKeys.length === 0) {
             container.innerHTML = `
                 <div class="empty-state">
                     <i class="fas fa-key"></i>
                     <p>No API keys found</p>
-                    <button class="btn-primary" onclick="dashboard.createApiKey()">Create Your First API Key</button>
+                    <button class="btn-primary" onclick="dashboard.createApiKey()">
+                        Create Your First API Key
+                    </button>
                 </div>
             `;
             return;
@@ -96,7 +135,7 @@ class DashboardManager {
                     <span class="status-badge ${key.status}">${key.status}</span>
                 </div>
                 <div class="api-key-value">
-                    <code>${key.key}</code>
+                    <code title="${key.key}">${key.key.substring(0, 20)}...</code>
                     <button class="copy-btn" onclick="dashboard.copyToClipboard('${key.key}')">
                         <i class="fas fa-copy"></i>
                     </button>
@@ -116,21 +155,133 @@ class DashboardManager {
                     </div>
                 </div>
                 <div class="api-key-actions">
-                    <button class="btn-icon" onclick="dashboard.viewKeyDetails('${key.key}')">
+                    <button class="btn-icon" title="View Details" onclick="dashboard.viewKeyDetails('${key.key}')">
                         <i class="fas fa-eye"></i>
                     </button>
-                    <button class="btn-icon" onclick="dashboard.editKey('${key.key}')">
+                    <button class="btn-icon" title="Edit" onclick="dashboard.editKey('${key.key}')">
                         <i class="fas fa-edit"></i>
                     </button>
-                    <button class="btn-icon" onclick="dashboard.revokeKey('${key.key}')">
+                    <button class="btn-icon" title="Revoke" onclick="dashboard.revokeKey('${key.key}')">
                         <i class="fas fa-ban"></i>
                     </button>
-                    <button class="btn-icon" onclick="dashboard.deleteKey('${key.key}')">
+                    <button class="btn-icon" title="Delete" onclick="dashboard.deleteKey('${key.key}')">
                         <i class="fas fa-trash"></i>
                     </button>
                 </div>
             </div>
         `).join('');
+    }
+    
+    bindEvents() {
+        console.log('🔗 Binding events...');
+        
+        // Logout button
+        document.getElementById('logout-btn')?.addEventListener('click', () => {
+            console.log('👋 Logging out...');
+            this.logout();
+        });
+        
+        // Create API key button
+        document.getElementById('create-api-key')?.addEventListener('click', () => {
+            console.log('➕ Creating new API key...');
+            this.createApiKey();
+        });
+        
+        // Refresh button
+        document.getElementById('refresh-btn')?.addEventListener('click', () => {
+            console.log('🔄 Refreshing data...');
+            this.refresh();
+        });
+        
+        // Navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const section = e.currentTarget.getAttribute('data-section');
+                console.log('📱 Switching to section:', section);
+                this.showSection(section);
+            });
+        });
+        
+        console.log('✅ Events bound');
+    }
+    
+    async logout() {
+        try {
+            console.log('📡 Sending logout request...');
+            const response = await fetch('/api/auth/logout', {
+                method: 'POST',
+                credentials: 'include'
+            });
+            
+            const data = await response.json();
+            if (data.status) {
+                console.log('✅ Logout successful');
+                window.location.href = '/login';
+            }
+        } catch (error) {
+            console.error('🔥 Logout error:', error);
+            window.location.href = '/login';
+        }
+    }
+    
+    async createApiKey() {
+        const name = prompt('Enter API key name:', 'My API Key');
+        if (!name) return;
+        
+        const limit = prompt('Daily request limit:', '1000');
+        const limitNum = parseInt(limit) || 1000;
+        
+        try {
+            const response = await fetch('/api/user/apikeys', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'include',
+                body: JSON.stringify({ name, limitPerDay: limitNum })
+            });
+            
+            const data = await response.json();
+            if (data.status) {
+                alert(`✅ API Key created!\n\nKey: ${data.data.apiKey.key}\n\nSave this key!`);
+                this.loadUserData();
+            } else {
+                alert('❌ Error: ' + data.error);
+            }
+        } catch (error) {
+            console.error('Create API key error:', error);
+            alert('❌ Failed to create API key');
+        }
+    }
+    
+    copyToClipboard(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            alert('✅ Copied to clipboard!');
+        }).catch(err => {
+            console.error('Copy failed:', err);
+            alert('❌ Failed to copy');
+        });
+    }
+    
+    showSection(section) {
+        document.querySelectorAll('.content-section').forEach(el => {
+            el.style.display = 'none';
+        });
+        
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+        });
+        
+        const target = document.getElementById(`${section}-section`);
+        const navLink = document.querySelector(`.nav-link[data-section="${section}"]`);
+        
+        if (target) target.style.display = 'block';
+        if (navLink) navLink.classList.add('active');
+    }
+    
+    async refresh() {
+        await this.loadUserData();
+        await this.loadStats();
+        alert('✅ Data refreshed!');
     }
     
     async loadStats() {
@@ -150,7 +301,6 @@ class DashboardManager {
     }
     
     updateStats(stats) {
-        // Update stats di UI
         const elements = {
             'total-requests': stats.totalRequests || 0,
             'today-requests': stats.todayRequests || 0,
@@ -163,174 +313,10 @@ class DashboardManager {
             if (el) el.textContent = elements[id];
         });
     }
-    
-    bindEvents() {
-        // Logout button
-        const logoutBtn = document.getElementById('logout-btn');
-        if (logoutBtn) {
-            logoutBtn.addEventListener('click', () => this.logout());
-        }
-        
-        // Create API key button
-        const createBtn = document.getElementById('create-api-key');
-        if (createBtn) {
-            createBtn.addEventListener('click', () => this.createApiKey());
-        }
-        
-        // Refresh button
-        const refreshBtn = document.getElementById('refresh-btn');
-        if (refreshBtn) {
-            refreshBtn.addEventListener('click', () => this.refresh());
-        }
-        
-        // Navigation
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', (e) => {
-                e.preventDefault();
-                const section = e.currentTarget.getAttribute('data-section');
-                this.showSection(section);
-            });
-        });
-    }
-    
-    async logout() {
-        try {
-            await fetch('/api/auth/logout', {
-                method: 'POST',
-                credentials: 'include'
-            });
-            
-            window.location.href = '/login';
-        } catch (error) {
-            console.error('Logout error:', error);
-            window.location.href = '/login';
-        }
-    }
-    
-    async createApiKey() {
-        const name = prompt('Enter API key name:', 'My API Key');
-        if (!name) return;
-        
-        const limit = prompt('Daily request limit:', '1000');
-        const limitNum = parseInt(limit) || 1000;
-        
-        try {
-            const response = await fetch('/api/user/apikeys', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                credentials: 'include',
-                body: JSON.stringify({ 
-                    name, 
-                    limitPerDay: limitNum 
-                })
-            });
-            
-            const data = await response.json();
-            if (data.status) {
-                alert(`API Key created: ${data.data.apiKey.key}`);
-                this.loadUserData();
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Create API key error:', error);
-            alert('Failed to create API key');
-        }
-    }
-    
-    copyToClipboard(text) {
-        navigator.clipboard.writeText(text).then(() => {
-            alert('Copied to clipboard!');
-        });
-    }
-    
-    showSection(section) {
-        // Hide all sections
-        document.querySelectorAll('.content-section').forEach(el => {
-            el.style.display = 'none';
-        });
-        
-        // Show selected section
-        const target = document.getElementById(`${section}-section`);
-        if (target) {
-            target.style.display = 'block';
-        }
-        
-        // Update active nav
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('data-section') === section) {
-                link.classList.add('active');
-            }
-        });
-    }
-    
-    refresh() {
-        this.loadUserData();
-        this.loadStats();
-        alert('Data refreshed!');
-    }
-    
-    viewKeyDetails(key) {
-        alert(`View details for: ${key}\nFeature coming soon!`);
-    }
-    
-    editKey(key) {
-        alert(`Edit key: ${key}\nFeature coming soon!`);
-    }
-    
-    async revokeKey(key) {
-        if (!confirm('Are you sure you want to revoke this API key?')) return;
-        
-        try {
-            const response = await fetch(`/api/user/apikeys/${key}`, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                credentials: 'include',
-                body: JSON.stringify({ status: 'revoked' })
-            });
-            
-            const data = await response.json();
-            if (data.status) {
-                this.loadUserData();
-                alert('API key revoked');
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Revoke key error:', error);
-            alert('Failed to revoke key');
-        }
-    }
-    
-    async deleteKey(key) {
-        if (!confirm('Are you sure you want to delete this API key?')) return;
-        
-        try {
-            const response = await fetch(`/api/user/apikeys/${key}`, {
-                method: 'DELETE',
-                credentials: 'include'
-            });
-            
-            const data = await response.json();
-            if (data.status) {
-                this.loadUserData();
-                alert('API key deleted');
-            } else {
-                alert('Error: ' + data.error);
-            }
-        } catch (error) {
-            console.error('Delete key error:', error);
-            alert('Failed to delete key');
-        }
-    }
 }
 
-// Initialize dashboard when page loads
+// Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('📄 Dashboard page loaded');
     window.dashboard = new DashboardManager();
 });
