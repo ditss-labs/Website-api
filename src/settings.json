@@ -13,7 +13,7 @@
   },
   "apiSettings": {
     "creator": "DitssCloud",
-    "requireApikey": false,
+    "requireApikey": true,
     "apikey": {
       "demo": {
         "rateLimit": "5000/day",
