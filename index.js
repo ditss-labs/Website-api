@@ -6,8 +6,9 @@ import path from "path"
 import { fileURLToPath, pathToFileURL } from "url"
 import { createRequire } from "module"
 import dotenv from "dotenv"
-import { WebSocketServer } from "ws";
-import { startDiscordBot, updateStats } from "./src/discord.js"
+import { WebSocketServer } from "ws"
+import cookieParser from "cookie-parser"
+import session from "express-session"
 import { connectDB } from './src/database/db.js'
 import { createLogger } from './src/middleware/logger.js'
 
@@ -44,9 +45,24 @@ connectDB().catch(err => {
 app.enable("trust proxy")
 app.set("json spaces", 2)
 
+app.use(cookieParser())
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'raol-api-secret-key-change-in-production',
+  resave: false,
+  saveUninitialized: false,
+  cookie: { 
+    secure: process.env.NODE_ENV === 'production',
+    httpOnly: true,
+    maxAge: 24 * 60 * 60 * 1000
+  }
+}))
+
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
-app.use(cors())
+app.use(cors({
+  origin: true,
+  credentials: true
+}))
 
 console.log(chalk.blue('📝 Setting up API Logger...'))
 app.use(createLogger())
@@ -60,6 +76,8 @@ app.use((req, res, next) => {
 })
 
 app.use("/src/images", express.static(path.join(__dirname, "src", "images")))
+app.use("/assets", express.static(path.join(__dirname, "page", "assets")))
+app.use("/public", express.static(path.join(__dirname, "public")))
 
 app.get("/assets/styles.css", (req, res) => {
   res.setHeader("Content-Type", "text/css")
@@ -143,6 +161,7 @@ app.use((req, res, next) => {
   if (isBlocked) return res.status(403).sendFile(path.join(__dirname, "page", "status", "4xx", "403.html"))
   next()
 })
+
 app.use("/publik", express.static(path.join(__dirname, "publik")))
 app.use("/src", (req, res, next) => {
   if (req.path.match(/\.(jpg|jpeg|png|gif|svg|ico)$/i)) {
@@ -184,7 +203,6 @@ app.use((req, res, next) => {
                          req.path.startsWith('/maker/')
     if (isApiEndpoint) {
       const endpoint = req.path.replace('/api/', '').replace('/ai/', 'ai/').replace('/random/', 'random/').replace('/maker/', 'maker/')
-      updateStats(endpoint)
     }
     if (isApiEndpoint && settings.apiSettings && settings.apiSettings.requireApikey === false) return next()
   } catch (error) {
@@ -240,6 +258,47 @@ app.use((req, res, next) => {
   }
 })
 
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "index.html"))
+})
+
+app.get("/admin/dashboard", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "dashboard.html"))
+})
+
+app.get("/login", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "login.html"))
+})
+
+app.get("/register", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "register.html"))
+})
+
+app.get("/assets/dashboard.css", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "dashboard.css"))
+})
+
+app.get("/assets/dashboard.js", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "dashboard.js"))
+})
+
+const wss = new WebSocketServer({ noServer: true })
+wss.on("connection", (ws) => {
+  const sendStats = () => {
+    ws.send(JSON.stringify({
+      type: "stats",
+      data: {
+        totalRequests: Math.floor(Math.random() * 1000) + 500,
+        requestsLast5Min: Math.floor(Math.random() * 50) + 10,
+        activeUsers: Math.floor(Math.random() * 100) + 10,
+        timestamp: new Date().toISOString()
+      }
+    }))
+  }
+  const interval = setInterval(sendStats, 5000)
+  ws.on("close", () => clearInterval(interval))
+})
+
 let totalRoutes = 0
 const apiFolder = path.join(__dirname, "./src/api")
 
@@ -258,7 +317,7 @@ const loadApiRoutes = async () => {
             if (typeof routeHandler === "function") {
               routeHandler(app)
               totalRoutes++
-              console.log(chalk.bgHex("#FFFF99").hex("#333").bold(` Loaded Route: ${path.basename(file)} `))
+              console.log(chalk.bgHex("#FFFF99").hex("#333").bold(` Loaded Route: ${subfolder}/${file} `))
             }
           } catch (error) {
             console.error(`Error loading route ${file}:`, error)
@@ -269,61 +328,68 @@ const loadApiRoutes = async () => {
   }
 }
 
-await loadApiRoutes()
+const findAvailablePort = (startPort) => {
+  return new Promise((resolve) => {
+    const server = app
+      .listen(startPort, () => {
+        const port = server.address().port
+        server.close(() => resolve(port))
+      })
+      .on("error", () => {
+        resolve(findAvailablePort(startPort + 1))
+      })
+  })
+}
 
-app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "page", "index.html"))
-})
+const startApplication = async () => {
+  try {
+    await loadApiRoutes()
+    
+    const authRoute = await import('./src/api/auth/auth.js')
+    authRoute.default(app)
+    
+    const userRoutes = await import('./src/api/user/apikey.js')
+    userRoutes.default(app)
+    
+    PORT = await findAvailablePort(PORT)
+    const server = app.listen(PORT, () => {
+      console.log(chalk.bgHex("#90EE90").hex("#333").bold(`✅ Server running on port ${PORT}`))
+      console.log(chalk.bgHex("#90EE90").hex("#333").bold(`📊 Total Routes Loaded: ${totalRoutes}`))
+      console.log(chalk.cyan(`🔗 Login: http://localhost:${PORT}/login`))
+      console.log(chalk.cyan(`🔗 Dashboard: http://localhost:${PORT}/admin/dashboard`))
+    })
 
-app.get("/atmin/dasboard", (req, res) => {
-  res.sendFile(path.join(__dirname, "page", "dasboard.html"))
-})
-
-app.get("/assets/dashboard.css", (req, res) => {
-    //res.type("text/css"); 
-    res.sendFile(path.join(__dirname, "page", "dashboard.css"));
-});
-
-app.get("/assets/dashboard.js", (req, res) => {
-    //res.type("application/javascript");
-    res.sendFile(path.join(__dirname, "page", "dashboard.js"));
-});
-
-const wss = new WebSocketServer({ noServer: true });
-wss.on("connection", (ws) => {
-    const sendStats = () => {
-        ws.send(
-            JSON.stringify({
-                type: "stats",
-                data: {
-                    totalRequests: Math.floor(Math.random() * 1000) + 500,
-                    requestsLast5Min: Math.floor(Math.random() * 50) + 10,
-                    timestamp: new Date().toISOString()
-                }
-            })
-        );
-    };
-    const interval = setInterval(sendStats, 5000);
-    ws.on("close", () => clearInterval(interval));
-});
-const server = app.listen(PORT);
-
-server.on("upgrade", (req, socket, head) => {
-    if (req.url === "/admin/stats/ws") {
+    server.on("upgrade", (req, socket, head) => {
+      if (req.url === "/admin/stats/ws") {
         wss.handleUpgrade(req, socket, head, (ws) => {
-            wss.emit("connection", ws, req);
-        });
-    } else {
-        socket.destroy();
-    }
-});
+          wss.emit("connection", ws, req)
+        })
+      } else {
+        socket.destroy()
+      }
+    })
 
-app.get("/docs/", (req, res) => {
-  res.sendFile(path.join(__dirname, "page", "docs", "index.html"))
-})
+    process.on('SIGTERM', () => {
+      console.log('SIGTERM received, shutting down gracefully')
+      server.close(() => {
+        console.log('Process terminated')
+        process.exit(0)
+      })
+    })
 
-console.log(chalk.bgHex("#90EE90").hex("#333").bold(" Load Complete! "))
-console.log(chalk.bgHex("#90EE90").hex("#333").bold(` Total Routes Loaded: ${totalRoutes} `))
+    process.on('SIGINT', () => {
+      console.log('SIGINT received, shutting down gracefully')
+      server.close(() => {
+        console.log('Process terminated')
+        process.exit(0)
+      })
+    })
+
+  } catch (error) {
+    console.error(chalk.red('❌ Failed to start server:'), error)
+    process.exit(1)
+  }
+}
 
 app.use((err, req, res, next) => {
   console.error(err.stack)
@@ -407,52 +473,6 @@ app.use((err, req, res, next) => {
     res.status(500).sendFile(path.join(__dirname, "page", "status", "5xx", "500.html"))
   }
 })
-
-const findAvailablePort = (startPort) => {
-  return new Promise((resolve) => {
-    const server = app
-      .listen(startPort, () => {
-        const port = server.address().port
-        server.close(() => resolve(port))
-      })
-      .on("error", () => {
-        resolve(findAvailablePort(startPort + 1))
-      })
-  })
-}
-
-const startApplication = async () => {
-  try {
-    console.log(chalk.blue('🔄 Connecting to MongoDB...'))
-    await connectDB()
-    console.log(chalk.green('✅ MongoDB connected successfully'))
-    await loadApiRoutes()
-    console.log(chalk.bgHex("#90EE90").hex("#333").bold(" Load Complete! "))
-    console.log(chalk.bgHex("#90EE90").hex("#333").bold(` Total Routes Loaded: ${totalRoutes} `))
-    PORT = await findAvailablePort(PORT)
-    const server = app.listen(PORT, () => {
-      console.log(chalk.bgHex("#90EE90").hex("#333").bold(` Server is running on port ${PORT} `))
-    })
-    process.on('SIGTERM', () => {
-      console.log('SIGTERM received, shutting down gracefully')
-      server.close(() => {
-        console.log('Process terminated')
-        process.exit(0)
-      })
-    })
-    process.on('SIGINT', () => {
-      console.log('SIGINT received, shutting down gracefully')
-      server.close(() => {
-        console.log('Process terminated')
-        process.exit(0)
-      })
-    })
-    startDiscordBot()
-  } catch (error) {
-    console.error(chalk.red('❌ Failed to start server:'), error)
-    process.exit(1)
-  }
-}
 
 startApplication()
 
