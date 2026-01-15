@@ -86,6 +86,21 @@ app.use("/src/images", express.static(path.join(__dirname, "src", "images")))
 app.use("/assets", express.static(path.join(__dirname, "page", "assets")))
 app.use("/public", express.static(path.join(__dirname, "public")))
 
+// Add no-cache headers for dashboard
+app.use('/admin/dashboard', (req, res, next) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+  next();
+});
+
+app.use('/dashboard', (req, res, next) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
+  next();
+});
+
 app.get("/assets/styles.css", (req, res) => {
   res.setHeader("Content-Type", "text/css")
   res.sendFile(path.join(__dirname, "page", "docs", "styles.css"))
