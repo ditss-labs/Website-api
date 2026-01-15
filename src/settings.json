@@ -1,0 +1,459 @@
+{
+  "name": "Asuma Api'S",
+  "version": "v1.1.0",
+  "description": "Simple and easy to use API documentation.",
+  "maintenance": {
+    "enabled": false,
+    "message": "sedang add fitur yang berguna dan mengoptimalkan respon nya."
+  },
+  "bannerImage": "/src/images/banner.jpg",
+  "previewImage": "/src/images/preview.png",
+  "header": {
+    "status": "Online"
+  },
+  "apiSettings": {
+    "creator": "DitssCloud",
+    "requireApikey": false,
+    "apikey": {
+      "demo": {
+        "rateLimit": "5000/day",
+        "enabled": true
+      },
+      "admin": {
+        "rateLimit": "unlimited",
+        "enabled": true
+      },
+      "ditss": {
+        "rateLimit": "unlimited",
+        "enabled": true,
+        "category": "premium",
+        "name": "ditss"
+      }
+    }
+  },
+  "categories": [
+    {
+      "name": "Artificial Intelligence",
+      "items": [
+        {
+          "name": "NSFW Content Checker",
+          "desc": "Deteksi konten NSFW pada gambar menggunakan AI",
+          "path": "/v1/ai/nsfwchecker?url=https://cdn.ditss.biz.id/3Bcv.jpg",
+          "status": "active",
+          "params": {
+            "url": "URL gambar yang akan diperiksa"
+          }
+        },
+        {
+          "name": "AI Image Editor",
+          "desc": "Edit or transform images using AI with custom prompts (change style, objects, clothing, colors, etc.)",
+          "path": "/v1/ai/imgeditor?url=https%3A%2F%2Fcdn.ditss.biz.id%2F3Bcv.jpg&prompt=Using+the+model%2C+create+a+1%2F7+scale+commercialized+figurine+based+on+the+character%28s%29+shown+in+the+image%2C+rendered+in+a+realistic+style+within+a+real-life+environment.+The+figurine+is+displayed+on+a+computer+desk+and+stands+on+a+round%2C+fully+transparent+acrylic+base+with+no+text+or+markings.+On+the+computer+monitor%2C+show+the+3D+modeling+process+of+this+figurine%2C+including+visible+modeling+tools%2C+wireframes%2C+and+interface+elements.+Next+to+the+monitor%2C+place+a+BANDAI-style+toy+packaging+box+printed+with+the+original+character+artwork.+The+packaging+should+feature+high-quality%2C+two-dimensional+flat+illustrations+in+authentic+commercial+packaging+style.",
+          "status": "active",
+          "params": {
+            "url": "URL of the image to be edited (required)",
+            "prompt": "Instructions for how the image should be modified (required)"
+          }
+        },
+        {
+          "name": "Unrestricted AI Generator",
+          "desc": "Generate any type of image using AI with custom prompts and styles",
+          "path": "/v1/ai/unrestricted?prompt=girl%20wearing%20glasses&style=anime",
+          "status": "active",
+          "params": {
+            "prompt": "The description of the image you want the AI to generate (required)",
+            "style": "photorealistic, digital-art, impressionist, anime, fantasy, sci-fi, vintage"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Random Images",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Get random high-quality Blue Archive character images",
+          "path": "/random/ba",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Image Makers",
+      "items": [
+        {
+          "name": "BRAT Generator",
+          "desc": "Generate BRAT-style text images with customizable colors and backgrounds",
+          "path": "/v1/maker/brat?text=malam malam ngisep kontol namaku Jefri Nichol",
+          "status": "ready",
+          "params": {
+            "text": "Text to be inserted into the BRAT image (required)"
+          }
+        },
+        {
+          "name": "BRAT Video Generator",
+          "desc": "Generate animated BRAT-style text videos with customizable colors and backgrounds",
+          "path": "/v1/maker/bratvid?text=malam malam ngisep kontol namaku Jefri Nichol",
+          "status": "ready",
+          "params": {
+            "text": "Text to be inserted into the BRAT video (required)"
+          }
+        },
+        {
+          "name": "iPhone chat",
+          "desc": "Generate iPhone chat WhatsApp",
+          "path": "/v1/maker/imessage?text=malam malam ngisep kontol namaku Jefri Nichol",
+          "status": "ready",
+          "params": {
+            "text": "Text to be inserted into the BRAT video (required)"
+          }
+        },
+        {  
+          "name": "Fake KTP Generator",  
+          "desc": "Generate realistic fake KTP Indonesia with custom data, photo, and full layout.",  
+          "path": "/v1/maker/fake-ktp?nama=JOHN%20DOE&provinsi=DKI%20JAKARTA&kota=JAKARTA%20SELATAN&nik=3174012345678901&ttl=JAKARTA,01-01-1990&jenis_kelamin=LAKI-LAKI&golongan_darah=O&alamat=JL.%20SUDIRMAN%20NO.%20123&rtRw=001/002&kel_desa=KEBAYORAN%20BARU&kecamatan=KEBAYORAN%20BARU&agama=ISLAM&status=BELUM%20KAWIN&pekerjaan=KARYAWAN%20SWASTA&kewarganegaraan=WNI&masa_berlaku=SEUMUR%20HIDUP&terbuat=01-01-2020&pas_photo=https://cdn.ditss.biz.id/3Bcv.jpg",  
+          "status": "ready",  
+          "params": {  
+            "nama": {  
+              "info": "Nama lengkap pemilik KTP (required)",  
+              "example": "JOHN DOE"  
+            },  
+            "provinsi": {  
+              "info": "Nama provinsi",  
+              "example": "DKI JAKARTA"  
+            },  
+            "kota": {  
+              "info": "Nama kota",  
+              "example": "JAKARTA SELATAN"  
+            },  
+            "nik": {  
+              "info": "16 Digit NIK",  
+              "example": "3174012345678901"  
+            },  
+            "ttl": {  
+              "info": "Tempat, tanggal lahir",  
+              "example": "JAKARTA,01-01-1990"  
+            },  
+            "jenis_kelamin": {  
+              "info": "Jenis Kelamin",  
+              "example": "LAKI-LAKI"  
+            },  
+            "golongan_darah": {  
+              "info": "Golongan darah",  
+              "example": "O"  
+            },  
+            "alamat": {  
+              "info": "Alamat lengkap",  
+              "example": "JL. SUDIRMAN NO. 123"  
+            },  
+            "rtRw": {  
+              "info": "RT/RW",  
+              "example": "001/002"  
+            },  
+            "kel_desa": {  
+              "info": "Kelurahan/Desa",  
+              "example": "KEBAYORAN BARU"  
+            },  
+            "kecamatan": {  
+              "info": "Kecamatan",  
+              "example": "KEBAYORAN BARU"  
+            },  
+            "agama": {  
+              "info": "Agama",  
+              "example": "ISLAM"  
+            },  
+            "status": {  
+              "info": "Status perkawinan",  
+              "example": "BELUM KAWIN"  
+            },  
+            "pekerjaan": {  
+              "info": "Pekerjaan",  
+              "example": "KARYAWAN SWASTA"  
+            },  
+            "kewarganegaraan": {  
+              "info": "Kewarganegaraan",  
+              "example": "WNI"  
+            },  
+            "masa_berlaku": {  
+              "info": "Berlaku hingga",  
+              "example": "SEUMUR HIDUP"  
+            },  
+            "terbuat": {  
+              "info": "Tanggal dibuat",  
+              "example": "01-01-2020"  
+            },  
+            "pas_photo": {  
+              "info": "URL foto",  
+              "example": "https://cdn.ditss.biz.id/3Bcv.jpg"  
+            }  
+          }  
+        },
+        {
+          "name": "Pak Ustadz Generator",
+          "desc": "Generate Islamic quote images with Pak Ustadz style (Type 1)",
+          "path": "/v1/maker/pakustadz?teks=malam malam ngisep kontol namaku Jefri Nichol",
+          "status": "ready",
+          "params": {
+            "teks": {
+              "info": "Text to generate (required)",
+              "example": "Assalamualaikum warahmatullahi wabarakatuh"
+            }
+          }
+        },
+        {
+          "name": "Pak Ustadz Generator V2",
+          "desc": "Generate Islamic quote images with Pak Ustadz style (Type 2)",
+          "path": "/v2/maker/pakustadz?teks=malam malam ngisep kontol namaku Jefri Nichol",
+          "status": "ready", 
+          "params": {
+            "teks": {
+              "info": "Text to generate (required)",
+              "example": "Assalamualaikum warahmatullahi wabarakatuh"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "GAMES",
+      "items": [
+        {
+          "name": "Brain Teaser",
+          "desc": "Logic puzzle and brain exercise game",
+          "path": "/v1/game/asahotak",
+          "method": "GET",
+          "status": "ready"
+        },
+        {
+          "name": "Cak Lontong Riddles",
+          "desc": "Indonesian-style comedy riddles game",
+          "path": "/v1/game/caklontong",
+          "method": "GET",
+          "status": "ready"
+        },
+        {
+      "name": "Family 100 Quiz",
+      "desc": "Multiple answer family quiz game",
+      "path": "/v1/game/family100",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Who Am I?",
+      "desc": "Character guessing and identification game",
+      "path": "/v1/game/siapakahaku",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Word Scramble",
+      "desc": "Word arrangement and scramble puzzle game",
+      "path": "/v1/game/susunkata",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Flag Guessing",
+      "desc": "Country flag recognition and guessing game",
+      "path": "/v1/game/tebakbendera",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Anime Character Quiz",
+      "desc": "Anime character identification game",
+      "path": "/v1/game/tebakanime",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Picture Guessing",
+      "desc": "Image-based guessing game",
+      "path": "/v1/game/tebakgambar",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Game Title Quiz",
+      "desc": "Video game title guessing game",
+      "path": "/v1/game/tebakgame",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Sentence Guessing",
+      "desc": "Complete the sentence puzzle game",
+      "path": "/v1/game/tebakkalimat",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Word Guessing",
+      "desc": "Vocabulary and word guessing game",
+      "path": "/v1/game/tebakkata",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Chemistry Element Quiz",
+      "desc": "Chemical element symbol guessing game",
+      "path": "/v1/game/tebakkimia",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Song Title Quiz",
+      "desc": "Music song title guessing game",
+      "path": "/v1/game/tebaklagu",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Lyric Guessing",
+      "desc": "Song lyric completion game",
+      "path": "/v1/game/tebaklirik",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "Fun Riddles",
+      "desc": "Entertaining and humorous riddle game",
+      "path": "/v1/game/tebaktebakan",
+      "method": "GET",
+      "status": "ready"
+    },
+    {
+      "name": "General Puzzles",
+      "desc": "Various types of puzzle games",
+      "path": "/v1/game/tekateki",
+      "method": "GET",
+      "status": "ready"
+    }
+  ]
+},
+    {
+      "name": "SEARCH",
+      "items": [
+        {
+          "name": "YouTube Search",
+          "desc": "Search YouTube videos by keywords",
+          "path": "/v1/search/youtube?q=music",
+          "method": "GET",
+          "status": "ready",
+          "params": { "q": "Search keywords (required)" }
+        },
+        {
+          "name": "NPM Package Search & Stalker",
+          "desc": "Search NPM packages or view detailed package information (versions, dependencies, author, etc.)",
+          "path": "/v1/search/npm?q=express",
+          "method": "GET",
+          "status": "ready",
+          "params": {
+            "q": "Search keywords (for search mode)",
+            "name": "Specific package name (for stalk mode)"
+          },
+          "example_request": "https://yourdomain.com/v1/search/npm?name=axios&apikey=your_api_key"
+        },
+        {
+          "name": "TikTok Search",
+          "desc": "Search TikTok videos by keywords",
+          "path": "/v1/search/tiktok?q=music",
+          "method": "GET",
+          "status": "ready",
+          "params": { "q": "Search keywords (required)" }
+        },
+        {
+          "name": "PlayStore Search",
+          "desc": "Search applications in Google Play Store",
+          "path": "/v1/search/playstore?q=whatsapp",
+          "method": "GET",
+          "status": "ready",
+          "params": {
+            "q": "Search keywords (required)"
+          }
+        },
+        {
+          "name": "Song Lyrics Search",
+          "desc": "Search song lyrics by title or artist",
+          "path": "/v1/search/lirik?q=avenged sevenfold",
+          "method": "GET",
+          "status": "ready",
+          "params": {
+            "q": "Song title or artist name (required)"
+          }
+        },
+        {
+          "name": "HappyMod Search", 
+          "desc": "Search modded applications in HappyMod",
+          "path": "/v1/search/happymod?q=whatsapp",
+          "method": "GET",
+          "status": "update",
+          "params": {
+            "q": "Application name (required)"
+          }
+        },
+         {
+          "name": "Group WhatsApp Search", 
+          "desc": "search for WhatsApp groups",
+          "path": "/v1/search/group?q=jual beli fish it",
+          "method": "GET",
+          "status": "ready",
+          "params": {
+            "q": "Application name (required)"
+          }
+         }
+      ]
+    },
+    {
+      "name": "Image Processing",
+      "items": [
+        {
+          "name": "Background Remover",
+          "desc": "Remove background from images with AI",
+          "path": "/v1/image/removebg?url=",
+          "status": "ready",
+          "params": {
+            "url": "URL of the image to process"
+          }
+        },
+        {
+          "name": "Image Enhancer",
+          "desc": "Enhance image quality and resolution",
+          "path": "/v1/image/enhance?url=",
+          "status": "ready",
+          "params": {
+            "url": "URL of the image to enhance"
+          }
+        },
+        {
+          "name": "Image Upscaler",
+          "desc": "Upscale images to higher resolution",
+          "path": "/v1/image/upscale?url=",
+          "status": "ready",
+          "params": {
+            "url": "URL of the image to upscale",
+            "scale": "Upscale factor (2x, 4x, etc)"
+          }
+        },
+        {
+          "name": "Image Colorizer",
+          "desc": "Colorize black and white photos",
+          "path": "/v1/image/colorize?url=",
+          "status": "ready",
+          "params": {
+            "url": "URL of the black and white image"
+          }
+        }
+      ]
+    }
+  ],
+  "apiKeys": [
+    {
+      "key": "Raol",
+      "name": "Raol",
+      "category": "premium",
+      "ratelimit": "unlimited",
+      "active": true,
+      "createdAt": "2025-10-05T04:45:58.171Z"
+    }
+  ]
+}
