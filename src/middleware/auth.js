@@ -9,7 +9,7 @@ export const requireAuth = async (req, res, next) => {
     }
     const token = req.cookies?.token || req.headers.authorization?.replace('Bearer ', '')
     if (!token) return res.status(401).json({ status: false, error: 'Authentication required', redirect: '/login' })
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-jwt-secret-change-this')
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'ditss-the-token-jwt-sikrit')
     req.user = await User.findById(decoded.userId)
     if (!req.user) return res.status(401).json({ status: false, error: 'User not found', redirect: '/login' })
     next()
@@ -31,7 +31,7 @@ export const checkAuth = async (req, res, next) => {
         // Cek token dari cookie
         const token = req.cookies?.token;
         if (token) {
-            const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-jwt-secret-change-this');
+            const decoded = jwt.verify(token, process.env.JWT_SECRET || 'ditss-the-token-jwt-sikrit');
             req.user = await User.findById(decoded.userId);
             if (req.user) {
                 // Set session untuk request berikutnya
@@ -57,7 +57,7 @@ export const requireAuthForDashboard = async (req, res, next) => {
         
         const token = req.cookies?.token;
         if (token) {
-            const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-jwt-secret-change-this');
+            const decoded = jwt.verify(token, process.env.JWT_SECRET || 'ditss-the-token-jwt-sikrit');
             req.user = await User.findById(decoded.userId);
             if (req.user) {
                 req.session.userId = req.user._id;
@@ -78,5 +78,5 @@ export const requireAdmin = (req, res, next) => {
 }
 
 export const generateToken = (userId) => {
-  return jwt.sign({ userId }, process.env.JWT_SECRET || 'your-jwt-secret-change-this', { expiresIn: '7d' })
+  return jwt.sign({ userId }, process.env.JWT_SECRET || 'ditss-the-token-jwt-sikrit', { expiresIn: '7d' })
 }
