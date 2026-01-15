@@ -48,7 +48,7 @@ app.set("json spaces", 2)
 
 app.use(cookieParser())
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'raol-api-secret-key-change-in-production',
+  secret: process.env.SESSION_SECRET || 'ditss-the-token-sisen-sikrit-2026-asuma-api',
   resave: false,
   saveUninitialized: false,
   cookie: { 
@@ -370,6 +370,9 @@ const startApplication = async () => {
     
     const userRoutes = await import('./src/api/user/apikey.js')
     userRoutes.default(app)
+    
+    const statsRoutes = await import('./src/api/user/stats.js')
+    statsRoutes.default(app)
     
     PORT = await findAvailablePort(PORT)
     const server = app.listen(PORT, () => {
