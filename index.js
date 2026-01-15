@@ -262,7 +262,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "page", "index.html"))
 })
 app.get("/admin/dashboard", requireAuthForDashboard, (req, res) => {
-  res.sendFile(path.join(__dirname, "page", "dashboard.html"))
+  res.sendFile(path.join(__dirname, "publik", "dashboard.html"))
 })
 app.get("/api/auth/check", async (req, res) => {
   try {
