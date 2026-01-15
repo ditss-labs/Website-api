@@ -48,13 +48,19 @@ app.set("json spaces", 2)
 
 app.use(cookieParser())
 app.use(session({
-  secret: process.env.SESSION_SECRET || 'ditss-the-token-sisen-sikrit-2026-asuma-api',
-  resave: false,
-  saveUninitialized: false,
+  secret: process.env.SESSION_SECRET || 'ditss-the-token-siseun-sikrit-2026-asuma-api' + Math.random().toString(36).substring(2),
+  resave: true, 
+  saveUninitialized: true, 
+  store: new (require('connect-mongo').default)({
+    mongoUrl: process.env.MONGODB_URI,
+    ttl: 7 * 24 * 60 * 60, // 7 days
+    autoRemove: 'native'
+  }),
   cookie: { 
-    secure: process.env.NODE_ENV === 'production',
+    secure: false, 
     httpOnly: true,
-    maxAge: 24 * 60 * 60 * 1000
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+    sameSite: 'lax'
   }
 }))
 
