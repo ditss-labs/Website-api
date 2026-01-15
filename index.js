@@ -261,6 +261,14 @@ app.use((req, res, next) => {
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "page", "index.html"))
 })
+
+app.get("/docs/", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "docs", "index.html"))
+})
+
+app.get("/docs/api", (req, res) => {
+  res.sendFile(path.join(__dirname, "page", "docs", "api.html"))
+})
 app.get("/admin/dashboard", requireAuthForDashboard, (req, res) => {
   res.sendFile(path.join(__dirname, "publik", "dashboard.html"))
 })
