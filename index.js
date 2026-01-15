@@ -9,6 +9,7 @@ import dotenv from "dotenv"
 import { WebSocketServer } from "ws"
 import cookieParser from "cookie-parser"
 import session from "express-session"
+import { requireAuthForDashboard } from './src/middleware/auth.js';
 import { connectDB } from './src/database/db.js'
 import { createLogger } from './src/middleware/logger.js'
 
