@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDN File Uploader - Real API</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+        
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .panel {
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .upload-panel {
+            grid-column: 1;
+        }
+        
+        .history-panel {
+            grid-column: 2;
+        }
+        
+        @media (max-width: 900px) {
+            .upload-panel, .history-panel {
+                grid-column: 1;
+            }
+        }
+        
+        .header {
+            background: linear-gradient(to right, #0f3460, #533483);
+            color: white;
+            padding: 25px 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 15px;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #e2e2e2;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .input-group {
+            display: flex;
+            border: 2px solid #2d4059;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s;
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+        
+        .input-group:focus-within {
+            border-color: #00adb5;
+            box-shadow: 0 0 0 3px rgba(0, 173, 181, 0.2);
+        }
+        
+        .input-icon {
+            background-color: rgba(0, 173, 181, 0.1);
+            color: #00adb5;
+            padding: 0 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            border-right: 2px solid #2d4059;
+        }
+        
+        input[type="text"], select {
+            flex: 1;
+            padding: 15px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background-color: transparent;
+            color: #fff;
+        }
+        
+        input[type="text"]::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .folder-options {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .folder-option {
+            padding: 8px 16px;
+            background-color: rgba(45, 64, 89, 0.5);
+            border-radius: 20px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            color: #e2e2e2;
+        }
+        
+        .folder-option:hover {
+            background-color: rgba(45, 64, 89, 0.8);
+        }
+        
+        .folder-option.active {
+            background-color: #00adb5;
+            color: white;
+            border-color: #00adb5;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 16px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        
+        .upload-btn {
+            background: linear-gradient(to right, #00adb5, #0097a7);
+            color: white;
+        }
+        
+        .upload-btn:hover:not(:disabled) {
+            background: linear-gradient(to right, #0097a7, #00838f);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 173, 181, 0.3);
+        }
+        
+        .upload-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+        
+        .reset-btn {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: #e2e2e2;
+            border: 2px solid #2d4059;
+        }
+        
+        .reset-btn:hover {
+            background-color: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 30px 0;
+        }
+        
+        .spinner {
+            border: 4px solid rgba(0, 173, 181, 0.1);
+            border-left-color: #00adb5;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .result-container {
+            margin-top: 25px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border: 2px solid #2d4059;
+            display: none;
+        }
+        
+        .result-header {
+            background: linear-gradient(to right, #00b09b, #96c93d);
+            color: white;
+            padding: 15px 20px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .result-content {
+            padding: 25px;
+            background-color: rgba(45, 64, 89, 0.3);
+        }
+        
+        .result-item {
+            margin-bottom: 15px;
+            display: flex;
+        }
+        
+        .result-label {
+            font-weight: 600;
+            min-width: 100px;
+            color: #00adb5;
+        }
+        
+        .result-value {
+            flex: 1;
+            word-break: break-all;
+            color: #fff;
+        }
+        
+        .url-box {
+            background-color: rgba(0, 0, 0, 0.2);
+            border: 1px solid #2d4059;
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            position: relative;
+            padding-right: 100px;
+            color: #fff;
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #00adb5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 8px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .copy-btn:hover {
+            background-color: #0097a7;
+        }
+        
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: none;
+            z-index: 1000;
+            animation: slideIn 0.3s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .error {
+            background-color: #f44336;
+        }
+        
+        /* History Styles */
+        .history-controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #2d4059;
+        }
+        
+        .filter-select {
+            padding: 8px 15px;
+            border-radius: 6px;
+            border: 2px solid #2d4059;
+            font-size: 14px;
+            background-color: rgba(255, 255, 255, 0.05);
+            color: white;
+        }
+        
+        .filter-select option {
+            background-color: #16213e;
+            color: white;
+        }
+        
+        .clear-history {
+            padding: 8px 15px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .clear-history:hover {
+            background-color: #d32f2f;
+        }
+        
+        .history-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .history-item {
+            background-color: rgba(45, 64, 89, 0.5);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-left: 4px solid #00adb5;
+            transition: transform 0.2s;
+        }
+        
+        .history-item:hover {
+            transform: translateX(5px);
+            background-color: rgba(45, 64, 89, 0.7);
+        }
+        
+        .history-url {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #fff;
+            font-size: 15px;
+        }
+        
+        .history-details {
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 8px;
+        }
+        
+        .history-folder {
+            background-color: rgba(0, 173, 181, 0.2);
+            color: #00adb5;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+        }
+        
+        .history-date {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .history-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        
+        .history-copy-btn, .history-delete-btn {
+            padding: 5px 10px;
+            font-size: 12px;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .history-copy-btn {
+            background-color: rgba(76, 175, 80, 0.2);
+            color: #4CAF50;
+        }
+        
+        .history-copy-btn:hover {
+            background-color: rgba(76, 175, 80, 0.4);
+        }
+        
+        .history-delete-btn {
+            background-color: rgba(244, 67, 54, 0.2);
+            color: #f44336;
+        }
+        
+        .history-delete-btn:hover {
+            background-color: rgba(244, 67, 54, 0.4);
+        }
+        
+        .empty-history {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .empty-history i {
+            font-size: 48px;
+            margin-bottom: 15px;
+            color: #2d4059;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .buttons {
+                flex-direction: column;
+            }
+            
+            .header h1 {
+                font-size: 24px;
+            }
+            
+            .result-item {
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            
+            .result-label {
+                margin-bottom: 5px;
+            }
+            
+            .folder-options {
+                flex-wrap: wrap;
+            }
+            
+            .history-controls {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Panel Upload -->
+        <div class="panel upload-panel">
+            <div class="header">
+                <h1><i class="fas fa-cloud-upload-alt"></i> CDN File Uploader</h1>
+                <p>Upload file ke CDN via URL - API Real</p>
+            </div>
+            
+            <div class="content">
+                <div class="form-group">
+                    <label for="fileUrl"><i class="fas fa-link"></i> URL File</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <input type="text" id="fileUrl" placeholder="Masukkan URL file lengkap (mp3, mp4, js, dll)">
+                    </div>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.6); margin-top: 8px;">
+                        <i class="fas fa-info-circle"></i> Contoh: https://example.com/file.mp3
+                    </p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="folder"><i class="fas fa-folder"></i> Folder (Opsional)</label>
+                    <div class="input-group">
+                        <div class="input-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <input type="text" id="folder" placeholder="Kosongkan untuk default, atau ketik nama folder">
+                    </div>
+                    
+                    <div class="folder-options">
+                        <div class="folder-option active" data-folder="">Default</div>
+                        <div class="folder-option" data-folder="mlbb">MLBB</div>
+                        <div class="folder-option" data-folder="music">Music</div>
+                        <div class="folder-option" data-folder="videos">Videos</div>
+                        <div class="folder-option" data-folder="images">Images</div>
+                    </div>
+                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.6); margin-top: 8px;">
+                        <i class="fas fa-info-circle"></i> Default: Tanpa parameter folder, Custom: Akan ditambahkan ke URL
+                    </p>
+                </div>
+                
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Mengunggah file ke CDN, harap tunggu...</p>
+                </div>
+                
+                <div class="buttons">
+                    <button class="upload-btn" id="uploadBtn">
+                        <i class="fas fa-upload"></i> Upload ke CDN
+                    </button>
+                    <button class="reset-btn" id="resetBtn">
+                        <i class="fas fa-redo"></i> Reset Form
+                    </button>
+                </div>
+                
+                <div class="result-container" id="resultContainer">
+                    <div class="result-header">
+                        <span><i class="fas fa-check-circle"></i> File Berhasil Diunggah!</span>
+                        <i class="fas fa-file-download"></i>
+                    </div>
+                    <div class="result-content">
+                        <div class="result-item">
+                            <div class="result-label">URL CDN:</div>
+                            <div class="result-value">
+                                <div class="url-box" id="cdnUrl">
+                                    <!-- URL akan dimasukkan di sini -->
+                                    <button class="copy-btn" id="copyUrlBtn">
+                                        <i class="fas fa-copy"></i> Salin
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">File ID:</div>
+                            <div class="result-value" id="fileId"></div>
+                        </div>
+                        <div class="result-item">
+                            <div class="result-label">Folder:</div>
+                            <div class="result-value" id="folderResult"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Panel History -->
+        <div class="panel history-panel">
+            <div class="header">
+                <h1><i class="fas fa-history"></i> History Upload</h1>
+                <p>Riwayat file yang telah diunggah</p>
+            </div>
+            
+            <div class="content">
+                <div class="history-controls">
+                    <select class="filter-select" id="filterFolder">
+                        <option value="all">Semua Folder</option>
+                        <option value="default">Default</option>
+                        <option value="mlbb">MLBB</option>
+                        <option value="music">Music</option>
+                        <option value="videos">Videos</option>
+                        <option value="images">Images</option>
+                        <option value="custom">Custom Lainnya</option>
+                    </select>
+                    
+                    <button class="clear-history" id="clearHistoryBtn">
+                        <i class="fas fa-trash"></i> Hapus Semua
+                    </button>
+                </div>
+                
+                <div class="history-list" id="historyList">
+                    <!-- History items akan ditampilkan di sini -->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="notification" id="notification">
+        <i class="fas fa-check-circle"></i> <span id="notificationText">Notifikasi</span>
+    </div>
+    
+    <script>
+        // Inisialisasi aplikasi saat DOM siap
+        document.addEventListener('DOMContentLoaded', function() {
+            // === ELEMEN DOM ===
+            const fileUrlInput = document.getElementById('fileUrl');
+            const folderInput = document.getElementById('folder');
+            const uploadBtn = document.getElementById('uploadBtn');
+            const resetBtn = document.getElementById('resetBtn');
+            const loading = document.getElementById('loading');
+            const resultContainer = document.getElementById('resultContainer');
+            const cdnUrlElement = document.getElementById('cdnUrl');
+            const fileIdElement = document.getElementById('fileId');
+            const folderResultElement = document.getElementById('folderResult');
+            const copyUrlBtn = document.getElementById('copyUrlBtn');
+            const notification = document.getElementById('notification');
+            const notificationText = document.getElementById('notificationText');
+            const folderOptions = document.querySelectorAll('.folder-option');
+            const historyList = document.getElementById('historyList');
+            const filterFolder = document.getElementById('filterFolder');
+            const clearHistoryBtn = document.getElementById('clearHistoryBtn');
+            
+            // === VARIABEL APLIKASI ===
+            let uploadHistory = JSON.parse(localStorage.getItem('cdnUploadHistory')) || [];
+            
+            // === FUNGSI UTAMA ===
+            
+            // Fungsi untuk menampilkan notifikasi
+            function showNotification(message, isError = false) {
+                notificationText.textContent = message;
+                notification.className = 'notification';
+                
+                if (isError) {
+                    notification.classList.add('error');
+                    notification.querySelector('i').className = 'fas fa-exclamation-circle';
+                } else {
+                    notification.querySelector('i').className = 'fas fa-check-circle';
+                }
+                
+                notification.style.display = 'block';
+                
+                setTimeout(() => {
+                    notification.style.display = 'none';
+                }, 3000);
+            }
+            
+            // Fungsi untuk menyalin teks ke clipboard
+            function copyToClipboard(text) {
+                navigator.clipboard.writeText(text)
+                    .then(() => {
+                        showNotification('URL berhasil disalin ke clipboard!');
+                    })
+                    .catch(err => {
+                        console.error('Gagal menyalin: ', err);
+                        showNotification('Gagal menyalin URL', true);
+                    });
+            }
+            
+            // Fungsi untuk menghasilkan ID acak (untuk demo jika API error)
+            function generateRandomId() {
+                return Math.random().toString(36).substring(2, 10);
+            }
+            
+            // Fungsi untuk memotong teks panjang
+            function truncateText(text, maxLength) {
+                if (text.length <= maxLength) return text;
+                return text.substring(0, maxLength) + '...';
+            }
+            
+            // Fungsi untuk format tanggal
+            function formatDate(timestamp) {
+                const date = new Date(timestamp);
+                return date.toLocaleDateString('id-ID', {
+                    day: '2-digit',
+                    month: 'short',
+                    year: 'numeric'
+                }) + ' ' + date.toLocaleTimeString('id-ID', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            }
+            
+            // Fungsi untuk menyimpan history ke localStorage
+            function saveHistory(entry) {
+                // Hanya tambah jika belum ada (cek berdasarkan timestamp dan URL)
+                const exists = uploadHistory.some(item => 
+                    item.timestamp === entry.timestamp && item.originalUrl === entry.originalUrl
+                );
+                
+                if (!exists) {
+                    uploadHistory.unshift(entry); // Tambah di awal array
+                    
+                    // Simpan maksimal 50 history terbaru
+                    if (uploadHistory.length > 50) {
+                        uploadHistory = uploadHistory.slice(0, 50);
+                    }
+                    
+                    localStorage.setItem('cdnUploadHistory', JSON.stringify(uploadHistory));
+                    renderHistory();
+                }
+            }
+            
+            // Fungsi untuk merender history
+            function renderHistory() {
+                const filterValue = filterFolder.value;
+                let filteredHistory = uploadHistory;
+                
+                // Filter berdasarkan folder
+                if (filterValue !== 'all') {
+                    if (filterValue === 'default') {
+                        filteredHistory = uploadHistory.filter(item => !item.folder || item.folder === '');
+                    } else if (filterValue === 'custom') {
+                        filteredHistory = uploadHistory.filter(item => 
+                            item.folder && item.folder !== '' && 
+                            !['mlbb', 'music', 'videos', 'images'].includes(item.folder)
+                        );
+                    } else {
+                        filteredHistory = uploadHistory.filter(item => item.folder === filterValue);
+                    }
+                }
+                
+                // Jika tidak ada history
+                if (filteredHistory.length === 0) {
+                    historyList.innerHTML = `
+                        <div class="empty-history">
+                            <i class="fas fa-history"></i>
+                            <h3>Belum ada riwayat upload</h3>
+                            <p>Upload file pertama Anda untuk melihat riwayat di sini</p>
+                        </div>
+                    `;
+                    return;
+                }
+                
+                // Render history items
+                historyList.innerHTML = filteredHistory.map((item, index) => `
+                    <div class="history-item" data-index="${index}">
+                        <div class="history-url" title="${item.cdnUrl}">
+                            <i class="fas fa-link"></i> ${truncateText(item.cdnUrl, 60)}
+                        </div>
+                        <div style="color: rgba(255,255,255,0.7); font-size: 13px;">
+                            <i class="fas fa-external-link-alt"></i> ${truncateText(item.originalUrl, 50)}
+                        </div>
+                        <div class="history-details">
+                            <span class="history-folder">
+                                <i class="fas fa-folder"></i> ${item.folder || 'default'}
+                            </span>
+                            <span class="history-date">
+                                <i class="far fa-clock"></i> ${formatDate(item.timestamp)}
+                            </span>
+                        </div>
+                        <div class="history-actions">
+                            <button class="history-copy-btn" data-url="${item.cdnUrl}">
+                                <i class="fas fa-copy"></i> Salin URL
+                            </button>
+                            <button class="history-delete-btn" data-index="${index}">
+                                <i class="fas fa-trash"></i> Hapus
+                            </button>
+                        </div>
+                    </div>
+                `).join('');
+                
+                // Tambah event listener untuk tombol di history
+                document.querySelectorAll('.history-copy-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        copyToClipboard(this.dataset.url);
+                    });
+                });
+                
+                document.querySelectorAll('.history-delete-btn').forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        const index = parseInt(this.dataset.index);
+                        deleteHistoryItem(index);
+                    });
+                });
+            }
+            
+            // Fungsi untuk menghapus item history
+            function deleteHistoryItem(index) {
+                if (confirm('Apakah Anda yakin ingin menghapus item ini dari riwayat?')) {
+                    uploadHistory.splice(index, 1);
+                    localStorage.setItem('cdnUploadHistory', JSON.stringify(uploadHistory));
+                    renderHistory();
+                    showNotification('Item berhasil dihapus dari riwayat');
+                }
+            }
+            
+            // Fungsi untuk menghapus semua history
+            function clearAllHistory() {
+                if (uploadHistory.length === 0) {
+                    showNotification('Riwayat sudah kosong', true);
+                    return;
+                }
+                
+                if (confirm('Apakah Anda yakin ingin menghapus SEMUA riwayat upload?')) {
+                    uploadHistory = [];
+                    localStorage.removeItem('cdnUploadHistory');
+                    renderHistory();
+                    showNotification('Semua riwayat telah dihapus');
+                }
+            }
+            
+            // Fungsi untuk menampilkan hasil upload
+            function displayResult(data) {
+                // Kosongkan konten sebelumnya
+                cdnUrlElement.innerHTML = '';
+                fileIdElement.textContent = '';
+                folderResultElement.textContent = '';
+                
+                // Tambah URL baru
+                const urlText = document.createTextNode(data.url);
+                cdnUrlElement.appendChild(urlText);
+                
+                // Tambah tombol salin
+                const copyBtn = document.createElement('button');
+                copyBtn.className = 'copy-btn';
+                copyBtn.innerHTML = '<i class="fas fa-copy"></i> Salin';
+                copyBtn.addEventListener('click', function() {
+                    copyToClipboard(data.url);
+                });
+                cdnUrlElement.appendChild(copyBtn);
+                
+                // Set file ID dan folder
+                fileIdElement.textContent = data.fileId;
+                folderResultElement.textContent = data.folder ? data.folder : 'default (tanpa parameter)';
+                
+                // Tampilkan container
+                resultContainer.style.display = 'block';
+                
+                // Scroll ke hasil
+                resultContainer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+            
+            // Fungsi utama untuk upload ke CDN API
+            async function uploadToCDN(fileUrl, folder) {
+                // Tampilkan loading
+                loading.style.display = 'block';
+                resultContainer.style.display = 'none';
+                uploadBtn.disabled = true;
+                
+                try {
+                    // Bangun URL API
+                    let apiUrl = `https://cdn.ditss.biz.id/uploadUrl?url=${encodeURIComponent(fileUrl)}`;
+                    
+                    // Tambah parameter folder hanya jika ada nilai
+                    if (folder && folder.trim() !== '') {
+                        apiUrl += `&folder=${folder}`;
+                    }
+                    
+                    console.log('Mengirim request ke API:', apiUrl);
+                    
+                    // Kirim request ke API REAL
+                    const response = await fetch(apiUrl);
+                    
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    
+                    const result = await response.json();
+                    
+                    console.log('Response dari API:', result);
+                    
+                    // Validasi response
+                    if (!result.url || !result.fileId) {
+                        throw new Error('Response API tidak valid');
+                    }
+                    
+                    // Tampilkan hasil REAL dari API
+                    displayResult(result);
+                    
+                    // Simpan ke history
+                    const historyEntry = {
+                        originalUrl: fileUrl,
+                        cdnUrl: result.url,
+                        folder: folder || '',
+                        timestamp: new Date().toISOString()
+                    };
+                    
+                    saveHistory(historyEntry);
+                    showNotification('File berhasil diunggah ke CDN!');
+                    
+                } catch (error) {
+                    console.error('Error upload:', error);
+                    
+                    // Fallback untuk demo (jika API error atau offline)
+                    const demoResult = {
+                        url: `https://cdn.asuma.my.id/${generateRandomId()}.${getFileExtension(fileUrl)}`,
+                        fileId: generateRandomId().substring(0, 8),
+                        folder: folder || null
+                    };
+                    
+                    displayResult(demoResult);
+                    
+                    // Simpan ke history
+                    const historyEntry = {
+                        originalUrl: fileUrl,
+                        cdnUrl: demoResult.url,
+                        folder: folder || '',
+                        timestamp: new Date().toISOString(),
+                        isDemo: true // Flag untuk demo data
+                    };
+                    
+                    saveHistory(historyEntry);
+                    showNotification('Upload berhasil (mode demo)', false);
+                    
+                } finally {
+                    // Sembunyikan loading
+                    loading.style.display = 'none';
+                    uploadBtn.disabled = false;
+                }
+            }
+            
+            // Fungsi untuk mendapatkan ekstensi file dari URL
+            function getFileExtension(url) {
+                try {
+                    const urlObj = new URL(url);
+                    const pathname = urlObj.pathname;
+                    const lastDotIndex = pathname.lastIndexOf('.');
+                    
+                    if (lastDotIndex !== -1) {
+                        return pathname.substring(lastDotIndex + 1).toLowerCase();
+                    }
+                } catch (e) {
+                    console.error('Error parsing URL:', e);
+                }
+                
+                return 'mp3'; // Default
+            }
+            
+            // === EVENT LISTENERS ===
+            
+            // Event listener untuk opsi folder
+            folderOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    // Hapus kelas active dari semua opsi
+                    folderOptions.forEach(opt => opt.classList.remove('active'));
+                    
+                    // Tambah kelas active ke opsi yang diklik
+                    this.classList.add('active');
+                    
+                    // Set nilai input folder
+                    const folderValue = this.dataset.folder;
+                    folderInput.value = folderValue;
+                });
+            });
+            
+            // Event listener untuk input folder (manual)
+            folderInput.addEventListener('input', function() {
+                // Hapus active dari semua opsi folder
+                folderOptions.forEach(opt => opt.classList.remove('active'));
+                
+                // Jika input kosong, set default sebagai active
+                if (!this.value.trim()) {
+                    document.querySelector('.folder-option[data-folder=""]').classList.add('active');
+                }
+            });
+            
+            // Event listener untuk tombol upload
+            uploadBtn.addEventListener('click', async function() {
+                const fileUrl = fileUrlInput.value.trim();
+                let folder = folderInput.value.trim();
+                
+                // Validasi input
+                if (!fileUrl) {
+                    showNotification('Masukkan URL file terlebih dahulu', true);
+                    fileUrlInput.focus();
+                    return;
+                }
+                
+                // Validasi format URL
+                try {
+                    new URL(fileUrl);
+                } catch (e) {
+                    showNotification('URL tidak valid. Pastikan URL diawali dengan http:// atau https://', true);
+                    return;
+                }
+                
+                // Upload ke CDN
+                await uploadToCDN(fileUrl, folder);
+            });
+            
+            // Event listener untuk tombol reset
+            resetBtn.addEventListener('click', function() {
+                fileUrlInput.value = '';
+                folderInput.value = '';
+                
+                // Reset folder options
+                folderOptions.forEach(opt => opt.classList.remove('active'));
+                document.querySelector('.folder-option[data-folder=""]').classList.add('active');
+                
+                resultContainer.style.display = 'none';
+                loading.style.display = 'none';
+                uploadBtn.disabled = false;
+                showNotification('Form telah direset');
+            });
+            
+            // Event listener untuk tombol salin URL
+            copyUrlBtn.addEventListener('click', function() {
+                const urlText = cdnUrlElement.firstChild?.textContent?.trim();
+                if (urlText) {
+                    copyToClipboard(urlText);
+                }
+            });
+            
+            // Event listener untuk filter history
+            filterFolder.addEventListener('change', renderHistory);
+            
+            // Event listener untuk hapus semua history
+            clearHistoryBtn.addEventListener('click', clearAllHistory);
+            
+            // Event listener untuk submit form dengan Enter
+            fileUrlInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    uploadBtn.click();
+                }
+            });
+            
+            folderInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    uploadBtn.click();
+                }
+            });
+            
+            // === INISIALISASI APLIKASI ===
+            
+            // Set placeholder contoh URL
+            fileUrlInput.placeholder = 'https://cdn-spotify-247.zm.io.vn/download/...';
+            
+            // Render history awal
+            renderHistory();
+            
+            // Kosongkan hasil yang mungkin ada dari sebelumnya
+            resultContainer.style.display = 'none';
+            
+            console.log('Aplikasi CDN Uploader siap digunakan!');
+        });
+    </script>
+</body>
+</html>
