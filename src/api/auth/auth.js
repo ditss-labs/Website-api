@@ -4,33 +4,74 @@ import { generateToken } from '../../middleware/auth.js'
 
 const router = express.Router()
 
+// Ganti bagian register
 router.post('/api/auth/register', async (req, res) => {
   try {
-    const { username, email, password, phone } = req.body
-    if (!username || !email || !password) {
-      return res.status(400).json({ status: false, error: 'Username, email, and password are required' })
+    const { username, phone, password } = req.body
+    
+    if (!username || !password) {
+      return res.status(400).json({ status: false, error: 'Username and password are required' })
     }
+    
     if (password.length < 6) {
       return res.status(400).json({ status: false, error: 'Password must be at least 6 characters' })
     }
-    const existingUser = await User.findOne({ $or: [{ username }, { email }] })
+    
+    // Auto generate email
+    const email = `${username}@asuma.my.id`
+    
+    // Check existing user
+    const existingUser = await User.findOne({ 
+      $or: [{ username }, { email }] 
+    })
+    
     if (existingUser) {
-      return res.status(400).json({ status: false, error: 'Username or email already exists' })
+      return res.status(400).json({ status: false, error: 'Username already exists' })
     }
-    const user = new User({ username, email, phone, passwordHash: password, role: 'user' })
+    
+    // Create new user
+    const user = new User({
+      username,
+      email,
+      phone,
+      passwordHash: password,
+      role: 'user'
+    })
+    
     await user.save()
+    
+    // Create default API key
     const defaultApiKey = await user.createApiKey('Default API Key', 1000)
+    
+    // Generate token
     const token = generateToken(user._id)
+    
+    // Set session
     req.session.userId = user._id
+    
+    // Set cookie
+    res.cookie('token', token, {
+      httpOnly: true,
+      secure: process.env.NODE_ENV === 'production',
+      maxAge: 7 * 24 * 60 * 60 * 1000
+    })
+    
     res.json({
       status: true,
       message: 'Registration successful',
       data: {
-        user: { id: user._id, username: user.username, email: user.email, role: user.role, profileurl: user.profileurl },
+        user: {
+          id: user._id,
+          username: user.username,
+          email: user.email,
+          role: user.role,
+          profileurl: user.profileurl
+        },
         apiKey: defaultApiKey.key,
         token
       }
     })
+    
   } catch (error) {
     console.error('Registration error:', error)
     res.status(500).json({ status: false, error: 'Registration failed' })
