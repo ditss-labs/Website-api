@@ -1,0 +1,6019 @@
+[
+  {
+    "index": 0,
+    "soal": "Matahari tenggelam di sebelah…",
+    "jawaban": "Gawat",
+    "deskripsi": "Gawat kalau matahari tenggelam di sebelah kita"
+  },
+  {
+    "index": 1,
+    "soal": "Galang menyimpan buku di…",
+    "jawaban": "Mas",
+    "deskripsi": "Bukunya dimas dipinjam galang kemarin sore."
+  },
+  {
+    "index": 2,
+    "soal": "Bersatu kita teguh bercerai kita——-",
+    "jawaban": "Sedih",
+    "deskripsi": "Siapa yang gak sedih cerai sama istri??"
+  },
+  {
+    "index": 3,
+    "soal": "Makanan yang dibungkus daun pisang?",
+    "jawaban": "Lontong",
+    "deskripsi": "Gampang kan? suka ga sama lontong?"
+  },
+  {
+    "index": 4,
+    "soal": "Apabila mengendarai mobil wajib bawa",
+    "jawaban": "Satu",
+    "deskripsi": "Kalo bawa 2 gimana mengendarainya"
+  },
+  {
+    "index": 5,
+    "soal": "Mawar melati semuanya…",
+    "jawaban": "Bunga",
+    "deskripsi": "Kalo bukan bunga apa coba, hewan?"
+  },
+  {
+    "index": 6,
+    "soal": "Jangan membuang tisu di…",
+    "jawaban": "Tempatnya",
+    "deskripsi": "Masih di tempatnya kok di buang"
+  },
+  {
+    "index": 7,
+    "soal": "Ketika _____ orang biasanya makan.",
+    "jawaban": "Marah",
+    "deskripsi": "Orang marah apa enggak ya pasti makan.."
+  },
+  {
+    "index": 8,
+    "soal": "Burung adalah hewan yang bisa..",
+    "jawaban": "Temenan",
+    "deskripsi": "Kan kalo terbang rame-rame kan sama temennya.."
+  },
+  {
+    "index": 9,
+    "soal": "Hewan yang suka buka mulut lebar",
+    "jawaban": "Kenaflu",
+    "deskripsi": "Itu karena ga bisa napas idungnya mampet.."
+  },
+  {
+    "index": 10,
+    "soal": "Hewan yang berubah warna kalau ada musuhnya?",
+    "jawaban": "Bengong",
+    "deskripsi": "Karena, musuhnya bengong lihat hewan berubah warna"
+  },
+  {
+    "index": 11,
+    "soal": "Artis wanita yang punya kumis tipis",
+    "jawaban": "Ihkumisan",
+    "deskripsi": "Ih kok kumisan sih.."
+  },
+  {
+    "index": 12,
+    "soal": "Pintu biasa di….",
+    "jawaban": "Tekan",
+    "deskripsi": "Klau anda biasa keatm kan pin ditekan"
+  },
+  {
+    "index": 13,
+    "soal": "Lebak bulus",
+    "jawaban": "Terkenal",
+    "deskripsi": "Karena lebak bulus,cililitan semua orang tau maka nya terkenal"
+  },
+  {
+    "index": 14,
+    "soal": "Seorang matador bisa terluka karena diseruduk..",
+    "jawaban": "Biskota",
+    "deskripsi": "Mau banteng, mau bis kota, tetep aja bisa terluka.."
+  },
+  {
+    "index": 15,
+    "soal": "Cermin jika di lap jadi…",
+    "jawaban": "Cermin",
+    "deskripsi": "Ya masa berubah, yaal tetap cermin"
+  },
+  {
+    "index": 16,
+    "soal": "Batik merupakan produk asli dari…",
+    "jawaban": "Manusia",
+    "deskripsi": "Sejauh ini belum ada mahluk lain yang bisa"
+  },
+  {
+    "index": 17,
+    "soal": "Kendaraan yang suka dipake tukang ojek?",
+    "jawaban": "Mogok",
+    "deskripsi": "Motor emang suka mogok"
+  },
+  {
+    "index": 18,
+    "soal": "Binatang apa yang ga bisa bergerak?",
+    "jawaban": "Paus",
+    "deskripsi": "Kalau game di paus(e) kan berhenti main nya"
+  },
+  {
+    "index": 19,
+    "soal": "Sehabis olahraga",
+    "jawaban": "Airminum",
+    "deskripsi": "Abis olahraga pasti haus kan"
+  },
+  {
+    "index": 20,
+    "soal": "Di tiup angin berkibar di setiap negara",
+    "jawaban": "Jemuran",
+    "deskripsi": "Disetiap negara orang menjemur pakaiannya"
+  },
+  {
+    "index": 21,
+    "soal": "Kalo haus minum",
+    "jawaban": "Aja",
+    "deskripsi": "Minum aja ntar juga ga aus"
+  },
+  {
+    "index": 22,
+    "soal": "Yang bikin harum",
+    "jawaban": "Pfffht",
+    "deskripsi": "Kan bunyi pengharum ruangan pffht"
+  },
+  {
+    "index": 23,
+    "soal": "Hayam wuruk memerintah kerajaan?",
+    "jawaban": "Jamandulu",
+    "deskripsi": "Ya iyalah… masa jaman sekarang"
+  },
+  {
+    "index": 24,
+    "soal": "Malam apa yang paling indah?",
+    "jawaban": "Malamarkamu",
+    "deskripsi": "Eaa…eaa…eaa.."
+  },
+  {
+    "index": 25,
+    "soal": "Makanan khas indonesia dari kedelai yang sudah mendunia",
+    "jawaban": "Lezat",
+    "deskripsi": "Memang tempe lezat nan bergizi"
+  },
+  {
+    "index": 26,
+    "soal": "Hewan tinggal disawah",
+    "jawaban": "Bandel",
+    "deskripsi": "Lintah tinggalnya disungai suka hisap darah orang.ya,sudah bandel namanya"
+  },
+  {
+    "index": 27,
+    "soal": "Makanan harus di….",
+    "jawaban": "Masak",
+    "deskripsi": "Coba aja makan nasi yang nggak dimasak"
+  },
+  {
+    "index": 28,
+    "soal": "Ibukota indonesia",
+    "jawaban": "Udahada",
+    "deskripsi": "Yg belum ada itu ibukota jakarta"
+  },
+  {
+    "index": 29,
+    "soal": "Di palembang terdapat jembatan..",
+    "jawaban": "Anjlok",
+    "deskripsi": "Namanya aja jembatan, kan bisa aja rusak.."
+  },
+  {
+    "index": 30,
+    "soal": "Orang berolah raga biar..",
+    "jawaban": "Inlah",
+    "deskripsi": "Jangan dilarang-larang kalo orang mau sehat.."
+  },
+  {
+    "index": 31,
+    "soal": "Ibu menjahit dengan jarum dan..",
+    "jawaban": "Serius",
+    "deskripsi": "Ya harus serius dong, biar selesai.."
+  },
+  {
+    "index": 32,
+    "soal": "Kata untuk menyapa orang batak di medan",
+    "jawaban": "Hallo",
+    "deskripsi": "Klo ga bales berati lagi sibuk ya kak"
+  },
+  {
+    "index": 33,
+    "soal": "Burung besi di sebut juga..",
+    "jawaban": "Pesanan",
+    "deskripsi": "Yang mesen burungnya. minta di buat dari besi"
+  },
+  {
+    "index": 34,
+    "soal": "Sumur itu berbentuk?",
+    "jawaban": "Lubang",
+    "deskripsi": "Pasti lubang kalo ga ada lubangnya namanya bukan sumur"
+  },
+  {
+    "index": 35,
+    "soal": "Tanda kalau kucing marah ekornya?",
+    "jawaban": "Satu",
+    "deskripsi": "Karena kalau bukan satu namanya bukan kucing"
+  },
+  {
+    "index": 36,
+    "soal": "Buah apa yang sering dibawa pas lagi main kerumah pacar?",
+    "jawaban": "Apel",
+    "deskripsi": "Ya kan kalo main ke rumah pacar sering ngapel.."
+  },
+  {
+    "index": 37,
+    "soal": "Baju disimpan orang di…",
+    "jawaban": "Anyari",
+    "deskripsi": "Kalo ibu pasti simpen di lemari, kalo orang lain tau dmana.."
+  },
+  {
+    "index": 38,
+    "soal": "Buah-buah apa yang tua",
+    "jawaban": "Singkong",
+    "deskripsi": "Kan si – ngkong gimana si vrohh"
+  },
+  {
+    "index": 39,
+    "soal": "Tidak pintar pelajaran",
+    "jawaban": "Boleh",
+    "deskripsi": "Pelajaran tidak pintar boleh, tidak dipelajari tidak boleh"
+  },
+  {
+    "index": 40,
+    "soal": "Hewan yang besar namanya",
+    "jawaban": "Gemuk",
+    "deskripsi": "Karena hewan yg badan nya besar pasti gemuk"
+  },
+  {
+    "index": 41,
+    "soal": "Ada di akhir cerita..",
+    "jawaban": "Tdana",
+    "deskripsi": "Bener kan ? ada huruf t dan a"
+  },
+  {
+    "index": 42,
+    "soal": "Sd adalah sekolah",
+    "jawaban": "Damai",
+    "deskripsi": "Semoga semua sekolah damai, beprestasi muridnya"
+  },
+  {
+    "index": 43,
+    "soal": "Kalau haus minum",
+    "jawaban": "Masak",
+    "deskripsi": "Makanan nya belom mateng, jadi harus dimasak dulu"
+  },
+  {
+    "index": 44,
+    "soal": "Pasang bendera di…",
+    "jawaban": "Tarik",
+    "deskripsi": "Kalo ga ditarik ga naik benderanya"
+  },
+  {
+    "index": 45,
+    "soal": "Jalannya luas gak bisa lewat",
+    "jawaban": "Ludah",
+    "deskripsi": "Udah saya cobain sendiri, susah…"
+  },
+  {
+    "index": 46,
+    "soal": "Sebelum di minum kopi di",
+    "jawaban": "Mulut",
+    "deskripsi": "Sebelum di minum pasti di taruh mulut"
+  },
+  {
+    "index": 47,
+    "soal": "Temannya nobita..",
+    "jawaban": "Sedikit",
+    "deskripsi": "Coba aja itung ada berapa, sedikit kan?"
+  },
+  {
+    "index": 48,
+    "soal": "Mandi biar…",
+    "jawaban": "Byuur",
+    "deskripsi": "Segeerr, kamu sudah mandi belum?"
+  },
+  {
+    "index": 49,
+    "soal": "Monumen jakarta itu",
+    "jawaban": "Keras",
+    "deskripsi": "Coba aja kamu gigit"
+  },
+  {
+    "index": 50,
+    "soal": "Ayam apa yang gede banget?",
+    "jawaban": "Ayamsemesta",
+    "deskripsi": "Gede bener kan itu!"
+  },
+  {
+    "index": 51,
+    "soal": "Alat musik tiup..",
+    "jawaban": "Sudahada",
+    "deskripsi": "Emang udah ada kan, banyak lho jenisnya.."
+  },
+  {
+    "index": 52,
+    "soal": "Di dalam perpustakaan tidak boleh..",
+    "jawaban": "Keramas",
+    "deskripsi": "Nanti bukunya basah semua doong.."
+  },
+  {
+    "index": 53,
+    "soal": "Rizky febian lahir di",
+    "jawaban": "Gendong",
+    "deskripsi": "Ya di gendong dulu lah masa langsung di mandiin"
+  },
+  {
+    "index": 54,
+    "soal": "Para pejuang melawan penjajah dengan senjata??",
+    "jawaban": "Bikinsendiri",
+    "deskripsi": "Klo gak bikin sendiri lah trus dibikinin siapa"
+  },
+  {
+    "index": 55,
+    "soal": "Kakak mengantar adik sekolah sampai",
+    "jawaban": "Capek",
+    "deskripsi": "Nganter nya di gendong"
+  },
+  {
+    "index": 56,
+    "soal": "Orang sakit minum?",
+    "jawaban": "Oiya",
+    "deskripsi": "Sakit minum yang banyak yah, biar cepet sembuh"
+  },
+  {
+    "index": 57,
+    "soal": "Pesawat mendarat di…",
+    "jawaban": "Bantuin",
+    "deskripsi": "Pilot, co-pilot, operator bandara dan lain-lain.."
+  },
+  {
+    "index": 58,
+    "soal": "Di rumah ada adik",
+    "jawaban": "Masak",
+    "deskripsi": "Hmm kira kira lagi masak apa yah…"
+  },
+  {
+    "index": 59,
+    "soal": "Pelat nomer kendaraan a berasal dari?",
+    "jawaban": "Samsat",
+    "deskripsi": "Karena samsat merupakan institusi yg berhak mengeluarkan plat kendaraan bermotor.."
+  },
+  {
+    "index": 60,
+    "soal": "Hujan deres bikin …",
+    "jawaban": "Basah",
+    "deskripsi": "Kalau panas pasti kering"
+  },
+  {
+    "index": 61,
+    "soal": "Makan dianjurkan pakai tangan…",
+    "jawaban": "Benar",
+    "deskripsi": "Kanan atau kiri boleh kok, kanan lebih bagus sih katanya"
+  },
+  {
+    "index": 62,
+    "soal": "Apa yang tidak boleh di bawa kepesawat",
+    "jawaban": "Sendiri",
+    "deskripsi": "Karena kalo kita bawa sendiri nanti jatuh"
+  },
+  {
+    "index": 63,
+    "soal": "Alpukat",
+    "jawaban": "Bisa",
+    "deskripsi": "Memang bisa disebut"
+  },
+  {
+    "index": 64,
+    "soal": "Bekas pacar disebut",
+    "jawaban": "Jangan",
+    "deskripsi": "Nanti pacar yang sekarang marah"
+  },
+  {
+    "index": 65,
+    "soal": "Di akuarium ada ikan 10 mati 2 tinggal",
+    "jawaban": "Dibuang",
+    "deskripsi": "Kalo ga di buang, ikan yang laen jadi ikutan mati"
+  },
+  {
+    "index": 66,
+    "soal": "Tidak masuk kerja karena hari..",
+    "jawaban": "Diphk",
+    "deskripsi": "Ya kan si hari kalo di phk ga usah masuk kerja lagi.."
+  },
+  {
+    "index": 67,
+    "soal": "Tinky winky",
+    "jawaban": "Tenarsekali",
+    "deskripsi": "Nama nama tersebut sudah terkenal di semua kalangan"
+  },
+  {
+    "index": 68,
+    "soal": "Cicak jatuh ke…",
+    "jawaban": "Bacok",
+    "deskripsi": "Di bacok mah jatuh"
+  },
+  {
+    "index": 69,
+    "soal": "Mulutmu ………..",
+    "jawaban": "Hanyasatu",
+    "deskripsi": "Mulut kan emang cuma satu"
+  },
+  {
+    "index": 70,
+    "soal": "Yang menyebabkan haus saat romadhon",
+    "jawaban": "Cuaca",
+    "deskripsi": "Kalo panas pasti bikin haus, kalau puasa laper juga yah…"
+  },
+  {
+    "index": 71,
+    "soal": "Kirimin uang lewat atm?",
+    "jawaban": "Thanksya",
+    "deskripsi": "Thanks ya sudah diterima"
+  },
+  {
+    "index": 72,
+    "soal": "Burung terbang dengan?",
+    "jawaban": "Semaunya",
+    "deskripsi": "Iya kali kucing terbang.."
+  },
+  {
+    "index": 73,
+    "soal": "Ada udang di balik…",
+    "jawaban": "Gnadu",
+    "deskripsi": "Itu fakta"
+  },
+  {
+    "index": 74,
+    "soal": "Es es apa yang bisa jalan",
+    "jawaban": "Eskalator",
+    "deskripsi": "Kalau ga jalan bukan es kalator tapi tangga kalator"
+  },
+  {
+    "index": 75,
+    "soal": "Hati senang walaupun tak punya",
+    "jawaban": "Kaca",
+    "deskripsi": "Kaca juga gak penting penting amat"
+  },
+  {
+    "index": 76,
+    "soal": "Suami bu camat?",
+    "jawaban": "Laki",
+    "deskripsi": "Karena kalo gak laki lesbi, dosa…"
+  },
+  {
+    "index": 77,
+    "soal": "Tak kenal maka tak",
+    "jawaban": "Undang",
+    "deskripsi": "Orang ga kenal masak di undang"
+  },
+  {
+    "index": 78,
+    "soal": "Hewan yang melolong dimalam hari…",
+    "jawaban": "Terinjak",
+    "deskripsi": "Kasian kaki nya keinjak"
+  },
+  {
+    "index": 79,
+    "soal": "Api dipegang terasa?",
+    "jawaban": "Susah",
+    "deskripsi": "Api dipegang susah lah panas lagi"
+  },
+  {
+    "index": 80,
+    "soal": "Dalam permainan bulutangkis",
+    "jawaban": "Iya",
+    "deskripsi": "Coba nonton bulutangkis pasti nama indonesia disingkat"
+  },
+  {
+    "index": 81,
+    "soal": "Ada guling ada…",
+    "jawaban": "Benang",
+    "deskripsi": "Kalo ga ada benang jahitnya pake apa"
+  },
+  {
+    "index": 82,
+    "soal": "Andi basah kuyup karena?",
+    "jawaban": "Husen",
+    "deskripsi": "Karena diceburin si husen ke kolam, nakal banget yah…"
+  },
+  {
+    "index": 83,
+    "soal": "Matahari terbenam hari mulai",
+    "jawaban": "Pulang",
+    "deskripsi": "Udah malam kalo gak pulang, hari dicariin ibunya"
+  },
+  {
+    "index": 84,
+    "soal": "Supaya bersih kita mandi dengan……..",
+    "jawaban": "Yakin",
+    "deskripsi": "Kalo nggak yakin mending nggak usah mandi……."
+  },
+  {
+    "index": 85,
+    "soal": "Orang berjalan di atas air tidak pakai",
+    "jawaban": "Otak",
+    "deskripsi": "Udah tau ada jalanan kenapa harus jalan di air"
+  },
+  {
+    "index": 86,
+    "soal": "Seorang anak belajar biar…",
+    "jawaban": "Kanaja",
+    "deskripsi": "Klo dilarang, ntar gak pintar-pintar"
+  },
+  {
+    "index": 87,
+    "soal": "Hewan pemakan segala?",
+    "jawaban": "Rakus",
+    "deskripsi": "Semuanya dimakan"
+  },
+  {
+    "index": 88,
+    "soal": "Burung terbang menggunakan..",
+    "jawaban": "Semangat",
+    "deskripsi": "Klo ga semangat pasti lemes tuh.."
+  },
+  {
+    "index": 89,
+    "soal": "Beli lampu biasanya di",
+    "jawaban": "Coba",
+    "deskripsi": "Anda kalau beli lampu pasti dicoba dulu"
+  },
+  {
+    "index": 90,
+    "soal": "Jangan berteman dengan orang",
+    "jawaban": "Hilang",
+    "deskripsi": "Gimana cara nya…"
+  },
+  {
+    "index": 91,
+    "soal": "Orang menyebrang sungai biasanya dibangun…",
+    "jawaban": "Kanjalan",
+    "deskripsi": "Masa orang nyebrang gak pake jalan"
+  },
+  {
+    "index": 92,
+    "soal": "Ketika lapar biasanya?",
+    "jawaban": "Malas",
+    "deskripsi": "Karena tidak punya tenaga jadinya malas"
+  },
+  {
+    "index": 93,
+    "soal": "Rajin pangkal…",
+    "jawaban": "Punya",
+    "deskripsi": "Kalo ga rajin ya ga dapat hasil"
+  },
+  {
+    "index": 94,
+    "soal": "Badan usaha milik negara bisa disingkat ….",
+    "jawaban": "Bisa",
+    "deskripsi": "Emang bisa disingkat kan"
+  },
+  {
+    "index": 95,
+    "soal": "Genteng dibuat karena",
+    "jawaban": "Butuh",
+    "deskripsi": "Kalo nggak butuh ngapain buat genteng"
+  },
+  {
+    "index": 96,
+    "soal": "Jawab dengan benar. dunia ini terdiri dari lima …",
+    "jawaban": "Benar",
+    "deskripsi": "Kan sudah saya bilang jawab dengan benar"
+  },
+  {
+    "index": 97,
+    "soal": "Kalo mau naik kereta biasanya di…",
+    "jawaban": "Anterin",
+    "deskripsi": "Iya lah dianterin ke stasiunya, entah itu yang ngaterin saudara, temen, atau tukang ojek."
+  },
+  {
+    "index": 98,
+    "soal": "Gosoklah gigi sebelum ?",
+    "jawaban": "Ancur",
+    "deskripsi": "Kalau udah ancur susah gosoknya"
+  },
+  {
+    "index": 99,
+    "soal": "Orang bingung mikir",
+    "jawaban": "Sangatlama",
+    "deskripsi": "Yaaa..kaya kamu itu"
+  },
+  {
+    "index": 100,
+    "soal": "Kecoa",
+    "jawaban": "Bedabeda",
+    "deskripsi": "Kalo disebutnya sama jadinya, semut..semut..semut.."
+  },
+  {
+    "index": 101,
+    "soal": "Presiden pertama indonesia",
+    "jawaban": "Seorang",
+    "deskripsi": "Memang pasti satu"
+  },
+  {
+    "index": 102,
+    "soal": "Orang biasa mengirim surat di…",
+    "jawaban": "Kantongin",
+    "deskripsi": "Dikantongin dulu, baru ke kantorpos"
+  },
+  {
+    "index": 103,
+    "soal": "Perbedaan kambing dengan domba",
+    "jawaban": "Dikit",
+    "deskripsi": "Beda bulu saja coy"
+  },
+  {
+    "index": 104,
+    "soal": "Berakit-rakit ke hulu",
+    "jawaban": "Sungai",
+    "deskripsi": "Sebenernya bisa ke danau, tapi saya lagi kepingin sungai.."
+  },
+  {
+    "index": 105,
+    "soal": "Olahraga membuat badan…",
+    "jawaban": "Salah",
+    "deskripsi": "Ya masa olahraga membuat badan,ya salah!!"
+  },
+  {
+    "index": 106,
+    "soal": "Yang pertama menemukan benua amerika",
+    "jawaban": "Bukangue",
+    "deskripsi": "Ya emang bukan gue, yang nemuin tu colombus.."
+  },
+  {
+    "index": 107,
+    "soal": "Malam apa yang menyedihkan",
+    "jawaban": "Malamun",
+    "deskripsi": "Iya, kayak kamu..jangan sedih…puk..puk.."
+  },
+  {
+    "index": 108,
+    "soal": "Satu ditambah satu..",
+    "jawaban": "Dua",
+    "deskripsi": "Gitu aja susah.."
+  },
+  {
+    "index": 109,
+    "soal": "Sma adalah sekolah menengah..",
+    "jawaban": "Aman",
+    "deskripsi": "Kalo ga aman namanya bukan sekolahan.."
+  },
+  {
+    "index": 110,
+    "soal": "Apakah yang dilakukan orang ketika sakit?",
+    "jawaban": "Pulang",
+    "deskripsi": "Bener kan pulang.. kan lagi sakit, gimana sih.."
+  },
+  {
+    "index": 111,
+    "soal": "Yang suka makan pisang?",
+    "jawaban": "Banyak",
+    "deskripsi": "Gak cuma monyet yang suka, dari kalian ada yang suka kan?"
+  },
+  {
+    "index": 112,
+    "soal": "Menjelang lebaran kita tidak diwajibkan membeli?",
+    "jawaban": "Paku",
+    "deskripsi": "Ngapain beli paku mending beli baju"
+  },
+  {
+    "index": 113,
+    "soal": "Tulang yg berwarna biru apa ayo…",
+    "jawaban": "Tulangit",
+    "deskripsi": "Warnanya biru kan"
+  },
+  {
+    "index": 114,
+    "soal": "Sebelum terbang biasanya pilot..",
+    "jawaban": "Pamitan",
+    "deskripsi": "Biar ga dicariin kayaknya.."
+  },
+  {
+    "index": 115,
+    "soal": "Temen yang susah ditemui biasa lagi",
+    "jawaban": "Pdkt",
+    "deskripsi": "Cieee eee cieee"
+  },
+  {
+    "index": 116,
+    "soal": "Kura-kura dibalik?",
+    "jawaban": "Kasihan",
+    "deskripsi": "Kasihan dong nanti ga mbalik-mbalik lagi"
+  },
+  {
+    "index": 117,
+    "soal": "Sepuluh di tambah enam sama dengan enam……",
+    "jawaban": "Salah",
+    "deskripsi": "Sepuluh di tambah enam ko enam"
+  },
+  {
+    "index": 118,
+    "soal": "Mobil tidak bisa jalan maju sebab…",
+    "jawaban": "Parkir",
+    "deskripsi": "Lagian ngapain mobil parkir di majuin"
+  },
+  {
+    "index": 119,
+    "soal": "Nama binatang yang di ulang..",
+    "jawaban": "Jarang",
+    "deskripsi": "Jarang kan coba sebutkan.."
+  },
+  {
+    "index": 120,
+    "soal": "Lari itu bikin",
+    "jawaban": "Salah",
+    "deskripsi": "Lari ya lari, bikin ya bikin.."
+  },
+  {
+    "index": 121,
+    "soal": "Telor apa yang sering ditakuti..",
+    "jawaban": "Telorasin",
+    "deskripsi": "Liat tuh ada tato nya, bikin ngeri,,"
+  },
+  {
+    "index": 122,
+    "soal": "Yang tersedia dirumah makan padang",
+    "jawaban": "Recehan",
+    "deskripsi": "Biar ada kembaliannya kan.."
+  },
+  {
+    "index": 123,
+    "soal": "Indonesia negara dengan tanah?",
+    "jawaban": "Airbeta",
+    "deskripsi": "Merdekaaaa.."
+  },
+  {
+    "index": 124,
+    "soal": "Tidak ditemukan",
+    "jawaban": "Dicuri",
+    "deskripsi": "Maling emang kurang ajar"
+  },
+  {
+    "index": 125,
+    "soal": "Yang membatalkan puasa",
+    "jawaban": "Adzan",
+    "deskripsi": "Kirain udah adzan mahgrib, ternyata masih dzuhur"
+  },
+  {
+    "index": 126,
+    "soal": "Hewan yang ada di kebun binatang",
+    "jawaban": "Iya",
+    "deskripsi": "Iya betulkan hewan ada di kebun binatang"
+  },
+  {
+    "index": 127,
+    "soal": "Apa fungsi rem?",
+    "jawaban": "Ngebut",
+    "deskripsi": "Coba kalau ga ada rem. berani kalian ngebut?"
+  },
+  {
+    "index": 128,
+    "soal": "Nenek moyangku seorang",
+    "jawaban": "Pelatih",
+    "deskripsi": "Lah itu nenek saya, jadi terserah saya dong."
+  },
+  {
+    "index": 129,
+    "soal": "Air yang turun dari langit disebut?",
+    "jawaban": "Hebat",
+    "deskripsi": "Kan hebat hujan bisa turun dari langit"
+  },
+  {
+    "index": 130,
+    "soal": "Ukuran tegangan listrik",
+    "jawaban": "Waaw",
+    "deskripsi": "Nah, kalo teriak waaw nya kenceng tu berarti tegangannya gede.."
+  },
+  {
+    "index": 131,
+    "soal": "Hewan melompat",
+    "jawaban": "Kagetloh",
+    "deskripsi": "Kalau ada hewan tiba tiba lompat pasti kaget"
+  },
+  {
+    "index": 132,
+    "soal": "Sepeda motor bisa berjalan karena rodanya berbentuk . .",
+    "jawaban": "Biasa",
+    "deskripsi": "Kalo gak biasa, roda berbentuk kubus kan gak biasa itu."
+  },
+  {
+    "index": 133,
+    "soal": "Kebiasaan apa yang sering dilakukan supir angkot?",
+    "jawaban": "Narik",
+    "deskripsi": "Ya kalo ga narik anak istri makan apa dong?"
+  },
+  {
+    "index": 134,
+    "soal": "Kalo gak kemana mana namanya",
+    "jawaban": "Jodoh",
+    "deskripsi": "Ciye kalo jodoh gak bakalan kemana mana"
+  },
+  {
+    "index": 135,
+    "soal": "Ubi &amp; singkong biasanya ditanam orang di…..",
+    "jawaban": "Kubur",
+    "deskripsi": "Bisa dipanen pada usia 6-8 bulan"
+  },
+  {
+    "index": 136,
+    "soal": "Koran disebut surat……",
+    "jawaban": "Salah",
+    "deskripsi": "Koran kok surat …"
+  },
+  {
+    "index": 137,
+    "soal": "Orang yang membantu menggunakan sabuk pengaman dan melayani kita di dalam pesawat disebut..",
+    "jawaban": "Orangbaik",
+    "deskripsi": "Ya namanya orang baik kan suka membantu.."
+  },
+  {
+    "index": 138,
+    "soal": "Hewan berkelompok",
+    "jawaban": "Gerah",
+    "deskripsi": "Kan di dalam sarangnya banyakan jadi gerah"
+  },
+  {
+    "index": 139,
+    "soal": "Yang sering mendapat nilai 100 saat ulangan..",
+    "jawaban": "Kertas",
+    "deskripsi": "Nilai 100 nya ada diatas kertas bukan?"
+  },
+  {
+    "index": 140,
+    "soal": "Tidak kering-kering karena masih..",
+    "jawaban": "Getar",
+    "deskripsi": "Ya hape nya ga bunyi kring, makanya getar.."
+  },
+  {
+    "index": 141,
+    "soal": "Andi punya sepuluh buah apel",
+    "jawaban": "Sepuluh",
+    "deskripsi": "Si andi pelit emang ga mau kasih apel nya"
+  },
+  {
+    "index": 142,
+    "soal": "Yang bisa menangkap penjahat di malam hari..",
+    "jawaban": "Bangga",
+    "deskripsi": "Bangga dong bisa nangkap penjahat, ya gak?"
+  },
+  {
+    "index": 143,
+    "soal": "Vokalis naif……",
+    "jawaban": "Dikit",
+    "deskripsi": "Setau saya david doang, satu dikit kan?"
+  },
+  {
+    "index": 144,
+    "soal": "Makan ketoprak sama gado gado kurang enak tanpa…",
+    "jawaban": "Ketelen",
+    "deskripsi": "Karna kalo kaga ketelen kaga bisa rasain"
+  },
+  {
+    "index": 145,
+    "soal": "Hewan yang mempunyai sembilan nyawa adalah",
+    "jawaban": "Mustahil",
+    "deskripsi": "Karena setiap makhluk hidup cuma punya satu nyawa"
+  },
+  {
+    "index": 146,
+    "soal": "Makanan pokok indonesia dari zaman dulu",
+    "jawaban": "Basi",
+    "deskripsi": "Iya basi la… orang dari zaman dulu"
+  },
+  {
+    "index": 147,
+    "soal": "Tak ada …. yang retak",
+    "jawaban": "Beling",
+    "deskripsi": "Namanya beling pasti retak.."
+  },
+  {
+    "index": 148,
+    "soal": "Biasanya orang minum pil karena..",
+    "jawaban": "Ingat",
+    "deskripsi": "Bisa vitamin bisa obat"
+  },
+  {
+    "index": 149,
+    "soal": "Beras asal nya dari ?",
+    "jawaban": "Bumi",
+    "deskripsi": "Padi berasal dari bumi, betul?"
+  },
+  {
+    "index": 150,
+    "soal": "Cara berhenti merokok adalah?",
+    "jawaban": "Berenang",
+    "deskripsi": "Coba saja kalo tidak percaya"
+  },
+  {
+    "index": 151,
+    "soal": "Ayah tidak mau makan nasi lagi karena",
+    "jawaban": "Kemakan",
+    "deskripsi": "Kalo nasi sudah kemakan kenyang"
+  },
+  {
+    "index": 152,
+    "soal": "Habis delapan",
+    "jawaban": "Sembelit",
+    "deskripsi": "Banyakin sayur nya agar pencernaan lancar"
+  },
+  {
+    "index": 153,
+    "soal": "Kalau mau bisa bahasa inggris",
+    "jawaban": "Keles",
+    "deskripsi": "Ya harus baca kalo ngga baca ngga mungkin bisa !"
+  },
+  {
+    "index": 154,
+    "soal": "Valentino rosi adalah pembalap yang berasal dari",
+    "jawaban": "Ibunya",
+    "deskripsi": "Kalo bukan dari ibunya dari siapa"
+  },
+  {
+    "index": 155,
+    "soal": "Jalan diatas sungai untuk menyeberang sungai..",
+    "jawaban": "Sembrono",
+    "deskripsi": "Masak jalan diatas sungai, kenapa ga naik jembatan.."
+  },
+  {
+    "index": 156,
+    "soal": "Api lilin mati jika ditutup gelas karena kurang",
+    "jawaban": "Kerjaan",
+    "deskripsi": "Lilin sudah nyala kenapa dimatiin"
+  },
+  {
+    "index": 157,
+    "soal": "Menyanyi dalam bahasa inggris?",
+    "jawaban": "Rihanna",
+    "deskripsi": "Pernah lihat rihana nyanyi bahasa indonesia?"
+  },
+  {
+    "index": 158,
+    "soal": "Meja memiliki kaki …",
+    "jawaban": "Emang",
+    "deskripsi": "Emang meja punya kaki kan"
+  },
+  {
+    "index": 159,
+    "soal": "Cristiano ronaldo berasal dari?",
+    "jawaban": "Papamama",
+    "deskripsi": "Benar, cr.ronaldo berasal dari papa sama mamanya"
+  },
+  {
+    "index": 160,
+    "soal": "Perut buncit bahasa cina nya apa?",
+    "jawaban": "Chachingan",
+    "deskripsi": "Karna kalau perut buncit kan ada cacing nya"
+  },
+  {
+    "index": 161,
+    "soal": "Ayam 1 ekor ada 2 kaki…ayam 2 kaki ada??",
+    "jawaban": "Satuekor",
+    "deskripsi": "Fokus dong fokus"
+  },
+  {
+    "index": 162,
+    "soal": "Minuman yang bisa tahan ngantuk dan enak kalau lagi begadang biasanya",
+    "jawaban": "Lagi",
+    "deskripsi": "Pasti kalau enak mau nambah lagi"
+  },
+  {
+    "index": 163,
+    "soal": "Orang tinggal disebelah rumah biasa disebut..",
+    "jawaban": "Rangga",
+    "deskripsi": "Ya itu tetangga saya"
+  },
+  {
+    "index": 164,
+    "soal": "Nama jembatan antara surabaya dan madura",
+    "jawaban": "Sudahada",
+    "deskripsi": "Emang lah jembatan suramadu sudahada"
+  },
+  {
+    "index": 165,
+    "soal": "Mamat di marahi buguru karena… sekolah",
+    "jawaban": "Bobol",
+    "deskripsi": "Kalo bobol sekolah pasti dimarahilah"
+  },
+  {
+    "index": 166,
+    "soal": "Kalau haus minum",
+    "jawaban": "Tahan",
+    "deskripsi": "Belum jam istirahat, nanti dimarahin bos bisa di pecat.."
+  },
+  {
+    "index": 167,
+    "soal": "Motor bocor biasanya di?",
+    "jawaban": "Bannya",
+    "deskripsi": "Kan motor bocornya diban"
+  },
+  {
+    "index": 168,
+    "soal": "Tak kenal makanya tak",
+    "jawaban": "Taulah",
+    "deskripsi": "Kalo gak kenal ya tak tau lah siapa dia"
+  },
+  {
+    "index": 169,
+    "soal": "Mirip dan sulit di bedakan karena anak…",
+    "jawaban": "Komodo",
+    "deskripsi": "Karena komodo sulit di bedakan"
+  },
+  {
+    "index": 170,
+    "soal": "Sebelum hari senin adalah hari..",
+    "jawaban": "Libur",
+    "deskripsi": "Siapa yang bilang salah??"
+  },
+  {
+    "index": 171,
+    "soal": "Dimana tempat lahir i gusti ngurah rai?",
+    "jawaban": "Bumi",
+    "deskripsi": "Indonesia masih di bumi kan?"
+  },
+  {
+    "index": 172,
+    "soal": "Dari bandung ke surabaya kita menggunakan…",
+    "jawaban": "Celana",
+    "deskripsi": "Masa dari bandung ke surabaya gak pake celana..malu"
+  },
+  {
+    "index": 173,
+    "soal": "Cowok yang suka senyum senyum sendiri itu tandanya…",
+    "jawaban": "Gila",
+    "deskripsi": "Sudah gejala umum"
+  },
+  {
+    "index": 174,
+    "soal": "Anda datang terlambat maka anda",
+    "jawaban": "Selamat",
+    "deskripsi": "Kan udah sampai"
+  },
+  {
+    "index": 175,
+    "soal": "Ada gula ada?",
+    "jawaban": "Gelas",
+    "deskripsi": "Kalau tidak ada di gelas dimakan semut"
+  },
+  {
+    "index": 176,
+    "soal": "Biasanya orang meninggal di?",
+    "jawaban": "Kabarin",
+    "deskripsi": "Kasih tahu sanak saudara… baru di kuburin"
+  },
+  {
+    "index": 177,
+    "soal": "Sepandai-pandainya tupai melompat pasti akan…juga",
+    "jawaban": "Jalan",
+    "deskripsi": "Masak tupai ga boleh jalan, capek kan…"
+  },
+  {
+    "index": 178,
+    "soal": "Alat musik yang cara mainnya digesek..",
+    "jawaban": "Baret",
+    "deskripsi": "Jangan digesek dong, nanti baret. mahal lho belinya.."
+  },
+  {
+    "index": 179,
+    "soal": "Orang apa yang dibacok gak mempan?",
+    "jawaban": "Oranggakkena",
+    "deskripsi": "Nah iya makanya gak mempan kan.."
+  },
+  {
+    "index": 180,
+    "soal": "Besar ____ daripada tiang",
+    "jawaban": "Pasar",
+    "deskripsi": "Bener kan pasar lebih gede dari tiang.."
+  },
+  {
+    "index": 181,
+    "soal": "Jauh di mata dekat di ..",
+    "jawaban": "Sini",
+    "deskripsi": "Kalau di mata jauh, di sini aja deket"
+  },
+  {
+    "index": 182,
+    "soal": "Kuda berkaki….",
+    "jawaban": "Emang",
+    "deskripsi": "Kuda memang punya kaki"
+  },
+  {
+    "index": 183,
+    "soal": "Ibu ibu ke rumah bu rt karena",
+    "jawaban": "Ngirit",
+    "deskripsi": "Ibu ibu ke rumah bu rt biasanya makan-makan buat ngirit uang di rumah"
+  },
+  {
+    "index": 184,
+    "soal": "Bisa ditarik tapi tidak bisa dilihat",
+    "jawaban": "Kuping",
+    "deskripsi": "Silahkan di coba…"
+  },
+  {
+    "index": 185,
+    "soal": "Dalam pelajaran biologi",
+    "jawaban": "Anaknya",
+    "deskripsi": "Kalau tidak anaknya lalu siapa"
+  },
+  {
+    "index": 186,
+    "soal": "Bulu ketek di cabut",
+    "jawaban": "Sayaa",
+    "deskripsi": "Di cabut saya lah masa ama orang lain"
+  },
+  {
+    "index": 187,
+    "soal": "Bangun tidur ku terus….",
+    "jawaban": "Melek",
+    "deskripsi": "Pasti pertama bangun buka mata dulu dong"
+  },
+  {
+    "index": 188,
+    "soal": "Bisa sms kalo ada…",
+    "jawaban": "Hplah",
+    "deskripsi": "Kalo gak ada hp mana bisa sms"
+  },
+  {
+    "index": 189,
+    "soal": "Apa yang dilakukan sebelum ke mesjid?",
+    "jawaban": "Parkir",
+    "deskripsi": "Jangankan motor …sendal aja ga boleh masuk…"
+  },
+  {
+    "index": 190,
+    "soal": "Cicak suka makan",
+    "jawaban": "Banyak",
+    "deskripsi": "Kamu aja kadang nambah"
+  },
+  {
+    "index": 191,
+    "soal": "Saat lulus s1",
+    "jawaban": "Sukuran",
+    "deskripsi": "Sukuran, bisa lulus sarjana.."
+  },
+  {
+    "index": 192,
+    "soal": "Jangan nonton bola",
+    "jawaban": "Gajuga",
+    "deskripsi": "Selama masih ada kopi mah oke-oke aja"
+  },
+  {
+    "index": 193,
+    "soal": "Ketika tidur orang biasanya..",
+    "jawaban": "Mendingan",
+    "deskripsi": "Ya kan jadi mendingan gak ngantuk lagi.."
+  },
+  {
+    "index": 194,
+    "soal": "Bantal dibalik jadi….",
+    "jawaban": "Dingin",
+    "deskripsi": "Kalau gak percaya coba aja"
+  },
+  {
+    "index": 195,
+    "soal": "Kendaraan yang diawali huruf b ?",
+    "jawaban": "Mobil",
+    "deskripsi": "Kendaraan yang diawal (i) huruf b, ya mobil …"
+  },
+  {
+    "index": 196,
+    "soal": "Pemimpin suatu desa biasa dipanggil pak",
+    "jawaban": "Noleh",
+    "deskripsi": "Kalo dipanggil mesti noleh dong"
+  },
+  {
+    "index": 197,
+    "soal": "Ada ayah",
+    "jawaban": "Hitung",
+    "deskripsi": "Supaya tidak ada yang tertinggal"
+  },
+  {
+    "index": 198,
+    "soal": "Yang biasa nya ada dipantai?",
+    "jawaban": "Bibir",
+    "deskripsi": "Pinggiran pantai namanya bibir pantai dong"
+  },
+  {
+    "index": 199,
+    "soal": "Duduk sama rendah",
+    "jawaban": "Kaki",
+    "deskripsi": "Kalau sama tangan susah tauk!"
+  },
+  {
+    "index": 200,
+    "soal": "Ketika ada yang ulang tahun di kasih….",
+    "jawaban": "Yani",
+    "deskripsi": "Karena orang ulang tahun pasti umurnya berkurang"
+  },
+  {
+    "index": 201,
+    "soal": "Bermain tenis menggunakan",
+    "jawaban": "Jaket",
+    "deskripsi": "Karena cuacanya sedang dingin"
+  },
+  {
+    "index": 202,
+    "soal": "Bila anak pulang larut malam orang tua pasti..",
+    "jawaban": "Tauwaktu",
+    "deskripsi": "Kalo ga tau waktu, anaknya pulang malam dikira siang"
+  },
+  {
+    "index": 203,
+    "soal": "Bandung lautan ?",
+    "jawaban": "Air",
+    "deskripsi": "Karena air di laut"
+  },
+  {
+    "index": 204,
+    "soal": "Supaya aman mobil jalan harus ada..",
+    "jawaban": "Kita",
+    "deskripsi": "Kalo mobil jalan tanpa kita itu namanya gelinding"
+  },
+  {
+    "index": 205,
+    "soal": "Burung hewan yang bisa?",
+    "jawaban": "Temenan",
+    "deskripsi": "Kalo terbangnya rame-rame kan sama temennya"
+  },
+  {
+    "index": 206,
+    "soal": "Supaya bersih kita mandi dengan",
+    "jawaban": "Yakin",
+    "deskripsi": "Klo ga yakin mending ga usah mandi"
+  },
+  {
+    "index": 207,
+    "soal": "Ada api pasti ada…",
+    "jawaban": "Anya",
+    "deskripsi": "Ya ada a nya,kalo ngga ada a jadi pi dong"
+  },
+  {
+    "index": 208,
+    "soal": "Lieonel messi bermain sepak bola di",
+    "jawaban": "Beriuang",
+    "deskripsi": "Banyak banget lagi…"
+  },
+  {
+    "index": 209,
+    "soal": "Masakan terasa hambar",
+    "jawaban": "Saran",
+    "deskripsi": "Kasih saran tuh yang masak, semoga lain kali lebih baik"
+  },
+  {
+    "index": 210,
+    "soal": "Puasa dibulan?",
+    "jawaban": "Kejauhan",
+    "deskripsi": "Puasa dibumi aja belum becus,sok-sokan puasa dibulan"
+  },
+  {
+    "index": 211,
+    "soal": "Daun daun apa yang bisa di makan?",
+    "jawaban": "Daunat",
+    "deskripsi": "Enak kan di makan, apalagi rasa coklat"
+  },
+  {
+    "index": 212,
+    "soal": "Lari jarak jauh..",
+    "jawaban": "Minggat",
+    "deskripsi": "Kalo deket namanya bukan minggat,,"
+  },
+  {
+    "index": 213,
+    "soal": "Huruf?",
+    "jawaban": "Abdxt",
+    "deskripsi": "Semua itu huruf, benar?"
+  },
+  {
+    "index": 214,
+    "soal": "Ketika mandi biasanya orang menggosok…",
+    "jawaban": "Pipi",
+    "deskripsi": "Kan biar cakep! bener kan?"
+  },
+  {
+    "index": 215,
+    "soal": "Nyarinya susah",
+    "jawaban": "Ngupil",
+    "deskripsi": "Hayo kamu suka ngupil juga ya?"
+  },
+  {
+    "index": 216,
+    "soal": "Sayur yang enak sekali",
+    "jawaban": "Ludes",
+    "deskripsi": "Sayur enak emang cepet ludes"
+  },
+  {
+    "index": 217,
+    "soal": "Mengatasi kemacetan dengan?",
+    "jawaban": "Pelumas",
+    "deskripsi": "Coba aja pagar rumah anda macet dikasih pelumas! pasti lancarr"
+  },
+  {
+    "index": 218,
+    "soal": "Suara alat musik jreeng",
+    "jawaban": "Getar",
+    "deskripsi": "Pas jreeeng… gitar getar dong…"
+  },
+  {
+    "index": 219,
+    "soal": "Di panggil gak nengok",
+    "jawaban": "Badak",
+    "deskripsi": "Coba panggil pasti tidak bakal nengok"
+  },
+  {
+    "index": 220,
+    "soal": "Apa yang paling ditakuti anak sd?",
+    "jawaban": "Disuntik",
+    "deskripsi": "Ada yang hobi disuntik?!"
+  },
+  {
+    "index": 221,
+    "soal": "Jakarta biasanya….",
+    "jawaban": "Platb",
+    "deskripsi": "Karena jakarta no platnya b,biasanya panas"
+  },
+  {
+    "index": 222,
+    "soal": "Negara yang memiliki banyak kincir angin di…",
+    "jawaban": "Petaada",
+    "deskripsi": "Benar bukan?"
+  },
+  {
+    "index": 223,
+    "soal": "Apa yang dilakukan ketika masuk sekolah?",
+    "jawaban": "Mintaanter",
+    "deskripsi": "Huh dasar anak-anak.."
+  },
+  {
+    "index": 224,
+    "soal": "Sebelum jadi nasi ?",
+    "jawaban": "Keras",
+    "deskripsi": "Nasi kan lembek, sebelum lebek dia keras kan ?"
+  },
+  {
+    "index": 225,
+    "soal": "Pak tani menanam pa didi",
+    "jawaban": "Lewat",
+    "deskripsi": "Pa’ didi lewat mau kepasar sepertinya"
+  },
+  {
+    "index": 226,
+    "soal": "Rokok jika dibakar mengeluarkan",
+    "jawaban": "Anak",
+    "deskripsi": "Rokok depan anak tidak baik, maka keluarin dulu anaknya dari ruang rokok"
+  },
+  {
+    "index": 227,
+    "soal": "Kucing diatas pohon kalau turun apanya dulu?",
+    "jawaban": "Niatnya",
+    "deskripsi": "Kalau ada niat pasti ada jalan!"
+  },
+  {
+    "index": 228,
+    "soal": "Cuci piring harus dengan …",
+    "jawaban": "Sadar",
+    "deskripsi": "Kalau ga sadar, piring nya gak tercuci ,malah pecah…"
+  },
+  {
+    "index": 229,
+    "soal": "Mawar bertemu pacar malam hari di..",
+    "jawaban": "Marahi",
+    "deskripsi": "Kata nenek itu ga baik"
+  },
+  {
+    "index": 230,
+    "soal": "Seorang wakil rakyat bisa ke senayan dengan menggunakan jalur..",
+    "jawaban": "Viatol",
+    "deskripsi": "Nah keluar tol di semanggi, sampe tuh senayan.."
+  },
+  {
+    "index": 231,
+    "soal": "Apa bedanya motor ama sepeda",
+    "jawaban": "Jelas",
+    "deskripsi": "Dah tau beda pake mikir"
+  },
+  {
+    "index": 232,
+    "soal": "Gigi nempel di?",
+    "jawaban": "Kaki",
+    "deskripsi": "Naek motor ganti gigi di kaki"
+  },
+  {
+    "index": 233,
+    "soal": "Sungai yang ada dikalimantan",
+    "jawaban": "Banyak",
+    "deskripsi": "Ada sungai barito,sungai kapuas,sungai kahayan dll"
+  },
+  {
+    "index": 234,
+    "soal": "Ikan bernapas dengan…",
+    "jawaban": "Izintuhan",
+    "deskripsi": "Kalau gak diizinin gak bisa bernapas"
+  },
+  {
+    "index": 235,
+    "soal": "Makanan pedas karena…",
+    "jawaban": "Manya",
+    "deskripsi": "Kare namanya, kalo kecut ketek namanya"
+  },
+  {
+    "index": 236,
+    "soal": "Biasa ada di pinggir jalan",
+    "jawaban": "Pdicoret",
+    "deskripsi": "Itu tanda nya di larang parkir yah"
+  },
+  {
+    "index": 237,
+    "soal": "Ibu yang baik harusnya…",
+    "jawaban": "Ibukita",
+    "deskripsi": "Tidak akan pernah bisa dibalas kebaikannya"
+  },
+  {
+    "index": 238,
+    "soal": "Obat ampuh darah rendah ?",
+    "jawaban": "Ludahin",
+    "deskripsi": "Kalo orang yang darah rendah di ludahin pasti langsung darah tinggi"
+  },
+  {
+    "index": 239,
+    "soal": "Yang dipukul petinju",
+    "jawaban": "Santai",
+    "deskripsi": "Yang saling mukul petinju kita yang lihat mah santai"
+  },
+  {
+    "index": 240,
+    "soal": "Cilok cilok apa yang bisa senengin bayi",
+    "jawaban": "Cilokba",
+    "deskripsi": "Cilook baaa ih lutu banget…."
+  },
+  {
+    "index": 241,
+    "soal": "Alat musik tiup",
+    "jawaban": "Sulitloh",
+    "deskripsi": "Main seruling kan sulit"
+  },
+  {
+    "index": 242,
+    "soal": "Bukan sulap",
+    "jawaban": "Sulap",
+    "deskripsi": "Kalau bukan sulap ya berarti bukan sulap dong"
+  },
+  {
+    "index": 243,
+    "soal": "Astronot pergi keluar?",
+    "jawaban": "Ganyari",
+    "deskripsi": "Kalo astronot pergi keluarganya pasti nyari"
+  },
+  {
+    "index": 244,
+    "soal": "Tempat kita bisa melihat s ditengahnya",
+    "jawaban": "Kasur",
+    "deskripsi": "Ya iya itu tengahnya s kan?"
+  },
+  {
+    "index": 245,
+    "soal": "Sandal apa yang paling enak?",
+    "jawaban": "Sandalterasi",
+    "deskripsi": "Nah kalo ini swaya juga demen!"
+  },
+  {
+    "index": 246,
+    "soal": "Orang bisa berdiri dengan",
+    "jawaban": "Kuat",
+    "deskripsi": "Kalo gakuat gimana bisa berdiri"
+  },
+  {
+    "index": 247,
+    "soal": "Apa yang ada di ujung laut",
+    "jawaban": "Huruft",
+    "deskripsi": "Karena pada kata laut diakhirnya adalah huruf t,gampang ya"
+  },
+  {
+    "index": 248,
+    "soal": "Kaca _ _ _ _ _ . biasanya ada dijalan-jalan.",
+    "jawaban": "Ngijo",
+    "deskripsi": "Protes nilai dikurangi 50"
+  },
+  {
+    "index": 249,
+    "soal": "Orang yang berbadan dua ?",
+    "jawaban": "Heboh",
+    "deskripsi": "Kalau lihat orang berbadan dua pasti bikin heboh"
+  },
+  {
+    "index": 250,
+    "soal": "Orang menimba air di..",
+    "jawaban": "Tuang",
+    "deskripsi": "Abis nimba air harus dituang.."
+  },
+  {
+    "index": 251,
+    "soal": "Buka gembok pakai….",
+    "jawaban": "Bunyi",
+    "deskripsi": "Klik begitu bunyi nya"
+  },
+  {
+    "index": 252,
+    "soal": "Biasanya disimpan dalam karung",
+    "jawaban": "Bebas",
+    "deskripsi": "Mau beras mau pasir, bebas aja"
+  },
+  {
+    "index": 253,
+    "soal": "Banteng menyeruduk menggunakan..??!",
+    "jawaban": "Tenaga",
+    "deskripsi": "Kalau gak pakai tenaga mana bisa dia menanduk."
+  },
+  {
+    "index": 254,
+    "soal": "Penjara bisa heboh kalau semua napinya",
+    "jawaban": "Batuk",
+    "deskripsi": "Pasti batuknya menular ya, lagi musim nih"
+  },
+  {
+    "index": 255,
+    "soal": "Kera kera apa yang diinjak nggak ngomel",
+    "jawaban": "Keramik",
+    "deskripsi": "Karena keras"
+  },
+  {
+    "index": 256,
+    "soal": "Pagar makan…",
+    "jawaban": "Masasih",
+    "deskripsi": "Karena pagar gak bisa makan"
+  },
+  {
+    "index": 257,
+    "soal": "Jika kita ke pasar biasanya kita bertemu…",
+    "jawaban": "Tetangga",
+    "deskripsi": "Kalo saya sih seringnya ketemu mantan.."
+  },
+  {
+    "index": 258,
+    "soal": "Kenapa orang makan dengan tangan kanan?",
+    "jawaban": "Karenamakanan",
+    "deskripsi": "Kalau pakai tangan kiri namanya makiri"
+  },
+  {
+    "index": 259,
+    "soal": "Pelukis yang cuma bisa gambar pelangi",
+    "jawaban": "Agung",
+    "deskripsi": "Pelukismu agung.. siapa gerangan.. pelangi2 ciptaan tuhan.."
+  },
+  {
+    "index": 260,
+    "soal": "Bagian gigi yang paling belakang adalah..",
+    "jawaban": "Drumer",
+    "deskripsi": "Band nya armand maulana itu loh drummer paling belakang lah"
+  },
+  {
+    "index": 261,
+    "soal": "Dapat bergerak sendiri tanpa disuruh?",
+    "jawaban": "Roboh",
+    "deskripsi": "Itu namanya dibantuin gravitasi!"
+  },
+  {
+    "index": 262,
+    "soal": "Tidak boleh masuk kelas",
+    "jawaban": "Lalat",
+    "deskripsi": "Lalat ganggu pelajaran anak murid"
+  },
+  {
+    "index": 263,
+    "soal": "Kebaikan orang bisa terlihat dari…",
+    "jawaban": "Anaknya",
+    "deskripsi": "Jika anaknya terawat berati dia baik"
+  },
+  {
+    "index": 264,
+    "soal": "Tanda lelaki romantis itu suka…",
+    "jawaban": "Perhatian",
+    "deskripsi": "Asiiiik"
+  },
+  {
+    "index": 265,
+    "soal": "Setiap orang bernapas melalui ..?",
+    "jawaban": "Lubang",
+    "deskripsi": "Kalau hidung gak pakai lubang bisa mati"
+  },
+  {
+    "index": 266,
+    "soal": "Rendang merupakan makanan yang berasal dari kota yang biasa kita sebut dengan?",
+    "jawaban": "Lancar",
+    "deskripsi": "Ya, kita menyebut kota padang dengan lancar, kan?"
+  },
+  {
+    "index": 267,
+    "soal": "Yang mengemudikan kapal namanya …",
+    "jawaban": "Berbeda",
+    "deskripsi": "Karena yang mengemudikan kapal ada banyak orangnya"
+  },
+  {
+    "index": 268,
+    "soal": "Kalo digigit laba2 bisa jadi…",
+    "jawaban": "Sakitbadan",
+    "deskripsi": "Ingat, ini bukan dunia komik"
+  },
+  {
+    "index": 269,
+    "soal": "Kalo mobil berjalan yang muter apanya?",
+    "jawaban": "Lagunya",
+    "deskripsi": "Biar ga bosen nyupir kan?!"
+  },
+  {
+    "index": 270,
+    "soal": "Sebutkan salah satu contoh hewan yang jalannya lambat..",
+    "jawaban": "Serigala",
+    "deskripsi": "Serigala kan larinya kenceng, kalo jalan ya lambat.."
+  },
+  {
+    "index": 271,
+    "soal": "Unggas berkaki 2 adalah",
+    "jawaban": "Bener",
+    "deskripsi": "Bener kan?"
+  },
+  {
+    "index": 272,
+    "soal": "Alat musik yang digesek",
+    "jawaban": "Baret",
+    "deskripsi": "Duh kalau digesek jadi baret. kan sayang"
+  },
+  {
+    "index": 273,
+    "soal": "Segalak galaknya harimau pasti ga bakal makan…",
+    "jawaban": "Alpukat",
+    "deskripsi": "Masa iya harimau doyan alpukat"
+  },
+  {
+    "index": 274,
+    "soal": "Berakit kita kehulu berenang kita ke ?",
+    "jawaban": "Keair",
+    "deskripsi": "Kalo berenang ya sudah pasti di air"
+  },
+  {
+    "index": 275,
+    "soal": "Orang yang bekerja di rumah sakit ?",
+    "jawaban": "Digaji",
+    "deskripsi": "Namanya juga bekerja.. ya pasti di gaji lah"
+  },
+  {
+    "index": 276,
+    "soal": "Jika kita ngak pake helm kita kena",
+    "jawaban": "Panapa",
+    "deskripsi": "Kebalikan ga kenapa-napa, ya kenapanapa, kena tilang contohnya"
+  },
+  {
+    "index": 277,
+    "soal": "Bangun tidur ku terus..",
+    "jawaban": "Melek",
+    "deskripsi": "Melek dlu baru mandi..segeer…"
+  },
+  {
+    "index": 278,
+    "soal": "Yang mengatur pertandingan sepak bola??",
+    "jawaban": "Waktu",
+    "deskripsi": "Peraturan nya 2×45 menit..normalnya loh.."
+  },
+  {
+    "index": 279,
+    "soal": "Kendaraan roda 3?",
+    "jawaban": "Wajar",
+    "deskripsi": "Ada bemo, bajaj, becak dan lain lain…"
+  },
+  {
+    "index": 280,
+    "soal": "Bahasa indonesia eat",
+    "jawaban": "Salah",
+    "deskripsi": "Eat itu bahasa inggris bukan bahasa indonesia"
+  },
+  {
+    "index": 281,
+    "soal": "Mobil tidak bisa jalan karena bannya..",
+    "jawaban": "Korang",
+    "deskripsi": "Kalo banya(k) orang kan emang ga bisa lewat kan.."
+  },
+  {
+    "index": 282,
+    "soal": "Kambing jika ditusuk-tusuk dibakar jadinya?",
+    "jawaban": "Lari",
+    "deskripsi": "Salah apa kambing nya, sampe ditusuk ama dibakar 🙁"
+  },
+  {
+    "index": 283,
+    "soal": "Air beriak tanda tak …",
+    "jawaban": "Kalem",
+    "deskripsi": "Kalau kalem pasti tenang, tidak beriak atau berisik."
+  },
+  {
+    "index": 284,
+    "soal": "Hadiah yang romantis buat kamu itu…",
+    "jawaban": "Dilamar",
+    "deskripsi": "Selamat ya"
+  },
+  {
+    "index": 285,
+    "soal": "Masakan enak khas padang",
+    "jawaban": "Nendang",
+    "deskripsi": "Karena makanan yang enak pasti rasanya nendang"
+  },
+  {
+    "index": 286,
+    "soal": "Untuk menyalakan lampu kita harus tekan..",
+    "jawaban": "Sekali",
+    "deskripsi": "Klo dua kali ya mati kan?"
+  },
+  {
+    "index": 287,
+    "soal": "Kalo minum di ?",
+    "jawaban": "Telan",
+    "deskripsi": "Klo disembur mbah dukun"
+  },
+  {
+    "index": 288,
+    "soal": "Alat musik gesek…",
+    "jawaban": "Bunyi",
+    "deskripsi": "Ada biola, cello, rebab dan masih banyak lagi"
+  },
+  {
+    "index": 289,
+    "soal": "Beli obat di",
+    "jawaban": "Minum",
+    "deskripsi": "Karena kalau tidak diminum di apain lagi"
+  },
+  {
+    "index": 290,
+    "soal": "Jalan yang di bandung paling indah adalah jalan…",
+    "jawaban": "Denganmu",
+    "deskripsi": "Duh indahnya"
+  },
+  {
+    "index": 291,
+    "soal": "Mobil parkir di",
+    "jawaban": "Matikan",
+    "deskripsi": "Kalo gak dimatiin mobilnya jalan"
+  },
+  {
+    "index": 292,
+    "soal": "Pemuda mendapakan pacar karna suka bermain…",
+    "jawaban": "Mata",
+    "deskripsi": "Asal jangan main mata ama pacar orang…."
+  },
+  {
+    "index": 293,
+    "soal": "Balonku ada lima",
+    "jawaban": "Duaar",
+    "deskripsi": "Meletus balon, hatiku sangat kacau hiks hiks…"
+  },
+  {
+    "index": 294,
+    "soal": "Lawan mama",
+    "jawaban": "Dosa",
+    "deskripsi": "Kalo takut dosa jangan lawan kata mama"
+  },
+  {
+    "index": 295,
+    "soal": "Seorang pemenang lomba biasanya mendapatkan",
+    "jawaban": "Ridho",
+    "deskripsi": "Kalo gak dapat ridho orang tua gak akan menang"
+  },
+  {
+    "index": 296,
+    "soal": "Semua akan indah pada…",
+    "jawaban": "Haltidak",
+    "deskripsi": "Tidak semua berakhir indah thoo.."
+  },
+  {
+    "index": 297,
+    "soal": "Hewan punya jari 6",
+    "jawaban": "Kocak",
+    "deskripsi": "Ya lucu lah kalo punya jari 6"
+  },
+  {
+    "index": 298,
+    "soal": "Hewan apa yang paling aneh",
+    "jawaban": "Kupukupu",
+    "deskripsi": "Karena kalo siang makan nasi, kalo malam minum susu"
+  },
+  {
+    "index": 299,
+    "soal": "Anaknya katak disebut..",
+    "jawaban": "Keluarga",
+    "deskripsi": "Kan ada induknya ya ada anaknya.."
+  },
+  {
+    "index": 300,
+    "soal": "Air beriak tanda tak?",
+    "jawaban": "Datar",
+    "deskripsi": "Kalo beriak pasti bergelombang"
+  },
+  {
+    "index": 301,
+    "soal": "Kotak apa yang ngga bisa dipindahin",
+    "jawaban": "Pinalti",
+    "deskripsi": "Coba aja kalo bisa"
+  },
+  {
+    "index": 302,
+    "soal": "Apel rasanya",
+    "jawaban": "Capek",
+    "deskripsi": "Kalo apel bandera harus capek, kan berdiri"
+  },
+  {
+    "index": 303,
+    "soal": "Di laut ada ikan paus teri dan ikan..",
+    "jawaban": "Tongkol",
+    "deskripsi": "Dan masih banyak lainnya"
+  },
+  {
+    "index": 304,
+    "soal": "Orang makan karena?",
+    "jawaban": "Sadar",
+    "deskripsi": "Kalau gak sadar gak mungkin bisa makan"
+  },
+  {
+    "index": 305,
+    "soal": "Kita bisa melihat wajah kita sendiri di..",
+    "jawaban": "Sima",
+    "deskripsi": "Ada kan foto kita di sim a, ya kan?"
+  },
+  {
+    "index": 306,
+    "soal": "Lokasi 7 keajaiban dunia….",
+    "jawaban": "Mencar",
+    "deskripsi": "Borobudur ada di jogja, india ada taj mahal, dan masih banyak lainnya"
+  },
+  {
+    "index": 307,
+    "soal": "Orang yang memimpin negara",
+    "jawaban": "Pastiada",
+    "deskripsi": "Orang yang memimpin negara ya pasti ada"
+  },
+  {
+    "index": 308,
+    "soal": "Kalau ambulan lewat biasanya ada bunyi",
+    "jawaban": "Tintinn",
+    "deskripsi": "Kan kalau ambulan lewat tempat ramai pasti klakson"
+  },
+  {
+    "index": 309,
+    "soal": "Kalajengking dan ular hidup..",
+    "jawaban": "Berdua",
+    "deskripsi": "Saya sebutkan kalajengking dan ular makanya berdua"
+  },
+  {
+    "index": 310,
+    "soal": "Berani karena benar ___ karena salah",
+    "jawaban": "Bukan",
+    "deskripsi": "Wahaha gampang kan??"
+  },
+  {
+    "index": 311,
+    "soal": "Dalam pertandingan sepak bola",
+    "jawaban": "Lihat",
+    "deskripsi": "Kalo ga lihat ngapain dia jaga gawang?!"
+  },
+  {
+    "index": 312,
+    "soal": "Kura-kura adalah hewan yang memiliki..",
+    "jawaban": "Temencewe",
+    "deskripsi": "Boleh dong punya temen cewe, jangan posesif gitu dong.."
+  },
+  {
+    "index": 313,
+    "soal": "Pemain bola yang jarang digubris lawan..",
+    "jawaban": "Sepele",
+    "deskripsi": "Gimana mau digubris, sepele banget sih.."
+  },
+  {
+    "index": 314,
+    "soal": "Supaya tampil maksimal seorang penyanyi harus cek..",
+    "jawaban": "Saldo",
+    "deskripsi": "Jadi supaya nyanyinya ga ada beban, kan udah dibayar.."
+  },
+  {
+    "index": 315,
+    "soal": "Jauh di mata dekat di",
+    "jawaban": "Sini",
+    "deskripsi": "Kalau disana jauh, sini aja"
+  },
+  {
+    "index": 316,
+    "soal": "Cepat motor atau sepeda",
+    "jawaban": "Mobil",
+    "deskripsi": "Ya jelas kan mobil yang lebih cepat"
+  },
+  {
+    "index": 317,
+    "soal": "Cincin dipakai dijari",
+    "jawaban": "Masuk",
+    "deskripsi": "Ya klo ga masuk ga bisa dipakai"
+  },
+  {
+    "index": 318,
+    "soal": "Yang kita pakai ketika hujan..",
+    "jawaban": "Sayang",
+    "deskripsi": "Klo basah kena ujan kan sayang karena basah"
+  },
+  {
+    "index": 319,
+    "soal": "Hewan yang nempel di tembok?",
+    "jawaban": "Capek",
+    "deskripsi": "Jalan melulu aja capek, apalagi nempel…"
+  },
+  {
+    "index": 320,
+    "soal": "Jika anda dikelilingi 20 ekor singa apa yang akan anda lakukan?",
+    "jawaban": "Santai",
+    "deskripsi": "Kan cuman ekornya doang"
+  },
+  {
+    "index": 321,
+    "soal": "Orang kedinginan",
+    "jawaban": "Remotac",
+    "deskripsi": "Suhu ac di remote 16°c, kucing aja kedinginan."
+  },
+  {
+    "index": 322,
+    "soal": "Temennya upin??",
+    "jawaban": "Ijat",
+    "deskripsi": "Karna ipin adeknya"
+  },
+  {
+    "index": 323,
+    "soal": "Petani mencangkul ke ?",
+    "jawaban": "Bawah",
+    "deskripsi": "Emang ada mencangkul ke atas"
+  },
+  {
+    "index": 324,
+    "soal": "Gajah hanya di",
+    "jawaban": "Belakang",
+    "deskripsi": "Karena gajah huruf h nya ada di belakang"
+  },
+  {
+    "index": 325,
+    "soal": "Dalam ilmu fisika zat padat menjadi zat cair di sebut proses..",
+    "jawaban": "Pegadaian",
+    "deskripsi": "Butuh dana cepat? 30 menit langsung cair!"
+  },
+  {
+    "index": 326,
+    "soal": "Ani menggambar segita sama",
+    "jawaban": "Kiki",
+    "deskripsi": "Soalnya sedang kerja kelompok"
+  },
+  {
+    "index": 327,
+    "soal": "Tidak memilih saat pemilu",
+    "jawaban": "Gaasik",
+    "deskripsi": "Pemilu menentukan nasib bangsa, ga milih ga asik"
+  },
+  {
+    "index": 328,
+    "soal": "Kaki panas karena kena",
+    "jawaban": "Lpotnya",
+    "deskripsi": "Panas kena knalpotnya"
+  },
+  {
+    "index": 329,
+    "soal": "Pencuri biasa mencuri di…",
+    "jawaban": "Amdiam",
+    "deskripsi": "Kalo berisik nanti ketahuan"
+  },
+  {
+    "index": 330,
+    "soal": "Polisi mengatur jalan lalu …..",
+    "jawaban": "Lancar",
+    "deskripsi": "Kan abis ngatur jalan, lancar dong"
+  },
+  {
+    "index": 331,
+    "soal": "Sedikit – sedikit lama lama jadi..",
+    "jawaban": "Banyak",
+    "deskripsi": "Sedikit kalo ditambah terus kan jadi banyak"
+  },
+  {
+    "index": 332,
+    "soal": "…….. di balik batuu",
+    "jawaban": "Uutab",
+    "deskripsi": "Benar, kalau uutab di balik jadi batuuu"
+  },
+  {
+    "index": 333,
+    "soal": "Ada semut ada",
+    "jawaban": "Enya",
+    "deskripsi": "Kalo nggak ada e nya ya smut"
+  },
+  {
+    "index": 334,
+    "soal": "Orang yang jarang pergi kemana-mana disebut?",
+    "jawaban": "Kiper",
+    "deskripsi": "Lah kalo kemana-mana kebobolan dong!"
+  },
+  {
+    "index": 335,
+    "soal": "Dunia tak selebar daun??",
+    "jawaban": "Betul",
+    "deskripsi": "Karena memang dunia tidak selebar daun"
+  },
+  {
+    "index": 336,
+    "soal": "Singkatan dari tanah",
+    "jawaban": "Sda",
+    "deskripsi": "Benar! tanah, udara, dan air termasuk sda (sumber daya alam)"
+  },
+  {
+    "index": 337,
+    "soal": "Hewan pemakan rumput",
+    "jawaban": "Kasihan",
+    "deskripsi": "Kasihan kan udah makan rumput dijadikan sate lagi.."
+  },
+  {
+    "index": 338,
+    "soal": "Motor yang kenceng apanya ?",
+    "jawaban": "Bautnya",
+    "deskripsi": "Kalo gak kenceng bodynya lepas lah gimana ?"
+  },
+  {
+    "index": 339,
+    "soal": "Kendaraan yang di tarik kuda..",
+    "jawaban": "Gaaman",
+    "deskripsi": "Karena ditarik seekor kuda kendaraanya bisa kecelakaan"
+  },
+  {
+    "index": 340,
+    "soal": "Teman tarzan itu..",
+    "jawaban": "Kamu",
+    "deskripsi": "Kamu kan mirip kera, aku juga…"
+  },
+  {
+    "index": 341,
+    "soal": "Apa yg di lakukan ayah ketika bulan ramadhan",
+    "jawaban": "Kerja",
+    "deskripsi": "Karna belum waktunya libur"
+  },
+  {
+    "index": 342,
+    "soal": "Sebelum tuhan menciptakan alam. tuhan menciptakan?",
+    "jawaban": "Vetyvera",
+    "deskripsi": "Vetyvera kakak nya alam, duluan pasti lah ya"
+  },
+  {
+    "index": 343,
+    "soal": "Mahluk hidup yang mempunyai persediaan air",
+    "jawaban": "Unta",
+    "deskripsi": "…"
+  },
+  {
+    "index": 344,
+    "soal": "20 dibagi 2 dihitung…",
+    "jawaban": "Sedekah",
+    "deskripsi": "Kan uang 20 dibagi 2 dihitung sedekah"
+  },
+  {
+    "index": 345,
+    "soal": "Gajah mati tinggalkan..",
+    "jawaban": "Dangnya",
+    "deskripsi": "Tinggal-kandangnya, kalau di hutan tinggalkan hutannya.."
+  },
+  {
+    "index": 346,
+    "soal": "Galang menyimpan buku di…",
+    "jawaban": "Mas",
+    "deskripsi": "Bukunya dimas dipinjam galang kemarin sore"
+  },
+  {
+    "index": 347,
+    "soal": "Barang yang bisa di pinjam",
+    "jawaban": "Ada",
+    "deskripsi": "Kalo ga ada ya ga bisa di pinjam"
+  },
+  {
+    "index": 348,
+    "soal": "Cicak biasanya makan?",
+    "jawaban": "Nyammm",
+    "deskripsi": "Begitu bunyinya"
+  },
+  {
+    "index": 349,
+    "soal": "Hujan turun dari..",
+    "jawaban": "Magrib",
+    "deskripsi": "Karena ashar belum turun"
+  },
+  {
+    "index": 350,
+    "soal": "Seruling bila di tiup akan?",
+    "jawaban": "Basah",
+    "deskripsi": "Coba aja pegang seruling kalian kalo habis di tiup.."
+  },
+  {
+    "index": 351,
+    "soal": "Kebanyakan orang tidur waktu",
+    "jawaban": "Merem",
+    "deskripsi": "Kalau gak merem ya bukan tidur"
+  },
+  {
+    "index": 352,
+    "soal": "Duluan telur apa ayam",
+    "jawaban": "Adam",
+    "deskripsi": "Karena duluan nabi adam didunia sebelum ayam dan telur"
+  },
+  {
+    "index": 353,
+    "soal": "Hari minggu disebut juga tanggal?",
+    "jawaban": "Tidak",
+    "deskripsi": "Kalo hari ya hari, kalo tanggal ya tanggal"
+  },
+  {
+    "index": 354,
+    "soal": "Ketika berperang tentara membawa..",
+    "jawaban": "Sepatunya",
+    "deskripsi": "Kalo nyeker sakit dong kakinya.."
+  },
+  {
+    "index": 355,
+    "soal": "Seekor ayam dinamakan ….",
+    "jawaban": "Kenyang",
+    "deskripsi": "Yaa dina makan ayam kan jadi kenyang"
+  },
+  {
+    "index": 356,
+    "soal": "Bawa mobil harus bawa",
+    "jawaban": "Satu",
+    "deskripsi": "Kalo bawa dua gimana coba ..?!?!"
+  },
+  {
+    "index": 357,
+    "soal": "Habis ….. sepah dibuang",
+    "jawaban": "Makan",
+    "deskripsi": "Iyakan..kalau sudah dimakan ya dibuang"
+  },
+  {
+    "index": 358,
+    "soal": "Motor memiliki roda",
+    "jawaban": "Iya",
+    "deskripsi": "Motor jelas punya roda klo gak punya gak bisa jalan dong"
+  },
+  {
+    "index": 359,
+    "soal": "Roda itu selalu….",
+    "jawaban": "Berwarna",
+    "deskripsi": "Gak ada roda yang gak ada warnanya"
+  },
+  {
+    "index": 360,
+    "soal": "Di jalan raya biasanya ada..",
+    "jawaban": "Lampu",
+    "deskripsi": "Kalo ga ada lampu ntar ga keliatan dong.."
+  },
+  {
+    "index": 361,
+    "soal": "Selain tarik tambang warga merayakan 17an dengan?",
+    "jawaban": "Panjatkandoa",
+    "deskripsi": "Karna biar barokah"
+  },
+  {
+    "index": 362,
+    "soal": "Alat musik gesek",
+    "jawaban": "Biasa",
+    "deskripsi": "Karena sudah biasa ada dipasaran"
+  },
+  {
+    "index": 363,
+    "soal": "Tempat ngopi disebut…",
+    "jawaban": "Kali",
+    "deskripsi": "Hohoho enak kan ngopi dipinggir kali sore-sore.."
+  },
+  {
+    "index": 364,
+    "soal": "Unta hidup di…",
+    "jawaban": "Alam",
+    "deskripsi": "Memang semua makhluk hidup tinggal di alam"
+  },
+  {
+    "index": 365,
+    "soal": "Apa sebutan untuk seorang yang telah mengambil kemudian pergi",
+    "jawaban": "Mantan",
+    "deskripsi": "Karena mantan adalah pencuri hati yang menyakiti kemudian pergi"
+  },
+  {
+    "index": 366,
+    "soal": "Nasi sudah menjadi",
+    "jawaban": "Syukur",
+    "deskripsi": "Kalau nasi sudah jadi yah harus bersyukur"
+  },
+  {
+    "index": 367,
+    "soal": "Yang sering dibawa dilihat dibaca pelajar",
+    "jawaban": "Babv",
+    "deskripsi": "Bab lima ada disetiap buku pelajaran"
+  },
+  {
+    "index": 368,
+    "soal": "Pak rt bisa terbang",
+    "jawaban": "Tiket",
+    "deskripsi": "Kalo mau terbang naik pesawat harus punya tiket"
+  },
+  {
+    "index": 369,
+    "soal": "Kebiasaan apa yang dilakukan ketika minum kopi?",
+    "jawaban": "Sruput",
+    "deskripsi": "Biar lebih berasa kopinya, ya gak!"
+  },
+  {
+    "index": 370,
+    "soal": "Pada lap terakhir rossi memotong marquest pasti….",
+    "jawaban": "Kungan",
+    "deskripsi": "Rossi paling hebat di tikungan ."
+  },
+  {
+    "index": 371,
+    "soal": "Candi prambanan adalah peninggalan dari jaman..",
+    "jawaban": "Dahulu",
+    "deskripsi": "Sekarang ga ada lagi yang bikin candi ya"
+  },
+  {
+    "index": 372,
+    "soal": "Anak tidak masuk sekolah karena…",
+    "jawaban": "Diluar",
+    "deskripsi": "Kalo ada di dalem berarti dia masuk sekolah"
+  },
+  {
+    "index": 373,
+    "soal": "Teman yg membantu batman saat melawan 50 musuh adalah?",
+    "jawaban": "Repot",
+    "deskripsi": "Repot lah 50 musuh….aduhhhh.."
+  },
+  {
+    "index": 374,
+    "soal": "Patung merlion ada di",
+    "jawaban": "Tempatnya",
+    "deskripsi": "Ditempatnya dong, masa patung jalan-jalan"
+  },
+  {
+    "index": 375,
+    "soal": "Ikan bernafas dengan",
+    "jawaban": "Tenang",
+    "deskripsi": "Kalo gelagapan bisa mati"
+  },
+  {
+    "index": 376,
+    "soal": "Motor jatuh karena",
+    "jawaban": "Galiat",
+    "deskripsi": "Karena di depannya ada galian, dia galiat.. ya jatuh"
+  },
+  {
+    "index": 377,
+    "soal": "Orang mati karena kehilangan…",
+    "jawaban": "Nafas",
+    "deskripsi": "Masa orang mati nafas"
+  },
+  {
+    "index": 378,
+    "soal": "Kalau semut kecil",
+    "jawaban": "Hewan",
+    "deskripsi": "Saya gak salah kan?"
+  },
+  {
+    "index": 379,
+    "soal": "Bendera nkri warnanya….",
+    "jawaban": "Cumaduaaja",
+    "deskripsi": "Kapan warnanya tiga?"
+  },
+  {
+    "index": 380,
+    "soal": "Pemain real madrid bernomor punggung 11",
+    "jawaban": "Bule",
+    "deskripsi": "Kan gareth bale emang bule. gitu aja kok susah"
+  },
+  {
+    "index": 381,
+    "soal": "Ada raja",
+    "jawaban": "Yatim",
+    "deskripsi": "Kan bapanya mati 🙁"
+  },
+  {
+    "index": 382,
+    "soal": "Teh diberi es jadi",
+    "jawaban": "Seger",
+    "deskripsi": "Apalagi pas cuaca panas"
+  },
+  {
+    "index": 383,
+    "soal": "Kita melihat bintang di..",
+    "jawaban": "Pundak",
+    "deskripsi": "Kan dipundak jendral, pangkat itu lho.."
+  },
+  {
+    "index": 384,
+    "soal": "Kaki menginjak kaca….",
+    "jawaban": "Mata",
+    "deskripsi": "Yah ga bisa lihat…rusak kacamatanya…"
+  },
+  {
+    "index": 385,
+    "soal": "Bisa kuat makan bayam?",
+    "jawaban": "Toploe",
+    "deskripsi": "Bener2 top, saya aja lemes klo bayam doang"
+  },
+  {
+    "index": 386,
+    "soal": "Perbuatan yang bikin heran",
+    "jawaban": "Bersiul",
+    "deskripsi": "Tuh kan heran.."
+  },
+  {
+    "index": 387,
+    "soal": "Bagaimana cara menambah teman dalam waktu sekejap",
+    "jawaban": "Nembakcewe",
+    "deskripsi": "Kalau di tolak pasti bilang kita temenan aja..kasian"
+  },
+  {
+    "index": 388,
+    "soal": "Yang sering mengganggu manusia saat ingin melakukan kebaikan?",
+    "jawaban": "Nakal",
+    "deskripsi": "Kok mau berbuat baik di ganggu? nakal banget yah"
+  },
+  {
+    "index": 389,
+    "soal": "Jika mau pergi ke acara kondangan",
+    "jawaban": "Anrapi",
+    "deskripsi": "Gitu dong, rapi kan ganteng"
+  },
+  {
+    "index": 390,
+    "soal": "Pohon yg tumbuh setelah bulan puasa",
+    "jawaban": "Maaf",
+    "deskripsi": "Pohon maaf lahir batin ya"
+  },
+  {
+    "index": 391,
+    "soal": "Ada domba sebelas di truk",
+    "jawaban": "Sebelas",
+    "deskripsi": "Kan cuma loncat doang gak kabur"
+  },
+  {
+    "index": 392,
+    "soal": "Jalan bebas macet",
+    "jawaban": "Top",
+    "deskripsi": "Berarti jalan tol pasti top"
+  },
+  {
+    "index": 393,
+    "soal": "Yang membantu dokter…",
+    "jawaban": "Sembuh",
+    "deskripsi": "Yang membantu dokter, insya allah sembuh.."
+  },
+  {
+    "index": 394,
+    "soal": "Pantai di jakarta?",
+    "jawaban": "Abiss",
+    "deskripsi": "Lama lama abis karena limbah, sedih"
+  },
+  {
+    "index": 395,
+    "soal": "Hewan yang dapat berubah warna kulitnya",
+    "jawaban": "Canggih",
+    "deskripsi": "(bunglon) karena hewan yang bisa berubah warna itu canggih kan!"
+  },
+  {
+    "index": 396,
+    "soal": "Apa yang biasa maling lakukan saat sabtu malam minggu",
+    "jawaban": "Nyuci",
+    "deskripsi": "Soalnya bajunya bau, karena waktu jumat malam sabtu buat lari dikejar warga"
+  },
+  {
+    "index": 397,
+    "soal": "Hewan yang hinggap dimakanan",
+    "jawaban": "Lapar",
+    "deskripsi": "Ya kan karena lapar"
+  },
+  {
+    "index": 398,
+    "soal": "Bersatu kita teguh bercerai kita…",
+    "jawaban": "Pisah",
+    "deskripsi": "Klo sudah cerai yah pasti pisah lah"
+  },
+  {
+    "index": 399,
+    "soal": "Jakarta macet si….lewat",
+    "jawaban": "Aplo",
+    "deskripsi": "Jakarta macet siap emang lo lewat ??"
+  },
+  {
+    "index": 400,
+    "soal": "Orang yang sering datang ke kampus",
+    "jawaban": "Masihidup",
+    "deskripsi": "Yaa klo udah mati gak bisa ke kampus"
+  },
+  {
+    "index": 401,
+    "soal": "Dalam satu tahun…..bulan",
+    "jawaban": "Cumasatu",
+    "deskripsi": "Walaupun nunggu lima tahun juga, bulan tetap satu jumlahnya."
+  },
+  {
+    "index": 402,
+    "soal": "Setelah lulus sekolah lanjut",
+    "jawaban": "Pulang",
+    "deskripsi": "Pulang…kasih kabar orang tua, selamat yah!"
+  },
+  {
+    "index": 403,
+    "soal": "Seekor rusa memiliki..",
+    "jawaban": "Temann",
+    "deskripsi": "Saking banyak teman nya ampe lebih n nya…"
+  },
+  {
+    "index": 404,
+    "soal": "Kartun ninja asal jepang",
+    "jawaban": "Nonton",
+    "deskripsi": "Soalnya kartunnya seru"
+  },
+  {
+    "index": 405,
+    "soal": "Agus pengen bermain bola di..",
+    "jawaban": "Bolehkan",
+    "deskripsi": "Dibolehkan sama orang tuanya, kalau enggak nanti agus nangis"
+  },
+  {
+    "index": 406,
+    "soal": "Hewan apa yang pintar memprediksi cuaca",
+    "jawaban": "Harimau",
+    "deskripsi": "Harimau hujan, harimau panas, kalau malam harimau gelap.."
+  },
+  {
+    "index": 407,
+    "soal": "Bola apa yang mirip kucing?",
+    "jawaban": "Bolaemon",
+    "deskripsi": "Hai baling baling bambuuu"
+  },
+  {
+    "index": 408,
+    "soal": "Yang mengemudikan kereta….",
+    "jawaban": "Masagus",
+    "deskripsi": "Mas agus tetangga saya lho ya…."
+  },
+  {
+    "index": 409,
+    "soal": "Lari jarak jauh",
+    "jawaban": "Malesah",
+    "deskripsi": "Kan jauh,belom lagi panas.."
+  },
+  {
+    "index": 410,
+    "soal": "Kalau tidur jangan lupa",
+    "jawaban": "Bangun",
+    "deskripsi": "Kalo gak bangun bisa gawat"
+  },
+  {
+    "index": 411,
+    "soal": "Gorila apa yang sebesar gedung?",
+    "jawaban": "Kegedean",
+    "deskripsi": "Mana ada gorila yang sebesar gedung…."
+  },
+  {
+    "index": 412,
+    "soal": "Sedikit sedikit lama lama jadi….",
+    "jawaban": "Dikit",
+    "deskripsi": "Kan sedikit jadi dikit lh di ambil terus"
+  },
+  {
+    "index": 413,
+    "soal": "Pak polisi menilang pelanggar dengan?",
+    "jawaban": "Prriit",
+    "deskripsi": "Kalau gak di prriiit gak minggir dong pelanggar nya"
+  },
+  {
+    "index": 414,
+    "soal": "Yang membantu dokter",
+    "jawaban": "Tangan",
+    "deskripsi": "Kalo nggak ada tangan, gimana mau operasi?"
+  },
+  {
+    "index": 415,
+    "soal": "Makanan favorit Superman",
+    "jawaban": "Sate krypton",
+    "deskripsi": "Dari kampung halamannya"
+  },
+  {
+    "index": 416,
+    "soal": "Kenapa hantu pakai baju?",
+    "jawaban": "Malu",
+    "deskripsi": "Kan transparan kalau nggak pakai"
+  },
+  {
+    "index": 417,
+    "soal": "Anak kecil suka main...",
+    "jawaban": "Api",
+    "deskripsi": "Biar rambutnya kribo"
+  },
+  {
+    "index": 418,
+    "soal": "Kenapa ayam nggak sekolah?",
+    "jawaban": "Botak",
+    "deskripsi": "Kan nggak punya rambut buat dirapikan"
+  },
+  {
+    "index": 419,
+    "soal": "Buah apa yang galak?",
+    "jawaban": "Rambutan",
+    "deskripsi": "Rambutnya kayak mohawk"
+  },
+  {
+    "index": 420,
+    "soal": "Yang membantu tukang cukur",
+    "jawaban": "Bulu",
+    "deskripsi": "Kalo nggak ada bulu, nganggur dong"
+  },
+  {
+    "index": 421,
+    "soal": "Kenapa kucing takut air?",
+    "jawaban": "Gendut",
+    "deskripsi": "Nanti tenggelam"
+  },
+  {
+    "index": 422,
+    "soal": "Apa yang ditakuti hantu?",
+    "jawaban": "Sendiri",
+    "deskripsi": "Kesepian soalnya"
+  },
+  {
+    "index": 423,
+    "soal": "Makanan favorit ikan",
+    "jawaban": "Ketawa",
+    "deskripsi": "Kan mulutnya selalu 'O' kayak ketawa"
+  },
+  {
+    "index": 424,
+    "soal": "Kenapa buku matematika kurus?",
+    "jawaban": "Diet",
+    "deskripsi": "Isinya angka-angka doang"
+  },
+  {
+    "index": 425,
+    "soal": "Yang bikin motor jalan",
+    "jawaban": "Angin",
+    "deskripsi": "Kalo ban kempes diisi angin"
+  },
+  {
+    "index": 426,
+    "soal": "Kenapi kupu-kupu pakai dasi?",
+    "jawaban": "Kerja",
+    "deskripsi": "Interview di kantor bunga"
+  },
+  {
+    "index": 427,
+    "soal": "Apa yang ditakuti setrika?",
+    "jawaban": "Kusut",
+    "deskripsi": "Banyak kerjaan nanti"
+  },
+  {
+    "index": 428,
+    "soal": "Makanan favorit laptop",
+    "jawaban": "Listrik",
+    "deskripsi": "Kan charger terus"
+  },
+  {
+    "index": 429,
+    "soal": "Kenapa pohon tinggi?",
+    "jawaban": "Jangkung",
+    "deskripsi": "Genetik dari kecil"
+  },
+  {
+    "index": 430,
+    "soal": "Yang bikin hujan berhenti",
+    "jawaban": "Capek",
+    "deskripsi": "Udah turun lama, istirahat dulu"
+  },
+  {
+    "index": 431,
+    "soal": "Kenapa remote ilang?",
+    "jawaban": "Malu",
+    "deskripsi": "TV-nya jelek"
+  },
+  {
+    "index": 432,
+    "soal": "Apa yang ditakuti es krim?",
+    "jawaban": "Panik",
+    "deskripsi": "Nanti meleleh"
+  },
+  {
+    "index": 433,
+    "soal": "Makanan favorit komodo",
+    "jawaban": "Waktu",
+    "deskripsi": "Kan hidupnya lama banget"
+  },
+  {
+    "index": 434,
+    "soal": "Kenapa cicak di tembok?",
+    "jawaban": "Panas",
+    "deskripsi": "Di lantai dingin"
+  },
+  {
+    "index": 435,
+    "soal": "Yang bikin pintu berisik",
+    "jawaban": "Sendiri",
+    "deskripsi": "Kesepian, minta perhatian"
+  },
+  {
+    "index": 436,
+    "soal": "Kenapa sendok nggak sombong?",
+    "jawaban": "Cekung",
+    "deskripsi": "Selalu rendah hati"
+  },
+  {
+    "index": 437,
+    "soal": "Apa yang ditakuti pensil?",
+    "jawaban": "Botak",
+    "deskripsi": "Nanti habis isinya"
+  },
+  {
+    "index": 438,
+    "soal": "Makanan favorit awan",
+    "jawaban": "Angin",
+    "deskripsi": "Biar bisa jalan-jalan"
+  },
+  {
+    "index": 439,
+    "soal": "Kenapa anak kecil suka es krim?",
+    "jawaban": "Pinter",
+    "deskripsi": "Tahu yang enak"
+  },
+  {
+    "index": 440,
+    "soal": "Yang bikin HP lowbat",
+    "jawaban": "Chat",
+    "deskripsi": "Dibawa ngobrol terus"
+  },
+  {
+    "index": 441,
+    "soal": "Kenapa roda bundar?",
+    "jawaban": "Cepet",
+    "deskripsi": "Kalo kotak muter dulu"
+  },
+  {
+    "index": 442,
+    "soal": "Apa yang ditakati matahari?",
+    "jawaban": "Malam",
+    "deskripsi": "Nanti diganti bulan"
+  },
+  {
+    "index": 443,
+    "soal": "Makanan favorit tukang bakso",
+    "jawaban": "Bakso",
+    "deskripsi": "Coba-coba masaknya"
+  },
+  {
+    "index": 444,
+    "soal": "Kenapa pelajar begadang?",
+    "jawaban": "Tugas",
+    "deskripsi": "Besok dikumpulin"
+  },
+  {
+    "index": 445,
+    "soal": "Yang bikin kaya",
+    "jawaban": "Mimpi",
+    "deskripsi": "Tidur terus kaya"
+  },
+  {
+    "index": 446,
+    "soal": "Kenapa es krim takut api?",
+    "jawaban": "Lemah",
+    "deskripsi": "Mentalnya mudah meleleh"
+  },
+  {
+    "index": 447,
+    "soal": "Apa yang ditakuti kaya?",
+    "jawaban": "Miskin",
+    "deskripsi": "Balik lagi ke masa lalu"
+  },
+  {
+    "index": 448,
+    "soal": "Makanan favorit miskin",
+    "jawaban": "Kaya",
+    "deskripsi": "Pengen jadi kaya"
+  },
+  {
+    "index": 449,
+    "soal": "Kenapa batu nggak sakit?",
+    "jawaban": "Berani",
+    "deskripsi": "Tubuhnya keras"
+  },
+  {
+    "index": 450,
+    "soal": "Yang bikin semut antri",
+    "jawaban": "Rame",
+    "deskripsi": "Kalo sendirian nggak antri"
+  },
+  {
+    "index": 451,
+    "soal": "Kenapa cermin jujur?",
+    "jawaban": "Polos",
+    "deskripsi": "Nggak bisa bohong"
+  },
+  {
+    "index": 452,
+    "soal": "Apa yang ditakuti angin?",
+    "jawaban": "Diam",
+    "deskripsi": "Nanti dikira mati"
+  },
+  {
+    "index": 453,
+    "soal": "Makanan favorit bolos",
+    "jawaban": "Alasan",
+    "deskripsi": "Banyak alasan buat bolos"
+  },
+  {
+    "index": 454,
+    "soal": "Kenapa laptop panas?",
+    "jawaban": "Gerah",
+    "deskripsi": "Kerja terus nggak istirahat"
+  },
+  {
+    "index": 455,
+    "soal": "Yang bikin bulan bersinar",
+    "jawaban": "Malu",
+    "deskripsi": "Dipelototin banyak orang"
+  },
+  {
+    "index": 456,
+    "soal": "Kenapa pensil punya penghapus?",
+    "jawaban": "Salah",
+    "deskripsi": "Biar bisa hapus kesalahan"
+  },
+  {
+    "index": 457,
+    "soal": "Apa yang ditakuti pintu?",
+    "jawaban": "Sendiri",
+    "deskripsi": "Nggak ada yang buka"
+  },
+  {
+    "index": 458,
+    "soal": "Makanan favorit somay",
+    "jawaban": "Sambel",
+    "deskripsi": "Kalo nggak pake sambel hambar"
+  },
+  {
+    "index": 459,
+    "soal": "Kenapa anak sekolah ngantuk?",
+    "jawaban": "Buku",
+    "deskripsi": "Bacanya bikin ngantuk"
+  },
+  {
+    "index": 460,
+    "soal": "Yang bikin programmer gila",
+    "jawaban": "Bug",
+    "deskripsi": "Dikejar-kejar bug terus"
+  },
+  {
+    "index": 461,
+    "soal": "Kenapa hujan bikin basah?",
+    "jawaban": "Banyak",
+    "deskripsi": "Kalo cuma setetes nggak basah"
+  },
+  {
+    "index": 462,
+    "soal": "Apa yang ditakuti api?",
+    "jawaban": "Air",
+    "deskripsi": "Nanti diputusin"
+  },
+  {
+    "index": 463,
+    "soal": "Makanan favorit air",
+    "jawaban": "Botol",
+    "deskripsi": "Tempat tinggalnya"
+  },
+  {
+    "index": 464,
+    "soal": "Kenapi pohon berdaun?",
+    "jawaban": "Botak",
+    "deskripsi": "Kalo nggak ada daun kan botak"
+  },
+  {
+    "index": 465,
+    "soal": "Yang bikin kucing manja",
+    "jawaban": "Lapar",
+    "deskripsi": "Minta makan terus"
+  },
+  {
+    "index": 466,
+    "soal": "Kenapa bola basket bundar?",
+    "jawaban": "Muter",
+    "deskripsi": "Kalo kotak nggak bisa muter"
+  },
+  {
+    "index": 467,
+    "soal": "Apa yang ditakuti sakit?",
+    "jawaban": "Sehat",
+    "deskripsi": "Nanti nggak ada kerjaan"
+  },
+  {
+    "index": 468,
+    "soal": "Makanan favorit sehat",
+    "jawaban": "Sakit",
+    "deskripsi": "Biar ada lawannya"
+  },
+  {
+    "index": 469,
+    "soal": "Kenapi matahari terbit?",
+    "jawaban": "Bangun",
+    "deskripsi": "Tidurnya udah cukup"
+  },
+  {
+    "index": 470,
+    "soal": "Yang bikin pohon tumbang",
+    "jawaban": "Lelah",
+    "deskripsi": "Udah tua, capek berdiri"
+  },
+  {
+    "index": 471,
+    "soal": "Kenapa televisi gemuk?",
+    "jawaban": "Kebanyakan",
+    "deskripsi": "Isinya sinetron semua"
+  },
+  {
+    "index": 472,
+    "soal": "Apa yang ditakuti gemuk?",
+    "jawaban": "Kurus",
+    "deskripsi": "Nanti dibilang diet"
+  },
+  {
+    "index": 473,
+    "soal": "Makanan favorit kurus",
+    "jawaban": "Gemuk",
+    "deskripsi": "Pengen jadi gemuk"
+  },
+  {
+    "index": 474,
+    "soal": "Kenapa lampu merah lama?",
+    "jawaban": "Tidur",
+    "deskripsi": "Lagi nyantai"
+  },
+  {
+    "index": 475,
+    "soal": "Yang bikin anak nakal",
+    "jawaban": "Lapar",
+    "deskripsi": "Kalo kenyang nggak nakal"
+  },
+  {
+    "index": 476,
+    "soal": "Kenapi buku tebal?",
+    "jawaban": "Banyak",
+    "deskripsi": "Isinya banyak cerita"
+  },
+  {
+    "index": 477,
+    "soal": "Apa yang ditakuti tebal?",
+    "jawaban": "Tipis",
+    "deskripsi": "Nanti dikira kurang"
+  },
+  {
+    "index": 478,
+    "soal": "Makanan favorit tipis",
+    "jawaban": "Tebal",
+    "deskripsi": "Pengen jadi tebal"
+  },
+  {
+    "index": 479,
+    "soal": "Kenapa kipas angin muter?",
+    "jawaban": "Pusing",
+    "deskripsi": "Kepalanya muter terus"
+  },
+  {
+    "index": 480,
+    "soal": "Yang bikin jam berdetak",
+    "jawaban": "Jantung",
+    "deskripsi": "Kan sama-sama detak"
+  },
+  {
+    "index": 481,
+    "soal": "Kenapi kaca bening?",
+    "jawaban": "Jujur",
+    "deskripsi": "Nggak bisa sembunyiin"
+  },
+  {
+    "index": 482,
+    "soal": "Apa yang ditakuti bening?",
+    "jawaban": "Kotor",
+    "deskripsi": "Nanti nggak keliatan"
+  },
+  {
+    "index": 483,
+    "soal": "Makanan favorit kotor",
+    "jawaban": "Sabun",
+    "deskripsi": "Musuh bebuyutan"
+  },
+  {
+    "index": 484,
+    "soal": "Kenapi sabun licin?",
+    "jawaban": "Lari",
+    "deskripsi": "Suka kabur dari tangan"
+  },
+  {
+    "index": 485,
+    "soal": "Yang bikin telur pecah",
+    "jawaban": "Jatuh",
+    "deskripsi": "Kalo dipegang santai aman"
+  },
+  {
+    "index": 486,
+    "soal": "Kenapi nasi putih?",
+    "jawaban": "Malu",
+    "deskripsi": "Kalo merah artinya belum mateng"
+  },
+  {
+    "index": 487,
+    "soal": "Apa yang ditakuti putih?",
+    "jawaban": "Noda",
+    "deskripsi": "Nanti jadi kotor"
+  },
+  {
+    "index": 488,
+    "soal": "Makanan favorit noda",
+    "jawaban": "Baju",
+    "deskripsi": "Tempat tinggalnya"
+  },
+  {
+    "index": 489,
+    "soal": "Kenapa baju basah?",
+    "jawaban": "Mandi",
+    "deskripsi": "Ikut pemiliknya mandi"
+  },
+  {
+    "index": 490,
+    "soal": "Yang bikin kering",
+    "jawaban": "Matahari",
+    "deskripsi": "Jemurannya nomor satu"
+  },
+  {
+    "index": 491,
+    "soal": "Kenapi matahari panas?",
+    "jawaban": "Geram",
+    "deskripsi": "Dipelototin terus"
+  },
+  {
+    "index": 492,
+    "soal": "Apa yang ditakuti panas?",
+    "jawaban": "Dingin",
+    "deskripsi": "Nanti dikalahin"
+  },
+  {
+    "index": 493,
+    "soal": "Makanan favorit dingin",
+    "jawaban": "Es",
+    "deskripsi": "Saudara dekat"
+  },
+  {
+    "index": 494,
+    "soal": "Kenapi es dingin?",
+    "jawaban": "Malu",
+    "deskripsi": "Kalo panas namanya air"
+  },
+  {
+    "index": 495,
+    "soal": "Yang bikin air mengalir",
+    "jawaban": "Turun",
+    "deskripsi": "Dari atas ke bawah"
+  },
+  {
+    "index": 496,
+    "soal": "Kenapa gunung tinggi?",
+    "jawaban": "Pede",
+    "deskripsi": "Paling tinggi di daerahnya"
+  },
+  {
+    "index": 497,
+    "soal": "Apa yang ditakuti tinggi?",
+    "jawaban": "Rendah",
+    "deskripsi": "Nanti disamain"
+  },
+  {
+    "index": 498,
+    "soal": "Makanan favorit rendah",
+    "jawaban": "Tinggi",
+    "deskripsi": "Pengen jadi tinggi"
+  },
+  {
+    "index": 499,
+    "soal": "Kenapi jalan panjang?",
+    "jawaban": "Jauh",
+    "deskripsi": "Tujuannya jauh"
+  },
+  {
+    "index": 500,
+    "soal": "Yang bikin jauh dekat",
+    "jawaban": "Motor",
+    "deskripsi": "Naik motor jadi dekat"
+  },
+  {
+    "index": 501,
+    "soal": "Kenapi motor ngebut?",
+    "jawaban": "Telat",
+    "deskripsi": "Dikejar waktu"
+  },
+  {
+    "index": 502,
+    "soal": "Apa yang ditakuti telat?",
+    "jawaban": "Cepat",
+    "deskripsi": "Nanti dikatain lambat"
+  },
+  {
+    "index": 503,
+    "soal": "Makanan favorit cepat",
+    "jawaban": "Instan",
+    "deskripsi": "Sama-sama cepat"
+  },
+  {
+    "index": 504,
+    "soal": "Kenapi instan enak?",
+    "jawaban": "Praktis",
+    "deskripsi": "Nggak perlu masak lama"
+  },
+  {
+    "index": 505,
+    "soal": "Yang bikin praktis ribet",
+    "jawaban": "Baca",
+    "deskripsi": "Petunjuknya panjang"
+  },
+  {
+    "index": 506,
+    "soal": "Kenapi buku berat?",
+    "jawaban": "Isi",
+    "deskripsi": "Otaknya penuh"
+  },
+  {
+    "index": 507,
+    "soal": "Apa yang ditakuti berat?",
+    "jawaban": "Ringan",
+    "deskripsi": "Nanti dibilang kosong"
+  },
+  {
+    "index": 508,
+    "soal": "Makanan favorit ringan",
+    "jawaban": "Angin",
+    "deskripsi": "Sama-sama ringan"
+  },
+  {
+    "index": 509,
+    "soal": "Kenapi angin nggak kelihatan?",
+    "jawaban": "Malu",
+    "deskripsi": "Mukanya jelek"
+  },
+  {
+    "index": 510,
+    "soal": "Yang bikin kelihatan samar",
+    "jawaban": "Kabut",
+    "deskripsi": "Kacamata alam"
+  },
+  {
+    "index": 511,
+    "soal": "Kenapa kabut putih?",
+    "jawaban": "Bersih",
+    "deskripsi": "Baru dicuci"
+  },
+  {
+    "index": 512,
+    "soal": "Apa yang ditakuti bersih?",
+    "jawaban": "DeBu",
+    "deskripsi": "Musuh abadi"
+  },
+  {
+    "index": 513,
+    "soal": "Makanan favorit debu",
+    "jawaban": "Lemari",
+    "deskripsi": "Tempat favoritnya"
+  },
+  {
+    "index": 514,
+    "soal": "Kenapi lemari gelap?",
+    "jawaban": "Takut",
+    "deskripsi": "Isinya misterius"
+  },
+  {
+    "index": 515,
+    "soal": "Yang bikin gelap terang",
+    "jawaban": "Saklar",
+    "deskripsi": "Jurus saklar terang"
+  },
+  {
+    "index": 516,
+    "soal": "Kenapi saklar kecil?",
+    "jawaban": "Simpel",
+    "deskripsi": "Nggak perlu besar-besar"
+  },
+  {
+    "index": 517,
+    "soal": "Apa yang ditakuti simpel?",
+    "jawaban": "Ribet",
+    "deskripsi": "Nanti jadi susah"
+  },
+  {
+    "index": 518,
+    "soal": "Makanan favorit ribet",
+    "jawaban": "Aturan",
+    "deskripsi": "Suka bikin aturan ribet"
+  },
+  {
+    "index": 519,
+    "soal": "Kenapi aturan banyak?",
+    "jawaban": "Bingung",
+    "deskripsi": "Yang bikin juga bingung"
+  },
+  {
+    "index": 520,
+    "soal": "Yang bikin bingung jelas",
+    "jawaban": "Jawaban",
+    "deskripsi": "Ada jawaban jadi jelas"
+  },
+  {
+    "index": 521,
+    "soal": "Kenapa jawaban panjang?",
+    "jawaban": "Detail",
+    "deskripsi": "Biar nggak ditanya lagi"
+  },
+  {
+    "index": 522,
+    "soal": "Apa yang ditakuti detail?",
+    "jawaban": "Singkat",
+    "deskripsi": "Nanti dikira kurang"
+  },
+  {
+    "index": 523,
+    "soal": "Makanan favorit singkat",
+    "jawaban": "Ya",
+    "deskripsi": "Jawaban tersingkat"
+  },
+  {
+    "index": 524,
+    "soal": "Kenapa 'ya' pendek?",
+    "jawaban": "Setuju",
+    "deskripsi": "Nggak perlu banyak bicara"
+  },
+  {
+    "index": 525,
+    "soal": "Yang bikin setuju nggak",
+    "jawaban": "Banding",
+    "deskripsi": "Ada opsi lain"
+  },
+  {
+    "index": 526,
+    "soal": "Kenapa banding lama?",
+    "jawaban": "Pikir",
+    "deskripsi": "Mikir yang bagusan"
+  },
+  {
+    "index": 527,
+    "soal": "Apa yang ditakuti pikir?",
+    "jawaban": "Lupa",
+    "deskripsi": "Nanti ilang semua"
+  },
+  {
+    "index": 528,
+    "soal": "Makanan favorit lupa",
+    "jawaban": "Ingat",
+    "deskripsi": "Suka bikin ingat"
+  },
+  {
+    "index": 529,
+    "soal": "Kenapi ingat susah?",
+    "jawaban": "Banyak",
+    "deskripsi": "Yang harus diingat banyak"
+  },
+  {
+    "index": 530,
+    "soal": "Yang bikin banyak sedikit",
+    "jawaban": "Habis",
+    "deskripsi": "Dimakan terus habis"
+  },
+  {
+    "index": 531,
+    "soal": "Kenapa habis ada?",
+    "jawaban": "Beli",
+    "deskripsi": "Beli lagi jadi ada"
+  },
+  {
+    "index": 532,
+    "soal": "Apa yang ditakuti beli?",
+    "jawaban": "Mahal",
+    "deskripsi": "Nggak cukup duit"
+  },
+  {
+    "index": 533,
+    "soal": "Makanan favorit mahal",
+    "jawaban": "Kartu",
+    "deskripsi": "Kartu kredit temannya"
+  },
+  {
+    "index": 534,
+    "soal": "Kenapi kartu tipis?",
+    "jawaban": "Ringan",
+    "deskripsi": "Biar mudah dibawa"
+  },
+  {
+    "index": 535,
+    "soal": "Yang bikin ringan berat",
+    "jawaban": "Isi",
+    "deskripsi": "Isi pulsa banyak"
+  },
+  {
+    "index": 536,
+    "soal": "Kenapi pulsa habis?",
+    "jawaban": "Telpon",
+    "deskripsi": "Ditelponin mantan"
+  },
+  {
+    "index": 537,
+    "soal": "Apa yang ditakuti telpon?",
+    "jawaban": "Sibuk",
+    "deskripsi": "Nggak diangkat"
+  },
+  {
+    "index": 538,
+    "soal": "Makanan favorit sibuk",
+    "jawaban": "Waktu",
+    "deskripsi": "Selalu kurang"
+  },
+  {
+    "index": 539,
+    "soal": "Kenapi waktu cepat?",
+    "jawaban": "Asik",
+    "deskripsi": "Kalo nunggu lama"
+  },
+  {
+    "index": 540,
+    "soal": "Yang bikin cepat lambat",
+    "jawaban": "Macet",
+    "deskripsi": "Raja penghenti"
+  },
+  {
+    "index": 541,
+    "soal": "Kenapa macet ada?",
+    "jawaban": "Banyak",
+    "deskripsi": "Mobilnya kebanyakan"
+  },
+  {
+    "index": 542,
+    "soal": "Apa yang ditakuti banyak?",
+    "jawaban": "Satu",
+    "deskripsi": "Nanti dikit semua"
+  },
+  {
+    "index": 543,
+    "soal": "Makanan favorit satu",
+    "jawaban": "Pasangan",
+    "deskripsi": "Pengen ada yang kedua"
+  },
+  {
+    "index": 544,
+    "soal": "Kenapi pasangan dua?",
+    "jawaban": "Genap",
+    "deskripsi": "Biar nggak sendiri"
+  },
+  {
+    "index": 545,
+    "soal": "Yang bikin genap ganjil",
+    "jawaban": "Matematika",
+    "deskripsi": "Pelajaran favorit"
+  },
+  {
+    "index": 546,
+    "soal": "Kenapa matematika susah?",
+    "jawaban": "Angka",
+    "deskripsi": "Banyak banget angkanya"
+  },
+  {
+    "index": 547,
+    "soal": "Apa yang ditakuti angka?",
+    "jawaban": "Huruf",
+    "deskripsi": "Nanti jadi pelajaran lain"
+  },
+  {
+    "index": 548,
+    "soal": "Makanan favorit huruf",
+    "jawaban": "Kata",
+    "deskripsi": "Tempat berkumpulnya"
+  },
+  {
+    "index": 549,
+    "soal": "Kenapa kata panjang?",
+    "jawaban": "Banyak",
+    "deskripsi": "Hurufnya banyak"
+  },
+  {
+    "index": 550,
+    "soal": "Yang bikin panjang pendek",
+    "jawaban": "Gunting",
+    "deskripsi": "Tukang potong profesional"
+  },
+  {
+    "index": 551,
+    "soal": "Kenapi gunting tajam?",
+    "jawaban": "Potong",
+    "deskripsi": "Biar mudah motong"
+  },
+  {
+    "index": 552,
+    "soal": "Apa yang ditakuti potong?",
+    "jawaban": "Sambung",
+    "deskripsi": "Nanti disambung lagi"
+  },
+  {
+    "index": 553,
+    "soal": "Makanan favorit sambung",
+    "jawaban": "Putus",
+    "deskripsi": "Lawan mainnya"
+  },
+  {
+    "index": 554,
+    "soal": "Kenapa putus sedih?",
+    "jawaban": "Sendiri",
+    "deskripsi": "Kembali jomblo"
+  },
+  {
+    "index": 555,
+    "soal": "Yang bikin sendiri rame",
+    "jawaban": "Teman",
+    "deskripsi": "Datang banyak teman"
+  },
+  {
+    "index": 556,
+    "soal": "Kenapi teman banyak?",
+    "jawaban": "Asik",
+    "deskripsi": "Orangnya asik-asik"
+  },
+  {
+    "index": 557,
+    "soal": "Apa yang ditakuti asik?",
+    "jawaban": "Bosen",
+    "deskripsi": "Nanti ditinggal"
+  },
+  {
+    "index": 558,
+    "soal": "Makanan favorit bosen",
+    "jawaban": "Baru",
+    "deskripsi": "Pengen sesuatu yang baru"
+  },
+  {
+    "index": 559,
+    "soal": "Kenapa baru mahal?",
+    "jawaban": "Trend",
+    "deskripsi": "Ikut trend harga naik"
+  },
+  {
+    "index": 560,
+    "soal": "Yang bikin trend ketinggalan",
+    "jawaban": "Zaman",
+    "deskripsi": "Zaman berubah cepat"
+  },
+  {
+    "index": 561,
+    "soal": "Kenapa zaman dulu?",
+    "jawaban": "Lalu",
+    "deskripsi": "Sudah berlalu"
+  },
+  {
+    "index": 562,
+    "soal": "Apa yang ditakuti lalu?",
+    "jawaban": "Sekarang",
+    "deskripsi": "Nanti jadi masa lalu juga"
+  },
+  {
+    "index": 563,
+    "soal": "Makanan favorit sekarang",
+    "jawaban": "Nanti",
+    "deskripsi": "Selalu ditunda"
+  },
+  {
+    "index": 564,
+    "soal": "Kenapa nanti lama?",
+    "jawaban": "Besok",
+    "deskripsi": "Besoknya besok lagi"
+  },
+  {
+    "index": 565,
+    "soal": "Yang bikin besok hari ini",
+    "jawaban": "Tidur",
+    "deskripsi": "Bangun tidur udah hari ini"
+  },
+  {
+    "index": 566,
+    "soal": "Kenapa tidur nyenyak?",
+    "jawaban": "Lelah",
+    "deskripsi": "Kerja seharian"
+  },
+  {
+    "index": 567,
+    "soal": "Apa yang ditakuti lelah?",
+    "jawaban": "Istirahat",
+    "deskripsi": "Nanti segar lagi"
+  },
+  {
+    "index": 568,
+    "soal": "Makanan favorit istirahat",
+    "jawaban": "Rebahan",
+    "deskripsi": "Aktivitas utama"
+  },
+  {
+    "index": 569,
+    "soal": "Kenapa rebahan enak?",
+    "jawaban": "Santai",
+    "deskripsi": "Nggak ada kerjaan"
+  },
+  {
+    "index": 570,
+    "soal": "Yang bikin santai buru-buru",
+    "jawaban": "Deadline",
+    "deskripsi": "Momok menakutkan"
+  },
+  {
+    "index": 571,
+    "soal": "Kenapa deadline ngeri?",
+    "jawaban": "Kurang",
+    "deskripsi": "Waktunya kurang"
+  },
+  {
+    "index": 572,
+    "soal": "Apa yang ditakuti kurang?",
+    "jawaban": "Lebih",
+    "deskripsi": "Nanti kelebihan"
+  },
+  {
+    "index": 573,
+    "soal": "Makanan favorit lebih",
+    "jawaban": "Kurang",
+    "deskripsi": "Biar balance"
+  },
+  {
+    "index": 574,
+    "soal": "Kenapa kurang cukup?",
+    "jawaban": "Pas",
+    "deskripsi": "Udah pas nggak kurang"
+  },
+  {
+    "index": 575,
+    "soal": "Yang bikin pas enggak",
+    "jawaban": "Coba",
+    "deskripsi": "Coba lagi besok"
+  },
+  {
+    "index": 576,
+    "soal": "Kenapa coba berkali-kali?",
+    "jawaban": "Gagal",
+    "deskripsi": "Selalu gagal terus"
+  },
+  {
+    "index": 577,
+    "soal": "Apa yang ditakuti gagal?",
+    "jawaban": "Sukses",
+    "deskripsi": "Nanti dibilang berhasil"
+  },
+  {
+    "index": 578,
+    "soal": "Makanan favorit sukses",
+    "jawaban": "Usaha",
+    "deskripsi": "Kuncinya sukses"
+  },
+  {
+    "index": 579,
+    "soal": "Kenapa usaha susah?",
+    "jawaban": "Modal",
+    "deskripsi": "Modalnya nggak ada"
+  },
+  {
+    "index": 580,
+    "soal": "Yang bikin modal hilang",
+    "jawaban": "Gagal",
+    "deskripsi": "Usaha gagal modal hilang"
+  },
+  {
+    "index": 581,
+    "soal": "Kenapa hilang dicari?",
+    "jawaban": "Penting",
+    "deskripsi": "Barangnya penting"
+  },
+  {
+    "index": 582,
+    "soal": "Apa yang ditakuti penting?",
+    "jawaban": "Sembrono",
+    "deskripsi": "Nanti hilang lagi"
+  },
+  {
+    "index": 583,
+    "soal": "Makanan favorit sembrono",
+    "jawaban": "Hilang",
+    "deskripsi": "Suka bikin hilang"
+  },
+  {
+    "index": 584,
+    "soal": "Kenapa hilang ketemu?",
+    "jawaban": "Cari",
+    "deskripsi": "Dicari ketemu"
+  },
+  {
+    "index": 585,
+    "soal": "Yang bikin cari berhenti",
+    "jawaban": "Ketemu",
+    "deskripsi": "Udah ketemu ya berhenti"
+  },
+  {
+    "index": 586,
+    "soal": "Kenapa ketemu senang?",
+    "jawaban": "Rindu",
+    "deskripsi": "Kangen ketemu"
+  },
+  {
+    "index": 587,
+    "soal": "Apa yang ditakuti rindu?",
+    "jawaban": "Lupa",
+    "deskripsi": "Nanti ilang perasaan"
+  },
+  {
+    "index": 588,
+    "soal": "Makanan favorit lupa",
+    "jawaban": "Ingat",
+    "deskripsi": "Suka datang tiba-tiba"
+  },
+  {
+    "index": 589,
+    "soal": "Kenapa ingat muncul?",
+    "jawaban": "Pengingat",
+    "deskripsi": "Ada yang ngingetin"
+  },
+  {
+    "index": 590,
+    "soal": "Yang bikin pengingat lupa",
+    "jawaban": "Matikan",
+    "deskripsi": "Notifikasinya dimatikan"
+  },
+  {
+    "index": 591,
+    "soal": "Kenapa matikan hidup?",
+    "jawaban": "Nyalakan",
+    "deskripsi": "Dinyalakan lagi"
+  },
+  {
+    "index": 592,
+    "soal": "Apa yang ditakiti nyalakan?",
+    "jawaban": "Listrik",
+    "deskripsi": "Nggak ada listrik nggak nyala"
+  },
+  {
+    "index": 593,
+    "soal": "Makanan favorit listrik",
+    "jawaban": "Stop",
+    "deskripsi": "PLN suka matiin"
+  },
+  {
+    "index": 594,
+    "soal": "Kenapa stop kontak?",
+    "jawaban": "Colok",
+    "deskripsi": "Tempat buat colok"
+  },
+  {
+    "index": 595,
+    "soal": "Yang bikin colok cabut",
+    "jawaban": "Panas",
+    "deskripsi": "Kebanyakan colok jadi panas"
+  },
+  {
+    "index": 596,
+    "soal": "Kenapa panas berbahaya?",
+    "jawaban": "Kebakar",
+    "deskripsi": "Bisa kebakaran"
+  },
+  {
+    "index": 597,
+    "soal": "Apa yang ditakuti kebakar?",
+    "jawaban": "Pemadam",
+    "deskripsi": "Musuhnya api"
+  },
+  {
+    "index": 598,
+    "soal": "Makanan favorit pemadam",
+    "jawaban": "Api",
+    "deskripsi": "Makanan utamanya"
+  },
+  {
+    "index": 599,
+    "soal": "Kenapi api merah?",
+    "jawaban": "Marah",
+    "deskripsi": "Wajah orang marah merah"
+  },
+  {
+    "index": 600,
+    "soal": "Yang bikin marah senang",
+    "jawaban": "Maaf",
+    "deskripsi": "Minta maaf bikin senang"
+  },
+  {
+    "index": 601,
+    "soal": "Kenapa maaf sulit?",
+    "jawaban": "Ego",
+    "deskripsi": "Ego terlalu tinggi"
+  },
+  {
+    "index": 602,
+    "soal": "Apa yang ditakuti ego?",
+    "jawaban": "Rendah",
+    "deskripsi": "Nanti dikira lemah"
+  },
+  {
+    "index": 603,
+    "soal": "Makanan favorit rendah",
+    "jawaban": "Hati",
+    "deskripsi": "Rendah hati"
+  },
+  {
+    "index": 604,
+    "soal": "Kenapa hati lembut?",
+    "jawaban": "Perasaan",
+    "deskripsi": "Tempatnya perasaan"
+  },
+  {
+    "index": 605,
+    "soal": "Yang bikin perasaan hancur",
+    "jawaban": "Kata",
+    "deskripsi": "Kata-kata pedas"
+  },
+  {
+    "index": 606,
+    "soal": "Kenapa kata menyakitkan?",
+    "jawaban": "Tajam",
+    "deskripsi": "Lebih tajam dari pisau"
+  },
+  {
+    "index": 607,
+    "soal": "Apa yang ditakuti tajam?",
+    "jawaban": "Tumpul",
+    "deskripsi": "Nanti nggak mempan"
+  },
+  {
+    "index": 608,
+    "soal": "Makanan favorit tumpul",
+    "jawaban": "Asah",
+    "deskripsi": "Biar tajam lagi"
+  },
+  {
+    "index": 609,
+    "soal": "Kenapi asah lama?",
+    "jawaban": "Keras",
+    "deskripsi": "Bendanya keras"
+  },
+  {
+    "index": 610,
+    "soal": "Yang bikin keras lembek",
+    "jawaban": "Air",
+    "deskripsi": "Direndam air jadi lembek"
+  },
+  {
+    "index": 611,
+    "soal": "Kenapa air bening?",
+    "jawaban": "Jernih",
+    "deskripsi": "Hatinya bersih"
+  },
+  {
+    "index": 612,
+    "soal": "Apa yang ditakuti jernih?",
+    "jawaban": "Keruh",
+    "deskripsi": "Nanti jadi kotor"
+  },
+  {
+    "index": 613,
+    "soal": "Makanan favorit keruh",
+    "jawaban": "Endap",
+    "deskripsi": "Diendapin biar jernih"
+  },
+  {
+    "index": 614,
+    "soal": "Kenapa komputer nggak bisa tidur?",
+    "jawaban": "Insomnia",
+    "deskripsi": "Mata selalu terbuka, layarnya nyala terus"
+  },
+  {
+    "index": 615,
+    "soal": "Apa yang ditakuti gula?",
+    "jawaban": "Diabetes",
+    "deskripsi": "Kalo ketemu bisa berakhir tragis"
+  },
+  {
+    "index": 616,
+    "soal": "Makanan favorit hantu bangsal?",
+    "jawaban": "Obat",
+    "deskripsi": "Soalnya di rumah sakit cuma ada itu"
+  },
+  {
+    "index": 617,
+    "soal": "Kenapa remote TV sering hilang?",
+    "jawaban": "Malu",
+    "deskripsi": "TV nya jelek, malu dipamerin"
+  },
+  {
+    "index": 618,
+    "soal": "Yang bikin pohon nangis",
+    "jawaban": "Ditebang",
+    "deskripsi": "Sedih, udah tua digituin"
+  },
+  {
+    "index": 619,
+    "soal": "Kenapa matahari naik motor?",
+    "jawaban": "Terbit",
+    "deskripsi": "Naik motor biar cepat terbit"
+  },
+  {
+    "index": 620,
+    "soal": "Apa yang ditakuti es batu?",
+    "jawaban": "Mandi",
+    "deskripsi": "Nanti meleleh jadi air"
+  },
+  {
+    "index": 621,
+    "soal": "Makanan favorit tukang parkir",
+    "jawaban": "Karcis",
+    "deskripsi": "Buat dia, karcis itu makanan jiwa"
+  },
+  {
+    "index": 622,
+    "soal": "Kenapa anak kos kurus?",
+    "jawaban": "Ngirit",
+    "deskripsi": "Makan nasi sama garam doang"
+  },
+  {
+    "index": 623,
+    "soal": "Yang bikin jomblo bahagia",
+    "jawaban": "Tidur",
+    "deskripsi": "Mimpi punya pacar gratis"
+  },
+  {
+    "index": 624,
+    "soal": "Kenapa kucing takut hujan?",
+    "jawaban": "Bandel",
+    "deskripsi": "Tadinya cuek, basah baru takut"
+  },
+  {
+    "index": 625,
+    "soal": "Apa yang ditakuti listrik?",
+    "jawaban": "Lampu",
+    "deskripsi": "Nanti dipake terus-terusan"
+  },
+  {
+    "index": 626,
+    "soal": "Makanan favorit lampu",
+    "jawaban": "Listrik",
+    "deskripsi": "Teman sejati, tanpa listrik mati"
+  },
+  {
+    "index": 627,
+    "soal": "Kenapa HP minta charger?",
+    "jawaban": "Lapar",
+    "deskripsi": "Baterainya kosong, butuh makan"
+  },
+  {
+    "index": 628,
+    "soal": "Yang bikin mantan chat",
+    "jawaban": "Sendiri",
+    "deskripsi": "Lagi sepi, butuh perhatian"
+  },
+  {
+    "index": 629,
+    "soal": "Kenapa air laut asin?",
+    "jawaban": "Ikan",
+    "deskripsi": "Ikan pada kencing di situ"
+  },
+  {
+    "index": 630,
+    "soal": "Apa yang ditakuti ganteng?",
+    "jawaban": "Cermin",
+    "deskripsi": "Nanti liat sendiri, makin pede"
+  },
+  {
+    "index": 631,
+    "soal": "Makanan favorit cermin",
+    "jawaban": "Bayan",
+    "deskripsi": "Suka ngulang kata-kata"
+  },
+  {
+    "index": 632,
+    "soal": "Kenapa bayan pintar?",
+    "jawaban": "Niru",
+    "deskripsi": "Niru omongan orang terus"
+  },
+  {
+    "index": 633,
+    "soal": "Yang bikin pintar bodoh",
+    "jawaban": "Lupa",
+    "deskripsi": "Ilmu ilang semua, jadi bodoh"
+  },
+  {
+    "index": 634,
+    "soal": "Kenapa bodoh bahagia?",
+    "jawaban": "Santai",
+    "deskripsi": "Nggak mikir berat, hidup ringan"
+  },
+  {
+    "index": 635,
+    "soal": "Apa yang ditakuti bahagia?",
+    "jawaban": "Masalah",
+    "deskripsi": "Datang tiba-tiba, bikin pusing"
+  },
+  {
+    "index": 636,
+    "soal": "Makanan favorit masalah",
+    "jawaban": "Pikiran",
+    "deskripsi": "Dipikirin terus makin besar"
+  },
+  {
+    "index": 637,
+    "soal": "Kenapa pikiran berat?",
+    "jawaban": "Banyak",
+    "deskripsi": "Masuk sana-sini, overload"
+  },
+  {
+    "index": 638,
+    "soal": "Yang bikin berat ringan",
+    "jawaban": "Bagi",
+    "deskripsi": "Dibagi dua jadi ringan"
+  },
+  {
+    "index": 639,
+    "soal": "Kenapa bagi adil?",
+    "jawaban": "Sama",
+    "deskripsi": "Biarpun kecil, yang penting sama"
+  },
+  {
+    "index": 640,
+    "soal": "Apa yang ditakuti sama?",
+    "jawaban": "Beda",
+    "deskripsi": "Nanti jadi tidak adil"
+  },
+  {
+    "index": 641,
+    "soal": "Makanan favorit beda",
+    "jawaban": "Unik",
+    "deskripsi": "Beda itu unik, unik itu beda"
+  },
+  {
+    "index": 642,
+    "soal": "Kenapa unik dicari?",
+    "jawaban": "Langka",
+    "deskripsi": "Yang langka mahal harganya"
+  },
+  {
+    "index": 643,
+    "soal": "Yang bikin langka banyak",
+    "jawaban": "Bikin",
+    "deskripsi": "Dibikin banyak, jadi nggak langka"
+  },
+  {
+    "index": 644,
+    "soal": "Kenapa bikin susah?",
+    "jawaban": "Pertama",
+    "deskripsi": "Yang pertama selalu susah"
+  },
+  {
+    "index": 645,
+    "soal": "Apa yang ditakuti pertama?",
+    "jawaban": "Terakhir",
+    "deskripsi": "Nanti gantian jadi terakhir"
+  },
+  {
+    "index": 646,
+    "soal": "Makanan favorit terakhir",
+    "jawaban": "Pertama",
+    "deskripsi": "Selalu rindu yang pertama"
+  },
+  {
+    "index": 647,
+    "soal": "Kenapa pertama istimewa?",
+    "jawaban": "Kenangan",
+    "deskripsi": "Kenangan pertama susah dilupa"
+  },
+  {
+    "index": 648,
+    "soal": "Yang bikin kenangan hilang",
+    "jawaban": "Waktu",
+    "deskripsi": "Waktu menghapus semua kenangan"
+  },
+  {
+    "index": 649,
+    "soal": "Kenapa waktu cepat?",
+    "jawaban": "Lari",
+    "deskripsi": "Larinya kencang, kita ketinggalan"
+  },
+  {
+    "index": 650,
+    "soal": "Apa yang ditakuti lari?",
+    "jawaban": "Finish",
+    "deskripsi": "Nanti berhenti, nggak lari lagi"
+  },
+  {
+    "index": 651,
+    "soal": "Makanan favorit finish",
+    "jawaban": "Start",
+    "deskripsi": "Mulai lagi dari awal"
+  },
+  {
+    "index": 652,
+    "soal": "Kenapa start penting?",
+    "jawaban": "Awal",
+    "deskripsi": "Tanpa awal nggak ada akhir"
+  },
+  {
+    "index": 653,
+    "soal": "Yang bikin awal akhir",
+    "jawaban": "Tengah",
+    "deskripsi": "Jadi penghubung awal dan akhir"
+  },
+  {
+    "index": 654,
+    "soal": "Kenapa tengah netral?",
+    "jawaban": "Ambil",
+    "deskripsi": "Ambil sisi tengah biar aman"
+  },
+  {
+    "index": 655,
+    "soal": "Apa yang ditakuti netral?",
+    "jawaban": "Pilih",
+    "deskripsi": "Nanti harus milih salah satu"
+  },
+  {
+    "index": 656,
+    "soal": "Makanan favorit pilih",
+    "jawaban": "Bingung",
+    "deskripsi": "Banyak pilihan bikin bingung"
+  },
+  {
+    "index": 657,
+    "soal": "Kenapa bingung muter?",
+    "jawaban": "Pusing",
+    "deskripsi": "Kepala muter-muter kayak komidi"
+  },
+  {
+    "index": 658,
+    "soal": "Yang bikin pusing hilang",
+    "jawaban": "Obat",
+    "deskripsi": "Minum obat, pusing hilang"
+  },
+  {
+    "index": 659,
+    "soal": "Kenapa obat pahit?",
+    "jawaban": "Sembuh",
+    "deskripsi": "Yang pahit-pahit bikin sembuh"
+  },
+  {
+    "index": 660,
+    "soal": "Apa yang ditakuti sembuh?",
+    "jawaban": "Sakit",
+    "deskripsi": "Nanti sakit lagi, kambuhan"
+  },
+  {
+    "index": 661,
+    "soal": "Makanan favorit sakit",
+    "jawaban": "Lelah",
+    "deskripsi": "Sakit bikin lelah terus"
+  },
+  {
+    "index": 662,
+    "soal": "Kenapa lelah butuh istirahat?",
+    "jawaban": "Capek",
+    "deskripsi": "Udah capek ya istirahat dong"
+  },
+  {
+    "index": 663,
+    "soal": "Yang bikin capek segar",
+    "jawaban": "Tidur",
+    "deskripsi": "Tidur obat paling mujarab"
+  },
+  {
+    "index": 664,
+    "soal": "Kenapa tidur nyenyak?",
+    "jawaban": "Mimpi",
+    "deskripsi": "Mimpi indah bikin nyenyak"
+  },
+  {
+    "index": 665,
+    "soal": "Apa yang ditakuti mimpi?",
+    "jawaban": "Bangun",
+    "deskripsi": "Nanti mimpi hilang, kembali realita"
+  },
+  {
+    "index": 666,
+    "soal": "Makanan favorit bangun",
+    "jawaban": "Pagi",
+    "deskripsi": "Bangun tidur ya pagi hari"
+  },
+  {
+    "index": 667,
+    "soal": "Kenapa pagi cerah?",
+    "jawaban": "Semangat",
+    "deskripsi": "Pagi itu semangat baru"
+  },
+  {
+    "index": 668,
+    "soal": "Yang bikin semangat hilang",
+    "jawaban": "Hujan",
+    "deskripsi": "Hujan bikin malas, semangat hilang"
+  },
+  {
+    "index": 669,
+    "soal": "Kenapa hujan deras?",
+    "jawaban": "Sedih",
+    "deskripsi": "Langit lagi sedih, nangis deras"
+  },
+  {
+    "index": 670,
+    "soal": "Apa yang ditakuti deras?",
+    "jawaban": "Banjir",
+    "deskripsi": "Hujan deras bikin banjir"
+  },
+  {
+    "index": 671,
+    "soal": "Makanan favorit banjir",
+    "jawaban": "Rumah",
+    "deskripsi": "Banjir suka masuk rumah"
+  },
+  {
+    "index": 672,
+    "soal": "Kenapa rumah aman?",
+    "jawaban": "Pintu",
+    "deskripsi": "Ada pintu, aman dari orang jahat"
+  },
+  {
+    "index": 673,
+    "soal": "Yang bikin pintu berisik",
+    "jawaban": "Angin",
+    "deskripsi": "Angin besar, pintu bunyi krek-krek"
+  },
+  {
+    "index": 674,
+    "soal": "Kenapa angin kencang?",
+    "jawaban": "Lari",
+    "deskripsi": "Larinya cepat, jadi kencang"
+  },
+  {
+    "index": 675,
+    "soal": "Apa yang ditakuti kencang?",
+    "jawaban": "Rem",
+    "deskripsi": "Nanti direm, berhenti mendadak"
+  },
+  {
+    "index": 676,
+    "soal": "Makanan favorit rem",
+    "jawaban": "Mobil",
+    "deskripsi": "Rem selalu bersama mobil"
+  },
+  {
+    "index": 677,
+    "soal": "Kenapa mobil mewah?",
+    "jawaban": "Harga",
+    "deskripsi": "Harganya mahal, jadi mewah"
+  },
+  {
+    "index": 678,
+    "soal": "Yang bikin mewah sederhana",
+    "jawaban": "Utang",
+    "deskripsi": "Utang banyak, hidup jadi sederhana"
+  },
+  {
+    "index": 679,
+    "soal": "Kenapa utang menumpuk?",
+    "jawaban": "Tambah",
+    "deskripsi": "Ditambah terus, ya menumpuk"
+  },
+  {
+    "index": 680,
+    "soal": "Apa yang ditakuti tumpuk?",
+    "jawaban": "Jatuh",
+    "deskripsi": "Nanti roboh, berantakan semua"
+  },
+  {
+    "index": 681,
+    "soal": "Makanan favorit jatuh",
+    "jawaban": "Lantai",
+    "deskripsi": "Jatuh ya ke lantai"
+  },
+  {
+    "index": 682,
+    "soal": "Kenapa lantai keras?",
+    "jawaban": "Dasar",
+    "deskripsi": "Dasar bangunan harus keras"
+  },
+  {
+    "index": 683,
+    "soal": "Yang bikin keras lunak",
+    "jawaban": "Air",
+    "deskripsi": "Kena air jadi lunak"
+  },
+  {
+    "index": 684,
+    "soal": "Kenapa lunak nyaman?",
+    "jawaban": "Kasur",
+    "deskripsi": "Lunak seperti kasur, nyaman"
+  },
+  {
+    "index": 685,
+    "soal": "Apa yang ditakuti kasur?",
+    "jawaban": "Tidur",
+    "deskripsi": "Nanti ditekan berat badan"
+  },
+  {
+    "index": 686,
+    "soal": "Makanan favorit tidur",
+    "jawaban": "Malam",
+    "deskripsi": "Tidur ya waktunya malam"
+  },
+  {
+    "index": 687,
+    "soal": "Kenapa malam gelap?",
+    "jawaban": "Lampu",
+    "deskripsi": "Lampu mati, jadi gelap"
+  },
+  {
+    "index": 688,
+    "soal": "Yang bikin gelap terang",
+    "jawaban": "Senter",
+    "deskripsi": "Senter kecil bikin terang"
+  },
+  {
+    "index": 689,
+    "soal": "Kenapa senter kecil?",
+    "jawaban": "Genggam",
+    "deskripsi": "Biar muat digenggaman"
+  },
+  {
+    "index": 690,
+    "soal": "Apa yang ditakuti genggam?",
+    "jawaban": "Lepas",
+    "deskripsi": "Nanti jatuh, hilang"
+  },
+  {
+    "index": 691,
+    "soal": "Makanan favorit lepas",
+    "jawaban": "Pegang",
+    "deskripsi": "Lepas lalu pegang lagi"
+  },
+  {
+    "index": 692,
+    "soal": "Kenapa pegang erat?",
+    "jawaban": "Sayang",
+    "deskripsi": "Karena sayang, pegang erat"
+  },
+  {
+    "index": 693,
+    "soal": "Yang bikin sayang hilang",
+    "jawaban": "Cemburu",
+    "deskripsi": "Cemburu bikin sayang hilang"
+  },
+  {
+    "index": 694,
+    "soal": "Kenapa cemburu buta?",
+    "jawaban": "Mata",
+    "deskripsi": "Mata tertutup rasa cemburu"
+  },
+  {
+    "index": 695,
+    "soal": "Apa yang ditakuti buta?",
+    "jawaban": "Terang",
+    "deskripsi": "Nggak bisa liat terang"
+  },
+  {
+    "index": 696,
+    "soal": "Makanan favorit terang",
+    "jawaban": "Gelap",
+    "deskripsi": "Terang lawannya gelap"
+  },
+  {
+    "index": 697,
+    "soal": "Kenapa gelap menakutkan?",
+    "jawaban": "Hantu",
+    "deskripsi": "Hantu suka tempat gelap"
+  },
+  {
+    "index": 698,
+    "soal": "Yang bikin hantu kabur",
+    "jawaban": "Doa",
+    "deskripsi": "Baca doa, hantu kabur"
+  },
+  {
+    "index": 699,
+    "soal": "Kenapa doa mustajab?",
+    "jawaban": "Yakin",
+    "deskripsi": "Yakin bikin doa terkabul"
+  },
+  {
+    "index": 700,
+    "soal": "Apa yang ditakati yakin?",
+    "jawaban": "Ragu",
+    "deskripsi": "Ragu bikin yakin hilang"
+  },
+  {
+    "index": 701,
+    "soal": "Makanan favorit ragu",
+    "jawaban": "Tanya",
+    "deskripsi": "Ragu terus tanya sana-sini"
+  },
+  {
+    "index": 702,
+    "soal": "Kenapa tanya banyak?",
+    "jawaban": "Bingung",
+    "deskripsi": "Bingung makanya banyak tanya"
+  },
+  {
+    "index": 703,
+    "soal": "Yang bikin bingung jelas",
+    "jawaban": "Jawab",
+    "deskripsi": "Dijawab jadi jelas"
+  },
+  {
+    "index": 704,
+    "soal": "Kenapa jawab singkat?",
+    "jawaban": "Malas",
+    "deskripsi": "Malas jelasin panjang lebar"
+  },
+  {
+    "index": 705,
+    "soal": "Apa yang ditakuti malas?",
+    "jawaban": "Kerja",
+    "deskripsi": "Malas banget kalo disuruh kerja"
+  },
+  {
+    "index": 706,
+    "soal": "Makanan favorit kerja",
+    "jawaban": "Gaji",
+    "deskripsi": "Kerja dapat gaji, itu favorit"
+  },
+  {
+    "index": 707,
+    "soal": "Kenapa gaji kecil?",
+    "jawaban": "Bos",
+    "deskripsi": "Bos pelit, gaji kecil"
+  },
+  {
+    "index": 708,
+    "soal": "Yang bikin bos marah",
+    "jawaban": "Telat",
+    "deskripsi": "Karyawan telat, bos marah"
+  },
+  {
+    "index": 709,
+    "soal": "Kenapa telat sering?",
+    "jawaban": "Macet",
+    "deskripsi": "Macet dimana-mana, telat terus"
+  },
+  {
+    "index": 710,
+    "soal": "Apa yang ditakuti macet?",
+    "jawaban": "Jalan",
+    "deskripsi": "Nanti jalanan kosong, nggak seru"
+  },
+  {
+    "index": 711,
+    "soal": "Makanan favorit jalan",
+    "jawaban": "Kaki",
+    "deskripsi": "Jalan pake kaki"
+  },
+  {
+    "index": 712,
+    "soal": "Kenapa kaki dua?",
+    "jawaban": "Seimbang",
+    "deskripsi": "Dua biar seimbang, nggak jatuh"
+  },
+  {
+    "index": 713,
+    "soal": "Yang bikin seimbang goyah",
+    "jawaban": "Pusing",
+    "deskripsi": "Kepala pusing, jadi goyah"
+  },
+  {
+    "index": 714,
+    "soal": "Kenapa sepeda motor punya dua roda?",
+    "jawaban": "Teman",
+    "deskripsi": "Kalo cuma satu roda, nanti motor kesepian sendirian di jalan. Bayangin aja, semua motor punya pasangan roda, masa dia sendirian? Kasian kan, harusnya punya teman biar bisa jalan bareng-bareng. Jadi roda kedua itu teman sejati yang selalu setia menemani roda pertama."
+  },
+  {
+    "index": 715,
+    "soal": "Apa yang bikin komputer lemot?",
+    "jawaban": "Rindu",
+    "deskripsi": "Komputer itu sebenarnya bukan lemot, tapi lagi kangen sama pemiliknya. Jadi dia sengaja lemot biar kamu lebih banyak menghabiskan waktu bersamanya. Dia pengen kamu sabar menunggu loading-nya, sambil mungkin ngobrol sama dia. Komputer juga butuh perhatian, lho!"
+  },
+  {
+    "index": 716,
+    "soal": "Kenapa hujan turun dari langit?",
+    "jawaban": "Jatuh",
+    "deskripsi": "Sebenarnya hujan itu awalnya mau turun pelan-pelan, tapi karena langit lagi males pegang, jadinya dilepas begitu saja. Bayangin aja langit pegang ribuan tetes air, pasti capek dong. Akhirnya dia bilang 'ah, udah jatuhin aja deh'. Jadilah hujan turun dengan cara jatuh bebas."
+  },
+  {
+    "index": 717,
+    "soal": "Yang bikin kucing manja?",
+    "jawaban": "Lapar",
+    "deskripsi": "Kucing itu sebenarnya nggak manja-manja amat. Cuma pas lagi lapar aja dia jadi sok manja. Dia mikir, 'kalo aku manja, pasti dikasih makan'. Itu strategi jitu mereka. Besok-besok coba perhatiin, kalo kucingnya udah kenyang, dia malah cuek banget. Jadi manja itu cuma alat buat minta makan."
+  },
+  {
+    "index": 718,
+    "soal": "Kenapa lampu merah lama banget?",
+    "jawaban": "Ngetik",
+    "deskripsi": "Lampu merah itu sebenernya lagi ngetik SMS buat lampu hijau. Dia bilang 'eh ijo, bentar ya, aku masih merah'. Tapi karena jari lampu merah gede-gede, jadi lama ngetiknya. Belum lagi kalo typo, harus hapus dulu. Jadinya kita nunggu lama sambil marah-marah di perempatan."
+  },
+  {
+    "index": 719,
+    "soal": "Apa makanan favorit remote TV?",
+    "jawaban": "Baterai",
+    "deskripsi": "Remote TV itu kayak manusia, butuh makan biar kuat kerja. Makannya baterai. Kalo udah kelaparan, dia nggak bisa gerak, nggak bisa ganti channel. Pernah nggak sih remote tiba-tiba mati? Itu tandanya dia kelaparan. Kasian kan, udah setia nemenin kita nonton, tapi lupa dikasih makan."
+  },
+  {
+    "index": 720,
+    "soal": "Kenapa anak kecil suka es krim?",
+    "jawaban": "Dingin",
+    "deskripsi": "Anak kecil itu punya alasan sederhana: karena dingin. Mereka mikirnya, 'wah ini kayak salju bisa dimakan'. Belum lagi teksturnya yang lembut, rasanya yang manis. Tapi intinya sih karena dingin itu menyegarkan buat mereka. Apalagi kalo cuaca panas, es krim jadi penyelamat dari gerahnya dunia."
+  },
+  {
+    "index": 721,
+    "soal": "Yang bikin daun berguguran?",
+    "jawaban": "Lelah",
+    "deskripsi": "Daun itu sebenarnya capek nempel terus di pohon. Dia pengen turun jalan-jalan, lihat pemandangan bawah. 'Udah berbulan-bulan di atas sini, bosan juga', pikir si daun. Akhirnya dia memutuskan untuk terjun bebas ke tanah. Tapi karena nggak punya sayap, jadinya dia jatuh pelan-palan sambil muter-muter dulu."
+  },
+  {
+    "index": 722,
+    "soal": "Kenapa HP cepat panas?",
+    "jawaban": "Cemburu",
+    "deskripsi": "HP itu cemburu karena kamu lebih sering pegang dia daripada pegang pacar. Dia mikir, 'kok pegang aku terus sih, tapi yang dipikirin malah sosmed'. Akhirnya dia berusaha menarik perhatian dengan cara jadi panas. 'Mungkin kalo aku panas, dia akan lebih perhatian', pikir si HP. Taktik yang agak ekstrem sih."
+  },
+  {
+    "index": 723,
+    "soal": "Apa yang ditakuti kipas angin?",
+    "jawaban": "Diam",
+    "deskripsi": "Kipas angin takut banget kalo harus diam. Soalnya selama ini dia udah terbiasa muter-muter, jadi pusat perhatian. Kalo tiba-tiba disuruh diam, dia ngerasa nggak berguna. 'Apa gunanya aku kalo nggak muter?', pikir si kipas. Makanya kadang dia muter sendiri meski nggak diperintah, biar nggak kesepian."
+  },
+  {
+    "index": 724,
+    "soal": "Kenapi buku tebal berat?",
+    "jawaban": "Ilmu",
+    "deskripsi": "Buku itu berat bukan karena kertasnya, tapi karena ilmu yang ada di dalamnya. Setiap halaman punya pengetahuan yang punya massa sendiri. Makin banyak ilmu, makin berat bukunya. Jadi jangan heran kalo buku pelajaran itu berat banget - itu tandanya isinya berisi banget. Buku tipis? Mungkin lagi diet ilmu."
+  },
+  {
+    "index": 725,
+    "soal": "Yang bikin pintu berderit?",
+    "jawaban": "Tua",
+    "deskripsi": "Pintu berderit itu sebenernya lagi ngeluh karena udah tua. 'Aduh, sendiku sakit nih', kira-kira begitu keluhnya. Setiap kali dibuka tutup, dia merintih kesakitan. Tapi kita malah marah-marah karena suaranya mengganggu. Padahal cuma butuh sedikit pelumas biar nggak sakit lagi. Kasian kan, udah tua masih disuruh kerja keras."
+  },
+  {
+    "index": 726,
+    "soal": "Kenapa matahari bersinar terang?",
+    "jawaban": "Pede",
+    "deskripsi": "Matahari itu sebenarnya punya rasa percaya diri yang tinggi. Dia mikir, 'aku tuh sumber kehidupan di bumi, harusnya aku yang paling terang'. Makanya dia selalu tampil maksimal, bersinar sepenuh hati. Kalo mendung pun, sebenernya dia masih ada, cuma lagi malu-maluin aja. Tapi biasanya besoknya dia balik pede lagi."
+  },
+  {
+    "index": 727,
+    "soal": "Apa makanan favorit jam?",
+    "jawaban": "Waktu",
+    "deskripsi": "Jam itu hidupnya bergantung sama waktu. Setiap detik, dia mengunyah waktu sedikit demi sedikit. Tapi anehnya, waktu yang dimakannya nggak pernah habis. Justru makin banyak. Jam itu kayak mesin daur ulang waktu - dimakan, dicerna, lalu dikeluarkan lagi dalam bentuk jarum yang bergerak. Siklus yang sempurna."
+  },
+  {
+    "index": 728,
+    "soal": "Kenapa anak sekolah ngantuk?",
+    "jawaban": "Buku",
+    "deskripsi": "Ada teori konspirasi yang bilang kalo buku pelajaran itu sebenarnya berisi mantra pengantar tidur. Setiap halaman punya kekuatan hipnotis yang bikin mata berat. Guru yang baik pura-pura nggak tau, padahal mereka tahu rahasia ini. Makanya kadang guru juga ikut ngantuk - terkena efek samping dari buku yang sama."
+  },
+  {
+    "index": 729,
+    "soal": "Yang bikin awan berjalan?",
+    "jawaban": "Malas",
+    "deskripsi": "Awan itu sebenernya malas banget berjalan. Tapi terpaksa karena didorong angin. 'Ah males ah gerak', pikir si awan. Tapi angin nggak peduli, tetep dorong dari belakang. Jadilah awan terpaksa melayang-layang di langit. Kadang dia berenti sebentar, ngerasa udah aman dari angin. Eh tau-taunya didorong lagi."
+  },
+  {
+    "index": 730,
+    "soal": "Kenapi pensil patah?",
+    "jawaban": "Stres",
+    "deskripsi": "Pensil itu patah bukan karena ditekan terlalu keras, tapi karena stres. Bayangin, dia selalu disuruh nulis-nulis, dihapus, nulis lagi. 'Aduh capek aku', keluhnya. Akhirnya dia memutuskan untuk patah saja. 'Daripada terus-terusan disiksa seperti ini, mending aku break dulu', pikir si pensil. Istirahat yang permanen."
+  },
+  {
+    "index": 731,
+    "soal": "Apa yang ditakuti es batu?",
+    "jawaban": "Sendok",
+    "deskripsi": "Es batu punya trauma dengan sendok. Setiap ketemu sendok, dia selalu digerogoti sedikit demi sedikit. 'Aduh sakit nih dikikisin terus', keluhnya. Makanya kalo liat sendok mendekat, dia berusaha kabur dengan cara meleleh. Tapi justru itu yang bikin sendok makin senang - es yang meleleh lebih mudah dimakan."
+  },
+  {
+    "index": 732,
+    "soal": "Kenapa kucing takut mentimun?",
+    "jawaban": "Ular",
+    "deskripsi": "Sebenarnya kucing nggak takut mentimun. Dia takut karena ngira itu ular. Bayangin aja, kamu lagi asik makan, tiba-tiba ada benda panjang hijau di belakang. Pasti kaget dong. 'Waduh ular!', pikir si kucing. Padahal cuma sayur buat lalapan. Tapi karena trauma pertamanya begitu kuat, jadinya dia takut selamanya."
+  },
+  {
+    "index": 733,
+    "soal": "Yang bikin gajah ingatan kuat?",
+    "jawaban": "Pendengaran",
+    "deskripsi": "Gajah ingatannya kuat bukan karena otaknya besar, tapi karena pendengarannya tajam. Dia dengerin semua gossip di hutan, trus disimpan baik-baik. 'Oh si monyet utang ke kancil nggak dibayar', 'Si kelinci selingkuh sama kura-kura'. Semua diingat dengan detail. Jadilah reputasi gajah punya ingatan kuat padahal cuma tukang gosip."
+  },
+  {
+    "index": 734,
+    "soal": "Kenapa zebra belang-belang?",
+    "jawaban": "Barcode",
+    "deskripsi": "Zebra itu sebenernya produk alam yang punya barcode. Kalo discan, mungkin bakal keluar harganya. Tapi sayang, di hutan nggak ada scanner. Jadinya belang-belangnya cuma jadi hiasan doang. Mungkin suatu saat nanti kalo teknologi udah canggih, kita bisa tau berapa harga seekor zebra dengan cara discan belangnya."
+  },
+  {
+    "index": 735,
+    "soal": "Apa makanan favorit alien?",
+    "jawaban": "Satelit",
+    "deskripsi": "Alien itu doyan banget makan satelit. Buat mereka, satelit itu kayak snack ringan yang melayang-layang di angkasa. 'Wah ada chiki nih', pikir si alien. Makanya kadang satelit hilang tiba-tiba - udah dimakan alien. NASA pura-pura bilang 'error signal', padahal tau sendiri siapa yang nyomot."
+  },
+  {
+    "index": 736,
+    "soal": "Kenapi cicak jatuh dari tembok?",
+    "jawaban": "Gelisah",
+    "deskripsi": "Cicak jatuh itu karena lagi gelisah. Dia mikir, 'udah berapa bulan nempel di tembok ini, kapan turunnya?'. Akhirnya karena nggak tahan, dia loncat. Tapi karena nggak hitung ketinggian, jadinya jatuh. 'Aduh, harusnya aku pake parasut', pikirnya sambil ngelepas ekor biar kelihatan keren."
+  },
+  {
+    "index": 737,
+    "soal": "Yang bikin bulan bersinar?",
+    "jawaban": "Malu",
+    "deskripsi": "Bulan bersinar karena malu. Setiap malam dia diliatin berjuta-juta pasang mata. 'Aduh malu aku diliatin terus', pikirnya. Mukanya jadi memerah, eh maksudnya memutih karena malu. Makanya kadang dia sembunyi di balik awan - lagi pengen private time. Tapi besoknya muncul lagi karena nggak enak sama yang ngeliatin."
+  },
+  {
+    "index": 738,
+    "soal": "Kenapa bayangan ikut kita?",
+    "jawaban": "Setia",
+    "deskripsi": "Bayangan itu teman paling setia. Mau kamu pergi kemana, dia ikut. Mau kamu jadi apa, dia tetap sama. 'Pokoknya aku nggak akan ninggalin kamu', mungkin begitu janjinya. Tapi sayang, kalo malem dia cuti. Atau kalo lagi di tempat gelap, dia mogok kerja. Tapi tetap aja, dia teman yang paling konsisten."
+  },
+  {
+    "index": 739,
+    "soal": "Apa yang ditakuti hantu?",
+    "jawaban": "Sendiri",
+    "deskripsi": "Hantu itu sebenernya takut sendiri. Makanya dia suka muncul, biar ada yang nemenin. 'Kesepian nih jadi hantu', keluhnya. Tapi karena penampilannya serem, malah bikin orang kabur. Jadilah dia makin kesepian. Ironis ya, pengen ada teman, tapi caranya malah bikin orang lari. Mungkin perlu kursus public speaking."
+  },
+  {
+    "index": 740,
+    "soal": "Kenapi sendok dan garpu berantem?",
+    "jawaban": "Cemburu",
+    "deskripsi": "Sendok dan garpu itu selalu cemburu satu sama lain. Sendok bilang, 'aku yang lebih sering dipake buat makan nasi'. Garpu ngebales, 'tapi aku yang bisa nusuk makanan'. Mereka berantem terus di dalam laci, kita nggak tau. Kalo ada bunyi berisik dari laci, itu mereka lagi ribut siapa yang lebih berguna."
+  },
+  {
+    "index": 741,
+    "soal": "Yang bikin api kecil membesar?",
+    "jawaban": "Marah",
+    "deskripsi": "Api itu kecil awalnya karena lagi baik hati. Tapi kalo dipancing, dia bisa marah dan membesar. Misal dikipas-kipas, atau dikasih bahan bakar. 'Jangan ganggu aku!', bentaknya sambil membesar. Makanya kalo mau api tetap kecil, jangan diajak ribut. Biarin dia santai aja, nanti dia juga kalem sendiri."
+  },
+  {
+    "index": 742,
+    "soal": "Kenapa burung berkicau pagi hari?",
+    "jawaban": "Alarm",
+    "deskripsi": "Burung itu sebenernya kerja part time jadi alarm alam. Setiap pagi mereka harus nyalain 'mesin' kicaunya buat banguin semua makhluk. 'Ayo bangun! Hari sudah pagi!', kira-kira begitu teriaknya. Tapi karena nggak digaji, kadang mereka nyante aja. Kalo lagi males, ya cuma kicau seperlunya doang."
+  },
+  {
+    "index": 743,
+    "soal": "Apa makanan favorit printer?",
+    "jawaban": "Kertas",
+    "deskripsi": "Printer itu doyan banget makan kertas. Tapi dia pilih-pilih, cuma yang putih dan bersih. Kalo kertasnya keriput atau kotor, dia mogok. 'Aku nggak mau makan makanan jelek', katanya. Makanya kalo printer error, coba kasih kertas yang bagus. Siapa tau dia lagi bad mood karena makanannya nggak enak."
+  },
+  {
+    "index": 744,
+    "soal": "Kenapi cermin nggak bisa bohong?",
+    "jawaban": "Jujur",
+    "deskripsi": "Cermin itu diambil sumpahnya sejak lahir: harus jujur selalu. Mau yang liat siapa, dia harus tunjukin yang sebenarnya. 'Aku nggak boleh nipu', itu prinsipnya. Makanya kadang kita sebel sama cermin, karena terlalu jujur. Tapi dia cuma ngelakuin tugas aja, jangan disalahin. Salah sendiri yang lupa skincare."
+  },
+  {
+    "index": 745,
+    "soal": "Yang bikin angin bertiup?",
+    "jawaban": "Capek",
+    "deskripsi": "Angin bertiup karena capek diam. Bayangin, dia harus muter-muter keliling dunia. 'Aduh capek nih, tapi harus jalan terus', keluhnya. Kadang dia berenti sebentar, itu yang kita sebut angin sepoi-sepoi. Kalo lagi semangat, jadilah angin kencang. Tapi intinya sih, dia nggak bisa diam karena job description-nya begitu."
+  },
+  {
+    "index": 746,
+    "soal": "Kenapi pohon tinggi sekali?",
+    "jawaban": "Pengen",
+    "deskripsi": "Pohon itu tinggi karena pengen liat pemandangan yang lebih jauh. 'Dari sini aku bisa liat apa ya?', pikirnya waktu masih kecil. Makanya dia tumbuh ke atas, pengen tau dunia dari ketinggian. Tapi sayang, semakin tinggi semakin sepi. Temen-temennya di bawah pada iri, yang di atas cuma dia sendirian."
+  },
+  {
+    "index": 747,
+    "soal": "Apa yang ditakati jamur?",
+    "jawaban": "Panen",
+    "deskripsi": "Jamur takut banget sama kata 'panen'. Soalnya kalo udah panen, berarti ajalnya datang. 'Aduh jangan panen aku dong, aku masih muda', protesnya. Tapi nggak ada yang denger. Akhirnya dia dipetik dan jadi topping pizza. Hidup yang singkat tapi penuh arti - paling nggak bikin orang senang waktu makan."
+  },
+  {
+    "index": 748,
+    "soal": "Kenapa laut biru?",
+    "jawaban": "Sedih",
+    "deskripsi": "Laut itu sebenernya sedih, makanya warnanya biru. Dia sedih karena isinya sampah, sedih karena polusi, sedih karena banyak yang nggak peduli. 'Aku cuma pengen bersih aja', keluhnya. Tapi nggak ada yang denger tangisannya yang bergelombang. Makanya kadang dia marah dengan ombak besar - itu bentuk protesnya."
+  },
+  {
+    "index": 749,
+    "soal": "Yang bikin bintang berkelap-kelip?",
+    "jawaban": "Senyum",
+    "deskripsi": "Bintang berkelap-kelip itu karena lagi senyum-senyum ke bumi. 'Wah cantik ya bumi dari sini', pikirnya. Setiap kelap itu senyuman manis mereka. Kalo nggak kelap-kelip, berarti lagi bad mood. Mungkin lagi bertengkar sama bintang lain, atau lagi sebel karena ada meteor lewat tanpa bilang permisi."
+  },
+  {
+    "index": 750,
+    "soal": "Kenapi semut selalu kerja?",
+    "jawaban": "Hutang",
+    "deskripsi": "Semut itu sebenernya punya hutang ke ratunya. Makanya dia kerja terus-terusan buat bayar hutang. 'Lagi nyicil nih', katanya sambil angkut remah-remah. Tapi karena bunganya besar, hutangnya nggak pernah lunas. Jadilah dia kerja seumur hidup. Nasib jadi semut emang kayak gitu - kerja keras, bayar terus."
+  },
+  {
+    "index": 751,
+    "soal": "Apa makanan favorit tanah?",
+    "jawaban": "Biji",
+    "deskripsi": "Tanah itu suka makan biji-bijian. Tapi dia makan dengan cara yang unik: ditelen trus dikeluarin lagi dalam bentuk tanaman. 'Aku kan pencernaan alam', pikirnya bangga. Setiap biji yang dimakan, dia olah jadi sesuatu yang indah. Tanah itu chef terbaik - bisa bikin makanan jadi kehidupan baru."
+  },
+  {
+    "index": 752,
+    "soal": "Kenapi awan bentuknya aneh-aneh?",
+    "jawaban": "Seni",
+    "deskripsi": "Awan itu sebenernya seniman alam. Setiap hari dia bikin karya seni di langit. Kadang bentuknya kayak kelinci, kadang kayak naga, kadang kayak wajah nenek-nenek. 'Ini mahakaryaku', katanya bangga. Tapi sayang, karyanya cuma bertahan beberapa menit sebelum angin menghapusnya. Seniman yang rendah hati."
+  },
+  {
+    "index": 753,
+    "soal": "Yang bikin hujan gerimis?",
+    "jawaban": "Bingung",
+    "deskripsi": "Hujan gerimis itu karena awannya lagi bingung. 'Mau ujan deras atau nggak ya?', pikirnya. Akhirnya dia coba-coba dulu, turunin sedikit. Kalo responnya bagus, dia lanjutin. Kalo pada komplain, ya udah berhenti. Jadi gerimis itu semacam polling alam - tes dulu sebelum turun serius."
+  },
+  {
+    "index": 754,
+    "soal": "Kenapi es krim meleleh?",
+    "jawaban": "Nangis",
+    "deskripsi": "Es krim meleleh karena sedih. Dia sadar umurnya pendek, sebentar lagi dimakan. 'Aduh, sebentar lagi aku habis', keluhnya sambil nangis. Air matanya itu yang kita liat sebagai lelehan. Makanya makan es krim harus cepat - biar nggak sempat sedih lama-lama. Kasian kan, nangis terus."
+  },
+  {
+    "index": 755,
+    "soal": "Apa yang ditakuti gunung?",
+    "jawaban": "Kecil",
+    "deskripsi": "Gunung takut jadi kecil. Soalnya selama ini dia bangga jadi yang tertinggi di daerahnya. 'Aku kan raja di sini', pikirnya. Kalo tiba-tiba ada gunung yang lebih tinggi, atau dia sendiri mengecil karena erosi, malu dong. Makanya dia berusaha tetap tegak, meski berat badannya makin berkurang."
+  },
+  {
+    "index": 756,
+    "soal": "Kenapi kupu-kupu warna-warni?",
+    "jawaban": "Fashion",
+    "deskripsi": "Kupu-kupu itu pecinta fashion. Setiap hari dia pake baju warna-warni yang berbeda. 'Hari ini aku pake motif bunga, besok motif kotak-kotak', rencananya. Dia pengen jadi yang tercantik di antara serangga. Makanya dia selalu tampil maksimal, terbang kesana kemari pamer baju barunya. Influencer alam."
+  },
+  {
+    "index": 757,
+    "soal": "Yang bikin sungai mengalir?",
+    "jawaban": "Rindu",
+    "deskripsi": "Sungai mengalir karena rindu sama laut. 'Aku kangen sama kamu, laut', bisiknya. Makanya dia berlari secepat mungkin menuju kekasihnya. Meski harus melewati bebatuan, meliuk-liuk, dia tetap semangat. Cinta yang mengalir deras, tanpa henti, sampai akhirnya bertemu di pelukan samudra."
+  },
+  {
+    "index": 758,
+    "soal": "Kenapi komputer punya mouse?",
+    "jawaban": "Kucing",
+    "deskripsi": "Komputer punya mouse karena takut sama kucing. Dia mikir, 'kalo ada mouse, nanti kucing ngincer mouse-nya, bukan aku'. Taktik pengalihan perhatian yang jenius. Tapi sayang, kucing sekarang udah pinter. Mereka tau mouse itu cuma alat, yang penting tetep bisa tidur di atas keyboard. Checkmate."
+  },
+  {
+    "index": 759,
+    "soal": "Apa makanan favorit matahari?",
+    "jawaban": "Awan",
+    "deskripsi": "Matahari itu suka makan awan. Setiap pagi dia sarapan awan sedikit-sedikit. Makanya kadang langit cerah - awannya udah dimakan semua. Tapi karena awan bisa tumbuh lagi, jadilah siklus makan yang berkelanjutan. Diet matahari: rendah kalori, tinggi protein awan. Sehat banget."
+  },
+  {
+    "index": 760,
+    "soal": "Kenapi kaca bening?",
+    "jawaban": "Polos",
+    "deskripsi": "Kaca itu bening karena polos. Dia nggak bisa sembunyiin apa-apa, nggak bisa pura-pura. 'Aku ya gini adanya', katanya. Makanya kadang kita kesel sama kaca, karena dia tunjukin semua: debu, noda, sidik jari. Tapi itu bukan salah dia - dia cuma jujur aja. Yang harus intropeksi diri itu yang liat."
+  },
+  {
+    "index": 761,
+    "soal": "Yang bikin ranting patah?",
+    "jawaban": "Berat",
+    "deskripsi": "Ranting patah karena nggak kuat nahan beban. Entah itu beban buah yang terlalu banyak, atau beban burung yang terlalu gemuk. 'Aduh, aku nggak sanggup lagi', keluhnya sebelum akhirnya snap. Tapi dia nggak mengeluh selama ini - diam-diam menderita sambil tetep nahan beban. Pahlawan tanpa tanda jasa."
+  },
+  {
+    "index": 762,
+    "soal": "Kenapi pelangi warna-warni?",
+    "jawaban": "Ceria",
+    "deskripsi": "Pelangi itu warna-warni karena lagi ceria. Setelah hujan reda, dia pengen kasih warna buat langit yang abu-abu. 'Biar cerah dikit', pikirnya. Setiap warna punya makna: merah untuk semangat, kuning untuk kebahagiaan, hijau untuk harapan. Dia kasih semua sekaligus, biar langit nggak sedih lagi."
+  },
+  {
+    "index": 763,
+    "soal": "Apa yang ditakuti salju?",
+    "jawaban": "Hangat",
+    "deskripsi": "Salju takut banget sama yang hangat-hangat. Soalnya kalo ketemu hangat, dia meleleh. 'Jangan deket-deket aku sama yang panas ya', pintanya. Tapi sayang, di bumi banyak sekali sumber kehangatan. Matahari, tubuh manusia, bahkan nafas. Jadilah salju punya umur pendek - kecuali di tempat yang dingin terus."
+  },
+  {
+    "index": 764,
+    "soal": "Kenapi ikan bisu?",
+    "jawaban": "Air",
+    "deskripsi": "Ikan bisu bukan karena nggak bisa ngomong, tapi karena mulutnya penuh air. Coba bayangin, kamu lagi ngomong tapi mulut penuh air, pasti nggak keluar suaranya kan? 'Ble ble ble', cuma itu yang keluar. Makanya ikan komunikasi pake gelembung - itu bahasa isyarat mereka. Canggih juga ya."
+  },
+  {
+    "index": 765,
+    "soal": "Yang bikin api unggun asyik?",
+    "jawaban": "Cerita",
+    "deskripsi": "Api unggun itu asyik karena jadi pendengar yang baik. Dia dengerin semua cerita di sekelilingnya sambil menari-nari. 'Ceritain lagi dong', bisiknya dengan kobaran apinya. Makanya makin banyak cerita, makin besar apinya - dia excited. Api unggun itu teman camping terbaik, selalu ada buat dengerin keluh kesah."
+  },
+  {
+    "index": 766,
+    "soal": "Kenapi daun bergoyang?",
+    "jawaban": "Menari",
+    "deskripsi": "Daun bergoyang karena lagi menari. Dia denger musik angin yang kita nggak bisa denger. 'Wah beat-nya keren nih', pikirnya sambil goyang-goyang. Kadang slow dance, kadang breakdance, tergantung kencangnya angin. Daun itu penari alam - performance-nya gratis buat yang mau liat."
+  },
+  {
+    "index": 767,
+    "soal": "Apa makanan favorit petir?",
+    "jawaban": "Listrik",
+    "deskripsi": "Petir itu doyan listrik. Setiap kali ada kesempatan, dia nyamber buat ngisi energi. 'Enak nih listrik alam', katanya. Tapi karena porsinya kebanyakan, kadang dia kebablasan dan bikin konslet. Makanya kita sering liat petir nyelonong ke pohon atau bangunan - lagi nyari colokan listrik alam."
+  },
+  {
+    "index": 768,
+    "soal": "Kenapi pasir halus?",
+    "jawaban": "Lembut",
+    "deskripsi": "Pasir halus karena dia lembut hatinya. Meski berasal dari batu yang keras, dia memilih untuk jadi lembut. 'Aku nggak mau nyakitin siapapun', katanya. Makanya dia enak buat diinjak, buat mainan, buat tiduran. Pasir itu bukti kalau sesuatu yang keras bisa berubah jadi lembut kalo diproses dengan sabar."
+  },
+  {
+    "index": 769,
+    "soal": "Yang bikin kabut tebal?",
+    "jawaban": "Misteri",
+    "deskripsi": "Kabut tebal karena lagi pengen misterius. 'Biar penasaran dikit', pikirnya. Dia sembunyiin pemandangan, bikin semua jadi samar-samar. Ada kesan magis, ada rasa penasaran. Kabut itu master of suspense alam - dia tau persis bagaimana bikin sesuatu biasa jadi luar biasa dengan cara menyembunyikannya."
+  },
+  {
+    "index": 770,
+    "soal": "Kenapi kerang di laut?",
+    "jawaban": "Rumah",
+    "deskripsi": "Kerang di laut karena itu rumahnya. Dia nggak mau pindah ke darat, soalnya di laut ada semua kebutuhannya. 'Nyaman nih di sini', katanya sambil buka tutup cangkang. Tapi kadang dia pengen jalan-jalan, makanya ada mutiara di dalamnya - itu barang bawaan buat travelling. Sayangnya dia nggak pernah jalan."
+  },
+  {
+    "index": 771,
+    "soal": "Apa yang ditakati embun?",
+    "jawaban": "Matahari",
+    "deskripsi": "Embun takut banget sama matahari. Soalnya setiap ketemu matahari, dia menghilang. 'Aduh si panas dateng lagi', keluhnya. Makanya dia cuma muncul pagi-pagi buta, sebelum matahari bangun. Hidup singkat penuh keindahan - itulah nasib embun. Tapi besok pagi dia muncul lagi, penuh harapan baru."
+  },
+  {
+    "index": 772,
+    "soal": "Kenapi batu diam saja?",
+    "jawaban": "Bijak",
+    "deskripsi": "Batu diam karena dia bijak. 'Diam itu emas', prinsipnya. Dia perhatiin semuanya tanpa perlu komentar. Dia tau semua rahasia, tapi disimpan sendiri. Batu itu filsuf alam - diam tapi penuh kebijaksanaan. Kalo kamu butuh temen buat curhat, batu pilihan terbaik. Dia dengerin, nggak pernah ngasih sasal."
+  },
+  {
+    "index": 773,
+    "soal": "Yang bikin ombak besar?",
+    "jawaban": "Marah",
+    "deskripsi": "Ombak besar karena laut lagi marah. Entah karena sampah, atau karena ada yang ngotorin rumahnya. 'Aku emosi nih!', teriaknya dengan ombak besar. Tapi kalo laut lagi senang, ombaknya kecil dan tenang. Jadi ombak itu mood indicator laut. Kalo lagi gede-gede, berarti lagi PMS (Panas Marah Sekali)."
+  },
+  {
+    "index": 774,
+    "soal": "Kenapi malam sunyi?",
+    "jawaban": "Istirahat",
+    "deskripsi": "Malam sunyi karena semua lagi istirahat. Burung udah tidur, angin lagi pelan, bahkan matahari juga tidur. 'Ayo pada tidur, jangan berisik', bisik malam. Dia ciptakan suasana tenang biar semua bisa recharge energi. Malam itu ibu yang baik - selalu pastikan anak-anaknya istirahat cukup."
+  },
+  {
+    "index": 775,
+    "soal": "Apa makanan favorit bulan?",
+    "jawaban": "Bintang",
+    "deskripsi": "Bulan suka makan bintang kecil-kecil buat cemilan. 'Enak nih kayak permen', katanya. Makanya kadang bintang berkurang jumlahnya - udah dimakan bulan. Tapi karena bintang bisa lahir lagi, jadilah siklus makan yang berkelanjutan. Bulan itu foodie nya langit - selalu nyemil sambil jalan-jalan."
+  },
+  {
+    "index": 776,
+    "soal": "Kenapi tanaman tumbuh?",
+    "jawaban": "Pengen",
+    "deskripsi": "Tanaman tumbuh karena pengen. Pengen liat dunia, pengen nyapa matahari, pengen ketemu serangga. 'Aku mau besar!', tekadnya. Makanya dia usaha keras: minum air, makan sinar matahari, berdiri tegak. Proses yang lambat tapi penuh determinasi. Tanaman itu bukti kalau keinginan kuat bisa nembus tanah keras."
+  },
+  {
+    "index": 777,
+    "soal": "Yang bikin angin sepoi-sepoi?",
+    "jawaban": "Sayang",
+    "deskripsi": "Angin sepoi-sepoi karena lagi sayang sama kita. Dia mau kasih udara segar tanpa ganggu. 'Ini hadiah buat kamu', bisiknya lembut. Berbeda sama angin kencang yang egois, sepoi-sepoi itu penuh perhatian. Dia tau kapan harus datang, kapan harus pergi. Kekasih yang sempurna."
+  },
+  {
+    "index": 778,
+    "soal": "Kenapi mata berkedip?",
+    "jawaban": "Foto",
+    "deskripsi": "Mata berkedip karena lagi motret. Setiap kedipan itu satu frame kenangan yang disimpan di memori. 'Ini pemandangan bagus, aku foto dulu', pikir mata. Makanya kadang kita berkedip lama waktu liat sesuatu yang indah - lagi fokus motret dengan kualitas tinggi. Mata itu kamera tercanggih."
+  },
+  {
+    "index": 779,
+    "soal": "Apa yang ditakati awan?",
+    "jawaban": "Cerah",
+    "deskripsi": "Awan takut sama langit cerah. Soalnya kalo langit cerah, berarti dia nggak dibutuhin. 'Aku mau nangis nih', keluhnya. Makanya kadang dia ngumpul banyak-banyak waktu cerah - lagi protes pengen dihargai. Tapi tetep aja, kalo matahari muncul dengan percaya diri, awan harus minggir. Drama langit."
+  },
+  {
+    "index": 780,
+    "soal": "Kenapi rumput hijau?",
+    "jawaban": "Sehat",
+    "deskripsi": "Rumput hijau karena dia sehat. Rajin minum air, rajin makan sinar matahari, rajin olahraga (digoyangin angin). 'Hidup sehat itu penting', prinsipnya. Makanya dia selalu segar dan hijau. Kalo ada yang kuning, berarti lagi sakit atau kurang gizi. Rumput itu influencer gaya hidup sehat."
+  },
+  {
+    "index": 781,
+    "soal": "Yang bikin fajar indah?",
+    "jawaban": "Sambut",
+    "deskripsi": "Fajar indah karena mau nyambut pagi dengan meriah. 'Selamat pagi dunia!', teriaknya dengan warna orange dan merah. Dia pengen kasih semangat buat yang baru bangun, kasih harapan buat yang mau mulai aktivitas. Fajar itu MC alam - selalu buka acara hari dengan penuh energi."
+  },
+  {
+    "index": 782,
+    "soal": "Kenapi kaktus berduri?",
+    "jawaban": "Jaga",
+    "deskripsi": "Kaktus berduri karena pengen jaga airnya. Di tempat panas, air itu berharga banget. 'Jangan ganggu airku!', itu maksud duri-durinya. Jadi duri itu sistem keamanan canggih buat melindungi harta karunnya. Kaktus itu bank di gurun - dijaga ketat, nggak boleh sembarang orang ambil."
+  },
+  {
+    "index": 783,
+    "soal": "Apa makanan favorit angin?",
+    "jawaban": "Daun",
+    "deskripsi": "Angin suka makan daun kering. Setiap ada daun jatuh, dia sambar buat dimakan. 'Crispy nih', katanya. Tapi karena makanannya ringan, dia harus makan banyak buat kenyang. Makanya dia selalu aktif nyari daun-daun. Angin itu food vlogger alam - selalu review makanan ringan terbaru."
+  },
+  {
+    "index": 784,
+    "soal": "Kenapi sungai berkelok?",
+    "jawaban": "Santai",
+    "deskripsi": "Sungai berkelok karena pengen jalan santai. 'Ngapain buru-buru ke laut?', pikirnya. Dia nikmatin perjalanan, muter-muter dulu, lihat pemandangan. Life is about the journey, not the destination - itu prinsip sungai. Makanya dia bikin jalur seindah mungkin, biar nggak bosan di perjalanan."
+  },
+  {
+    "index": 785,
+    "soal": "Yang bikin senja romantis?",
+    "jawaban": "Pergi",
+    "deskripsi": "Senja romantis karena dia mau pergi dengan gaya. Sebelum matahari pamit, dia kasih pertunjukan warna-warni. 'Ini kenangan buat kamu', katanya. Dia tau kalo kepergian itu pasti, tapi bisa dibikin berkesan. Senja itu artis panggung - selalu kasih penampilan terbaik sebelum turun panggung."
+  },
+  {
+    "index": 786,
+    "soal": "Kenapi bebatuan keras?",
+    "jawaban": "Kuat",
+    "deskripsi": "Bebatuan keras karena pengen kuat. Dia tau hidup di alam itu keras, jadi harus lebih keras lagi. 'Aku harus survive', tekadnya. Meski diterjang air, diinjak-injak, dia tetap berdiri. Batu itu simbol ketahanan - keras di luar, lebih keras lagi di dalam. Warrior alam."
+  },
+  {
+    "index": 787,
+    "soal": "Apa yang ditakati bulan?",
+    "jawaban": "Bulan",
+    "deskripsi": "Bulan takut sama bulan baru. Soalnya kalo ada bulan baru, berarti dia harus ganti shift. 'Aduh besok aku yang purnama nih, harus siap-siap', keluhnya. Tapi karena dia profesional, dia selalu tampil maksimal. Bulan itu pekerja shift malam - sabtu minggu pun kerja."
+  },
+  {
+    "index": 788,
+    "soal": "Kenapi kabut pagi?",
+    "jawaban": "Bangun",
+    "deskripsi": "Kabut pagi karena alam lagi bangun tidur. 'Aduh masih ngantuk nih', keluhnya sambil nutupin pemandangan. Dia butuh waktu buat sepenuhnya sadar, makanya nutup mata dulu sebentar. Kabut itu selimut alam - nutupin yang masih tidur, kasih privasi buat yang mau bangun pelan-pelan."
+  },
+  {
+    "index": 789,
+    "soal": "Yang bikin hujan deras?",
+    "jawaban": "Lepas",
+    "deskripsi": "Hujan deras karena awannya lagi pengen lepas beban. 'Aduh berat banget nih air yang aku bawa', keluhnya. Akhirnya dia lepas semuanya sekaligus. 'Plong rasanya', katanya setelah hujan reda. Hujan deras itu terapi buat awan - lepas beban, fresh lagi. Sayangnya, yang di bawah kebanjiran."
+  },
+  {
+    "index": 790,
+    "soal": "Kenapi bunga wangi?",
+    "jawaban": "Panggil",
+    "deskripsi": "Bunga wangi karena mau panggil teman-teman. 'Hey lebah, kupu-kupu, kesini dong!', bisiknya dengan wanginya. Dia butuh mereka buat penyerbukan, jadi dia kasih reward berupa wewangian. Bunga itu marketing jenius - kasih sample gratis, nanti closing-nya buah. Business model alam."
+  },
+  {
+    "index": 791,
+    "soal": "Apa makanan favorit tanah?",
+    "jawaban": "Akar",
+    "deskripsi": "Tanah suka makan akar tanaman. Tapi bukan buat dimusnahin, tapi buat dipeluk. 'Ayo masuk, aku jagain kamu', katanya. Akar itu seperti anak yang dikasih makan dan dipeluk. Tanah itu ibu yang baik - selalu sedia makanan buat anak-anaknya yang berupa akar."
+  },
+  {
+    "index": 792,
+    "soal": "Kenapi langit luas?",
+    "jawaban": "Mimpi",
+    "deskripsi": "Langit luas karena mau tampung semua mimpi. Setiap orang punya mimpi yang diterbangkan ke langit. 'Aku siap tampung semuanya', katanya. Makanya langit nggak pernah penuh - kapasitasnya unlimited. Langit itu bank mimpi - safe deposit buat semua harapan dan cita-cita."
+  },
+  {
+    "index": 793,
+    "soal": "Yang bikin embun pagi?",
+    "jawaban": "Air mata",
+    "deskripsi": "Embun pagi itu air mata alam yang bahagia. 'Aku senang banget bisa kasih kesegaran', katanya sambil nangis bahagia. Tapi air matanya beda - menyegarkan, bukan bikin sedih. Embun itu cewe yang sensitif - gampang nangis, tapi nangisannya bikin semua segar."
+  },
+  {
+    "index": 794,
+    "soal": "Kenapi bukit landai?",
+    "jawaban": "Sayang",
+    "deskripsi": "Bukit landai karena sayang sama yang mau naik. 'Aku buat yang mudah aja, biar nggak capek', pikirnya. Berbeda sama gunung yang egois, bukit itu perhatian. Dia tau nggak semua orang kuat nanjak curam. Bukit itu teman yang baik - selalu bikin jalan mudah buat orang lain."
+  },
+  {
+    "index": 795,
+    "soal": "Apa yang ditakati pohon?",
+    "jawaban": "Kapak",
+    "deskripsi": "Pohon takut banget sama kapak. Soalnya setiap ketemu kapak, akhirnya tragis. 'Jangan deket-deket sama benda tajam itu', bisiknya ke pohon lain. Tapi karena dia nggak bisa lari, ya pasrah aja. Pohon itu pahlawan - berdiri tegak meski tau bahaya mengintai."
+  },
+  {
+    "index": 796,
+    "soal": "Kenapi angin puting beliung?",
+    "jawaban": "Marah",
+    "deskripsi": "Angin puting beliung karena lagi marah banget. 'Aku emosi level maximum!', teriaknya sambil muter-muter. Dia nggak bisa dikontrol, nggak bisa ditenangin. Angin puting beliung itu orang lagi bad mood parah - better stay away sampai dia reda sendiri."
+  },
+  {
+    "index": 797,
+    "soal": "Yang bikin matahari terbenam?",
+    "jawaban": "Pulang",
+    "deskripsi": "Matahari terbenam karena mau pulang kerja. 'Udah jam pulang nih', katanya sambil turun pelan-pelan. Dia kerja seharian terangin dunia, sekarang waktunya istirahat. Tapi sebelum pulang, dia kasih pemandangan cantik dulu. Matahari itu pekerja profesional - selalu on time dan kasih yang terbaik."
+  },
+  {
+    "index": 798,
+    "soal": "Kenapi batu kali halus?",
+    "jawaban": "Usap",
+    "deskripsi": "Batu kali halus karena selalu diusap air. Setiap hari, air sungai usap-usap dia dengan lembut. 'Aduh enak banget dipijitin', keluhnya senang. Proses yang lama bikin yang kasar jadi halus. Batu kali itu dapat spa gratis setiap hari - pijitan air yang menyegarkan."
+  },
+  {
+    "index": 799,
+    "soal": "Apa makanan favorit petir?",
+    "jawaban": "Kaget",
+    "deskripsi": "Petir suka makan rasa kaget orang. Setiap kali ada yang kaget karena dia, dia senang. 'Wah reaksinya lucu nih', pikirnya. Makanya dia suka muncul tiba-tiba, tanpa permisi. Petir itu penikmat drama - dia ciptakan kejutan trus nikmatin reaksi penontonnya."
+  },
+  {
+    "index": 800,
+    "soal": "Kenapi laut dalam?",
+    "jawaban": "Rahasia",
+    "deskripsi": "Laut dalam karena mau simpan rahasia. Banyak misteri di dalamnya yang nggak boleh diketahui sembarangan. 'Ini privasi aku', katanya. Makanya dia nutupin dengan kedalaman dan kegelapan. Laut itu buku diary raksasa - isinya cerita yang cuma dia yang tau."
+  },  {
+    "index": 802,
+    "soal": "Kenapi dedaunan rontok?",
+    "jawaban": "Ganti",
+    "deskripsi": "Dedaunan rontok karena mau ganti baju. 'Udah tua nih bajuku, pengen yang baru', pikirnya. Dia jatuhin yang lama, nanti tumbuh yang baru. Siklus fashion alam - selalu update model setiap musim. Dedaunan itu fashionista - nggak mau ketinggalan trend."
+  },
+  {
+    "index": 803,
+    "soal": "Apa yang ditakati sungai?",
+    "jawaban": "Kering",
+    "deskripsi": "Sungai takut kering. Soalnya kalo kering, dia nggak bisa jalan ke laut. 'Aku harus tetep ada air', tekadnya. Makanya dia selalu nyari sumber air baru, jaga alirannya. Sungai itu backpacker - harus punya persediaan cukup buat perjalanan panjang."
+  },
+  {
+    "index": 804,
+    "soal": "Kenapi awan putih?",
+    "jawaban": "Bersih",
+    "deskripsi": "Awan putih karena dia bersih. Rajin mandi uap, nggak makan sembarangan. 'Hygiene itu penting', prinsipnya. Makanya dia selalu tampil kinclong. Awan itu model iklan sabun - putih bersih, lembut, selalu fresh."
+  },
+  {
+    "index": 805,
+    "soal": "Yang bikin malam gelap?",
+    "jawaban": "Tidur",
+    "deskripsi": "Malam gelap karena mau bantu kita tidur. 'Gelap biar mudah tidur', bisiknya. Dia matiin lampu alam, ciptakan suasana tenang. Malam itu ibu yang perhatian - selalu pastikan kita istirahat cukup dengan cara mematikan lampu dunia."
+  },
+  {
+    "index": 806,
+    "soal": "Kenapi gunung berapi?",
+    "jawaban": "Marah",
+    "deskripsi": "Gunung berapi karena dia punya temperamen panas. 'Jangan ganggu aku!', teriaknya dengan letusan. Dia nggak bisa diem, selalu ada energi dalam yang pengen keluar. Gunung berapi itu orang yang emosional - luapan perasaannya bisa diliat dari jauh."
+  },
+  {
+    "index": 807,
+    "soal": "Apa makanan favorit bulan?",
+    "jawaban": "Malam",
+    "deskripsi": "Bulan suka makan malam. Tapi bukan makanan, tapi waktu malam itu sendiri. 'Waktunya aku beraksi!', katanya siap-siap. Dia nikmatin setiap detik malam, jadi sumber cahaya. Bulan itu night owl - paling aktif kalo udah gelap."
+  },
+  {
+    "index": 808,
+    "soal": "Kenapi danau tenang?",
+    "jawaban": "Renung",
+    "deskripsi": "Danau tenang karena lagi renung. 'Hidup itu seperti danau, kadang perlu diam buat refleksi', pikirnya. Dia jadi cermin buat langit, biar langit bisa liat diri sendiri. Danau itu filsuf air - diam tapi penuh kedalaman pemikiran."
+  },
+  {
+    "index": 809,
+    "soal": "Yang bikin hujan rintik?",
+    "jawaban": "Bercanda",
+    "deskripsi": "Hujan rintik karena lagi bercanda. 'Cuma ganggu dikit kok', katanya sambil ketawa kecil. Dia nggak mau bikin basah kuyup, cuma kasih sensasi dikit. Hujan rintik itu teman nakal - ganggu dikit trus kabur, nggak bikin sakit hati."
+  },
+  {
+    "index": 810,
+    "soal": "Kenapi karang tajam?",
+    "jawaban": "Jaga",
+    "deskripsi": "Karang tajam karena mau jaga terumbunya. 'Ini rumah kami, jangan sembarangan masuk!', pesannya. Dia buat benteng pertahanan buat ekosistem di dalamnya. Karang itu tentara laut - berdiri di garis depan, melindungi yang di belakang."
+  },
+  {
+    "index": 811,
+    "soal": "Apa yang ditakati angin?",
+    "jawaban": "Diam",
+    "deskripsi": "Angin takut diam. Soalnya kalo diam, dia nggak ada gunanya. 'Aku harus tetap bergerak', tekadnya. Makanya dia selalu nyari cara buat bertiup, meski cuma sepoi-sepoi. Angin itu workaholic - nggak bisa diem, harus produktif terus."
+  },
+  {
+    "index": 812,
+    "soal": "Kenapi pasir pantai?",
+    "jawaban": "Main",
+    "deskripsi": "Pasir pantai karena dia pengen diajak main. 'Ayo buat istana!', ajaknya. Dia lembut, mudah dibentuk, perfect buat kreativitas. Pasir pantai itu teman main yang baik - selalu siap diajak berimajinasi."
+  },
+  {
+    "index": 813,
+    "soal": "Yang bikin senja merah?",
+    "jawaban": "Malu",
+    "deskripsi": "Senja merah karena malu. 'Aduh diliatin banyak orang nih', pikirnya sambil memerah. Dia cuma mau pamit doang, eh malah jadi pusat perhatian. Senja itu orang pemalu - cuma mau pergi diam-diam, tapi malah jadi spectacular."
+  },
+  {
+    "index": 814,
+    "soal": "Kenapa payung dibuka saat hujan?",
+    "jawaban": "Malas",
+    "deskripsi": "Payung itu sebenernya malas banget dibuka. Tapi karena hujan maksa, ya terpaksa deh. Dia mikir, 'ah males ah buka-buka, tapi kalo nggak dibuka nanti basah aku'."
+  },
+  {
+    "index": 815,
+    "soal": "Apa yang ditakuti kipas angin?",
+    "jawaban": "Botak",
+    "deskripsi": "Kipas angin takut botak karena daun-daunnya bisa rontok. Bayangin kalo udah botak, nggak ada yang bisa diobrak-abrik lagi. Kasian kan, jadi kipas tanpa kipas."
+  },
+  {
+    "index": 816,
+    "soal": "Makanan favorit kertas?",
+    "jawaban": "Tinta",
+    "deskripsi": "Kertas itu doyan tinta, tapi cuma yang bagus. Kalo tintanya jelek, dia ogah. 'Aku mau makanan berkualitas', katanya sambil nunggu ditulis puisi."
+  },
+  {
+    "index": 817,
+    "soal": "Kenapa jam dinding bundar?",
+    "jawaban": "Muter",
+    "deskripsi": "Jam dinding bundar biar jarumnya nggak nabrak sudut. Bayangin kalo kotak, jarumnya pasti sering nyangkut di pojokan. 'Aduh sikutku!', teriak jarum jam."
+  },
+  {
+    "index": 818,
+    "soal": "Yang bikin sendal jepit bunyi kretek-kretek",
+    "jawaban": "Ngobrol",
+    "deskripsi": "Sendal jepit bunyi karena lagi ngobrol sama lantai. 'Eh lantai, gimana kabarmu?', tanyanya. Lantai nggak jawab karena sibuk diduduki."
+  },
+  {
+    "index": 819,
+    "soal": "Kenapi helm keras?",
+    "jawaban": "Kepala",
+    "deskripsi": "Helm keras karena mau ngejagain kepala. 'Aku pelindungmu', katanya dengan bangga. Kalo helm lembek, namanya bukan helm, tapi topi rajut."
+  },
+  {
+    "index": 820,
+    "soal": "Apa makanan favorit kunci?",
+    "jawaban": "Gembok",
+    "deskripsi": "Kunci suka makan gembok, tapi cuma dikit-dikit. 'Aku makan pelan biar gemboknya nggak sakit', katanya sambil masuk ke lubang."
+  },
+  {
+    "index": 821,
+    "soal": "Kenapa tas punya ritsleting?",
+    "jawaban": "Mulut",
+    "deskripsi": "Tas punya ritsleting karena itu mulutnya. Kalo nggak ada ritsleting, nggak bisa makan barang-barang. 'Aku laper nih', keluh tas."
+  },
+  {
+    "index": 822,
+    "soal": "Yang bikin spidol kering?",
+    "jawaban": "Bosan",
+    "deskripsi": "Spidol kering karena bosan nulis hal yang sama terus. 'Udah ah, capek nulis meeting lagi', pikirnya lalu berhenti bekerja."
+  },
+  {
+    "index": 823,
+    "soal": "Kenapi penghapus kecil?",
+    "jawaban": "Diet",
+    "deskripsi": "Penghapus kecil karena lagi diet. 'Aku mau langsing biar bisa masuk kemana-mana', tekadnya. Tapi makin diet makin habis."
+  },
+  {
+    "index": 824,
+    "soal": "Apa yang ditakuti penggaris?",
+    "jawaban": "Bengkok",
+    "deskripsi": "Penggaris takut bengkok karena nanti dikira ular. 'Aku harus tetap lurus!', sumpahnya setiap pagi."
+  },
+  {
+    "index": 825,
+    "soal": "Makanan favorit staples?",
+    "jawaban": "Kertas",
+    "deskripsi": "Staples doyan kertas, tapi cuma yang tipis. Kalo kertas tebel, dia ogah. 'Gigi aku nggak kuat', keluhnya."
+  },
+  {
+    "index": 826,
+    "soal": "Kenapi map plastik bening?",
+    "jawaban": "Jujur",
+    "deskripsi": "Map plastik bening karena jujur. 'Isiku apa adanya', katanya. Nggak kayak map biasa yang suka sembunyiin dokumen."
+  },
+  {
+    "index": 827,
+    "soal": "Yang bikin gunting tajam?",
+    "jawaban": "Marah",
+    "deskripsi": "Gunting tajam karena lagi marah. 'Jangan ganggu aku!', katanya siap motong apapun yang mendekat."
+  },
+  {
+    "index": 828,
+    "soal": "Kenapi pulpen punya tutup?",
+    "jawaban": "Topi",
+    "deskripsi": "Pulpen punya tutup karena itu topinya. 'Aku keren kan pake topi', pikirnya bangga. Kalo nggak pake topi, kepalanya kotor."
+  },
+  {
+    "index": 829,
+    "soal": "Apa makanan favorit penghapus?",
+    "jawaban": "Salah",
+    "deskripsi": "Penghapus suka makan kesalahan. Setiap ada tulisan salah, dia lahap. 'Enak nih salah orang', katanya sambil mengunyah."
+  },
+  {
+    "index": 830,
+    "soal": "Kenapi kalkulator banyak tombol?",
+    "jawaban": "Bisnis",
+    "deskripsi": "Kalkulator banyak tombol karena lagi buka usaha warung. 'Siapa mau beli angka?', teriaknya. Tapi yang beli cuma matematikawan."
+  },
+  {
+    "index": 831,
+    "soal": "Yang bikin buku agenda tebal?",
+    "jawaban": "Janji",
+    "deskripsi": "Buku agenda tebal karena penuh janji kosong. 'Besok ketemu ya', tulis orang-orang. Tapi besoknya nggak ketemu juga."
+  },
+  {
+    "index": 832,
+    "soal": "Kenapi sticky note lengket?",
+    "jawaban": "Sayang",
+    "deskripsi": "Sticky note lengket karena sayang sama tembok. 'Aku nggak mau lepas dari kamu', bisiknya ke tembok."
+  },
+  {
+    "index": 833,
+    "soal": "Apa yang ditakuti kertas HVS?",
+    "jawaban": "Printer",
+    "deskripsi": "Kertas HVS takut printer karena nanti dimakan. 'Aduh jangan masukin aku ke sana!', teriaknya. Tapi siapa yang denger?"
+  },
+  {
+    "index": 834,
+    "soal": "Makanan favorit binder?",
+    "jawaban": "Mata",
+    "deskripsi": "Binder suka makan mata ayam (ring binder). 'Enak nih rasanya metal', katanya. Tapi cuma makan tiga biji sehari."
+  },
+  {
+    "index": 835,
+    "soal": "Kenapi paper clip bengkok?",
+    "jawaban": "Olahraga",
+    "deskripsi": "Paper clip bengkok karena lagi olahraga yoga. 'Pose baru nih', katanya sambil meliuk. Tapi nggak bisa balik lagi."
+  },
+  {
+    "index": 836,
+    "soal": "Yang bikin papan tulis hitam?",
+    "jawaban": "Malam",
+    "deskripsi": "Papan tulis hitam karena pengen jadi malam hari terus. 'Aku suka gelap', katanya. Tapi kapur putih ganggu konsentrasinya."
+  },
+  {
+    "index": 837,
+    "soal": "Kenapi whiteboard marker punya ujung?",
+    "jawaban": "Jari",
+    "deskripsi": "Whiteboard marker punya ujung karena itu jarinya. 'Aku bisa nulis pake jari ini', pikirnya bangga. Tapi jarinya cuma satu."
+  },
+  {
+    "index": 838,
+    "soal": "Apa makanan favorit penghapus papan tulis?",
+    "jawaban": "Kapur",
+    "deskripsi": "Penghapus papan tulis suka makan kapur. 'Garing sih, tapi lumayan', katanya sambil ngehapus tulisan guru."
+  },
+  {
+    "index": 839,
+    "soal": "Kenapi buku gambar polos?",
+    "jawaban": "Malu",
+    "deskripsi": "Buku gambar polos karena malu gambarnya jelek. 'Aku nggak pede isinya', bisiknya. Tapi anak TK nggak peduli."
+  },
+  {
+    "index": 840,
+    "soal": "Yang bikin stapler macet?",
+    "jawaban": "Mogok",
+    "deskripsi": "Stapler macet karena lagi mogok kerja. 'Aku mau cuti!', protesnya. Tapi tetep dipaksa kerja juga."
+  },
+  {
+    "index": 841,
+    "soal": "Kenapi kertas kado warna-warni?",
+    "jawaban": "Pesta",
+    "deskripsi": "Kertas kado warna-warni karena lagi ada pesta. 'Ayo pada meriah!', teriaknya. Tapi nanti juga dibuka dan dibuang."
+  },
+  {
+    "index": 842,
+    "soal": "Apa yang ditakuti gunting kuku?",
+    "jawaban": "Kecil",
+    "deskripsi": "Gunting kuku takut kecil karena nanti ilang. 'Jangan buang aku!', minta dia. Tapi sering kecewa."
+  },
+  {
+    "index": 843,
+    "soal": "Makanan favorit amplop?",
+    "jawaban": "Surat",
+    "deskripsi": "Amplop suka makan surat cinta. 'Manis nih isinya', katanya. Tapi kadang dapat surat tagihan juga."
+  },
+  {
+    "index": 844,
+    "soal": "Kenapi kantong plastik tipis?",
+    "jawaban": "Diet",
+    "deskripsi": "Kantong plastik tipis karena lagi diet ketat. 'Aku mau langsing', tekadnya. Tapi sering sobek waktu diet."
+  },
+  {
+    "index": 845,
+    "soal": "Yang bikin karet gelang melar?",
+    "jawaban": "Stres",
+    "deskripsi": "Karet gelang melar karena stres ditarik terus. 'Aduh capek aku', keluhnya. Tapi nggak ada yang kasihan."
+  },
+  {
+    "index": 846,
+    "soal": "Kenapi korek api pendek?",
+    "jawaban": "Umur",
+    "deskripsi": "Korek api pendek karena umurnya pendek. 'Hidupku cuma beberapa detik', keluhnya. Tapi dia terang-terangan."
+  },
+  {
+    "index": 847,
+    "soal": "Apa makanan favorit kardus?",
+    "jawaban": "Barang",
+    "deskripsi": "Kardus suka makan barang-barang. 'Aku laper, masukin sesuatu dong', mintanya. Tapi barangnya nanti dikeluarin lagi."
+  },
+  {
+    "index": 848,
+    "soal": "Kenapi selotip lengket?",
+    "jawaban": "Posesif",
+    "deskripsi": "Selotip lengket karena posesif. 'Aku nggak mau lepas dari kamu!', teriaknya. Tapi sering disobek juga."
+  },
+  {
+    "index": 849,
+    "soal": "Yang bikin lem kering?",
+    "jawaban": "Lelah",
+    "deskripsi": "Lem kering karena lelah nempel-nempelin. 'Capek aku, mau istirahat dulu', katanya. Tapi nanti dibuka lagi."
+  },
+  {
+    "index": 850,
+    "soal": "Kenapi paku tajam?",
+    "jawaban": "Kerja",
+    "deskripsi": "Paku tajam karena pekerjaannya menusuk. 'Aku harus tajam biar kerja bagus', tekadnya. Tapi kadang nyangkut di kayu."
+  },
+  {
+    "index": 851,
+    "soal": "Apa yang ditakuti palu?",
+    "jawaban": "Kayu",
+    "deskripsi": "Palu takut kayu karena nanti dipukulin ke paku. 'Aduh tanganku sakit', keluhnya. Tapi tetep dipake juga."
+  },
+  {
+    "index": 852,
+    "soal": "Makanan favorit obeng?",
+    "jawaban": "Sekrup",
+    "deskripsi": "Obeng suka makan sekrup. 'Enak nih bentuknya spiral', katanya. Tapi cuma makan yang pas ukurannya."
+  },
+  {
+    "index": 853,
+    "soal": "Kenapi meteran gulung?",
+    "jawaban": "Panas",
+    "deskripsi": "Meteran gulung karena panas badan. 'Aduh gerah nih', keluhnya lalu menggulung diri. Tapi disuruh ngukur juga."
+  },
+  {
+    "index": 854,
+    "soal": "Yang bikin tang berkarat?",
+    "jawaban": "Menangis",
+    "deskripsi": "Tang berkarat karena sering nangis. 'Aku sedih jarang dipake', keluhnya. Air matanya bikin karat."
+  },
+  {
+    "index": 855,
+    "soal": "Kenapi gergaji bergigi?",
+    "jawaban": "Senyum",
+    "deskripsi": "Gergaji bergigi karena lagi senyum lebar. 'Aku senang bisa motong kayu', katanya. Tapi senyumnya tajam."
+  },
+  {
+    "index": 856,
+    "soal": "Apa makanan favorit bor?",
+    "jawaban": "Lubang",
+    "deskripsi": "Bor suka makan lubang. 'Aku laper, mau bikin lubang nih', katanya. Tapi lubangnya nggak dimakan, cuma dibikin."
+  },
+  {
+    "index": 857,
+    "soal": "Kenapi kuas cat bulu?",
+    "jawaban": "Rambut",
+    "deskripsi": "Kuas cat bulu karena itu rambutnya. 'Aku gondrong nih', pikirnya bangga. Tapi rambutnya kena cat terus."
+  },
+  {
+    "index": 858,
+    "soal": "Yang bikin roller cat licin?",
+    "jawaban": "Pelumas",
+    "deskripsi": "Roller cat licin karena dikasih pelumas cat. 'Wah enak nih rasanya', katanya sambil muter-muter. Tapi nanti kering juga."
+  },
+  {
+    "index": 859,
+    "soal": "Kenapi dempul lunak?",
+    "jawaban": "Lembut",
+    "deskripsi": "Dempul lunak karena hatinya lembut. 'Aku bisa nempel dimana aja', katanya. Tapi nanti mengeras juga."
+  },
+  {
+    "index": 860,
+    "soal": "Apa yang ditakuti amplas?",
+    "jawaban": "Halus",
+    "deskripsi": "Amplas takut halus karena nanti nggak kerja. 'Aku harus kasar!', tekadnya. Tapi makin dipake makin halus."
+  },
+  {
+    "index": 861,
+    "soal": "Makanan favorit kuas?",
+    "jawaban": "Cat",
+    "deskripsi": "Kuas suka makan cat, tapi pilih-pilih warna. 'Aku mau yang merah', mintanya. Tapi dikasih biru juga makan."
+  },
+  {
+    "index": 862,
+    "soal": "Kenapi pita ukur panjang?",
+    "jawaban": "Jalan",
+    "deskripsi": "Pita ukur panjang karena suka jalan-jalan. 'Aku mau keliling dulu', katanya sambil ditarik. Tapi ditariknya keras."
+  },
+  {
+    "index": 863,
+    "soal": "Yang bikin pisau cutter tajam?",
+    "jawaban": "Marah",
+    "deskripsi": "Pisau cutter tajam karena lagi marah. 'Jangan deket-deket!', teriaknya. Tapi dipake juga buat motong kardus."
+  },
+  {
+    "index": 864,
+    "soal": "Kenapi mata bor kecil?",
+    "jawaban": "Mata",
+    "deskripsi": "Mata bor kecil karena itu matanya. 'Aku bisa liat lubang', pikirnya. Tapi yang diliat cuma gelap."
+  },
+  {
+    "index": 865,
+    "soal": "Apa makanan favorit pahat?",
+    "jawaban": "Kayu",
+    "deskripsi": "Pahat suka makan kayu, tapi dikit-dikit. 'Aku makannya pelan', katanya sambil ngunyah serpihan. Tapi nggak kenyang-kenyang."
+  },
+  {
+    "index": 866,
+    "soal": "Kenapi klem kayu besar?",
+    "jawaban": "Gigi",
+    "deskripsi": "Klem kayu besar karena giginya besar. 'Aku bisa gigit kuat', katanya bangga. Tapi cuma gigit kayu doang."
+  },
+  {
+    "index": 867,
+    "soal": "Yang bikin sikat kawat keras?",
+    "jawaban": "Keras",
+    "deskripsi": "Sikat kawat keras karena karakternya keras. 'Aku nggak mau lembut!', teriaknya. Tapi dipake bersihin karat."
+  },
+  {
+    "index": 868,
+    "soal": "Kenapi sekop datar?",
+    "jawaban": "Telapak",
+    "deskripsi": "Sekop datar karena itu telapak tangannya. 'Aku bisa angkat tanah', katanya. Tapi telapaknya cuma satu."
+  },
+  {
+    "index": 869,
+    "soal": "Apa yang ditakuti cangkul?",
+    "jawaban": "Tanah",
+    "deskripsi": "Cangkul takut tanah karena harus dikerjain. 'Aduh capek nih ngegali', keluhnya. Tapi terpaksa juga."
+  },
+  {
+    "index": 870,
+    "soal": "Makanan favorit gerobak?",
+    "jawaban": "Barang",
+    "deskripsi": "Gerobak suka makan barang berat. 'Aku laper, masukin sesuatu dong', mintanya. Tapi nanti dikeluarin lagi."
+  },
+  {
+    "index": 871,
+    "soal": "Kenapi ember bulat?",
+    "jawaban": "Perut",
+    "deskripsi": "Ember bulat karena itu perutnya. 'Aku bisa makan air', katanya. Tapi makannya tumpah-tumpah."
+  },
+  {
+    "index": 872,
+    "soal": "Yang bikin sapu lidi kering?",
+    "jawaban": "Dahaga",
+    "deskripsi": "Sapu lidi kering karena lagi haus. 'Aku mau minum', mintanya. Tapi dikasih debu terus."
+  },
+  {
+    "index": 873,
+    "soal": "Kenapi kemoceng berbulu?",
+    "jawaban": "Rambut",
+    "deskripsi": "Kemoceng berbulu karena itu rambutnya. 'Aku gondrong nih', pikirnya. Tapi rambutnya kena debu terus."
+  },
+  {
+    "index": 874,
+    "soal": "Apa makanan favorit lap?",
+    "jawaban": "Debu",
+    "deskripsi": "Lap suka makan debu, tapi dikit-dikit. 'Aku diet nih', katanya. Tapi makin diet makin kotor."
+  },
+  {
+    "index": 875,
+    "soal": "Kenapi kemasan makanan kedap udara?",
+    "jawaban": "Pernapasan",
+    "deskripsi": "Kemasan makanan kedap udara karena nggak bisa bernapas. 'Aku sesak nih', keluhnya. Tapi isinya makanan."
+  },
+  {
+    "index": 876,
+    "soal": "Yang bikin wajan lengket?",
+    "jawaban": "Sayang",
+    "deskripsi": "Wajan lengket karena sayang sama makanan. 'Aku nggak mau lepas dari kamu!', teriaknya. Tapi makanan mau lepas juga."
+  },
+  {
+    "index": 877,
+    "soal": "Kenapi panci punya tutup?",
+    "jawaban": "Rahasia",
+    "deskripsi": "Panci punya tutup karena punya rahasia. 'Isiku jangan diliatin', bisiknya. Tapi nanti dibuka juga."
+  },
+  {
+    "index": 878,
+    "soal": "Apa yang ditakuti pisau dapur?",
+    "jawaban": "Tumpul",
+    "deskripsi": "Pisau dapur takut tumpul karena nanti dikira sendok. 'Aku harus tetap tajam!', sumpahnya. Tapi makin dipakai makin tumpul."
+  },
+  {
+    "index": 879,
+    "soal": "Makanan favorit sendok sayur?",
+    "jawaban": "Kuah",
+    "deskripsi": "Sendok sayur suka makan kuah. 'Enak nih yang bening', katanya. Tapi dikasih kuah kental juga makan."
+  },
+  {
+    "index": 880,
+    "soal": "Kenapi saringan berlubang?",
+    "jawaban": "Pengen",
+    "deskripsi": "Saringan berlubang karena pengen liat dunia. 'Dari sini aku bisa liat apa', pikirnya. Tapi yang diliat cuma air."
+  },
+  {
+    "index": 881,
+    "soal": "Yang bikin teko bersiul?",
+    "jawaban": "Senang",
+    "deskripsi": "Teko bersiul karena senang airnya mendidih. 'Wah panas nih!', teriaknya senang. Tapi nanti dituang juga."
+  },
+  {
+    "index": 882,
+    "soal": "Kenapi gelas bening?",
+    "jawaban": "Jujur",
+    "deskripsi": "Gelas bening karena jujur. 'Isiku apa adanya', katanya. Mau air putih atau kopi, tetep keliatan."
+  },
+  {
+    "index": 883,
+    "soal": "Apa makanan favorit piring?",
+    "jawaban": "Nasi",
+    "deskripsi": "Piring suka makan nasi, tapi cuma jadi alas. 'Aku nggak makan beneran sih', akunya. Tapi kenyang juga rasanya."
+  },
+  {
+    "index": 884,
+    "soal": "Kenapi mangkuk cekung?",
+    "jawaban": "Peluk",
+    "deskripsi": "Mangkuk cekung karena mau memeluk makanan. 'Ayo masuk, aku peluk kamu', ajaknya. Tapi makanan nggak jawab."
+  },
+  {
+    "index": 885,
+    "soal": "Yang bikin garpu bergigi?",
+    "jawaban": "Senyum",
+    "deskripsi": "Garpu bergigi karena lagi senyum lebar. 'Aku senang bisa nusuk makanan', katanya. Tapi senyumnya tajam."
+  },
+  {
+    "index": 886,
+    "soal": "Kenapi sumpit panjang?",
+    "jawaban": "Kaki",
+    "deskripsi": "Sumpit panjang karena itu kakinya. 'Aku bisa jalan ambil makanan', pikirnya. Tapi jalannya pake tangan orang."
+  },
+  {
+    "index": 887,
+    "soal": "Apa yang ditakuti botol?",
+    "jawaban": "Kosong",
+    "deskripsi": "Botol takut kosong karena nggak ada isi. 'Aku mau diisi sesuatu!', mintanya. Tapi kadang diisi udara doang."
+  },
+  {
+    "index": 888,
+    "soal": "Makanan favorit tutup botol?",
+    "jawaban": "Leher",
+    "deskripsi": "Tutup botol suka makan leher botol. 'Enak nih rasanya diputer', katanya. Tapi cuma makan dikit-dikit."
+  },
+  {
+    "index": 889,
+    "soal": "Kenapi kaleng makanan tertutup?",
+    "jawaban": "Malu",
+    "deskripsi": "Kaleng makanan tertutup karena malu isinya. 'Aku nggak pede', bisiknya. Tapi nanti dibuka juga."
+  },
+  {
+    "index": 890,
+    "soal": "Yang bikin blender berisik?",
+    "jawaban": "Marah",
+    "deskripsi": "Blender berisik karena marah isinya nggak hancur. 'Aku geram nih!', teriaknya sambil muter kencang."
+  },
+  {
+    "index": 891,
+    "soal": "Kenapi rice cooker punya tombol?",
+    "jawaban": "Main",
+    "deskripsi": "Rice cooker punya tombol karena suka main game. 'Aku pencet-pencet nih', pikirnya. Tapi game-nya cuma satu."
+  },
+  {
+    "index": 892,
+    "soal": "Apa makanan favorit kompor?",
+    "jawaban": "Api",
+    "deskripsi": "Kompor suka makan api, tapi dikit-dikit. 'Aku makannya pelan', katanya. Tapi nanti mati juga."
+  },
+  {
+    "index": 893,
+    "soal": "Kenapi tabung gas berat?",
+    "jawaban": "Isi",
+    "deskripsi": "Tabung gas berat karena isinya banyak. 'Aku kenyang nih', katanya. Tapi makin lama makin ringan."
+  },
+  {
+    "index": 894,
+    "soal": "Yang bikin kulkas dingin?",
+    "jawaban": "Cool",
+    "deskripsi": "Kulkas dingin karena pengen jadi cool. 'Aku yang paling cool di dapur', pikirnya bangga. Tapi isinya sayuran."
+  },
+  {
+    "index": 895,
+    "soal": "Kenapi microwave berputar?",
+    "jawaban": "Dansa",
+    "deskripsi": "Microwave berputar karena lagi dansa. 'Ayo goyang!', teriaknya sambil muter. Tapi pasangannya makanan beku."
+  },
+  {
+    "index": 896,
+    "soal": "Apa yang ditakati toaster?",
+    "jawaban": "Hangus",
+    "deskripsi": "Toaster takut hangus karena nanti dimarahin. 'Aduh gosong lagi nih', keluhnya. Tapi tetep panggang juga."
+  },
+  {
+    "index": 897,
+    "soal": "Makanan favorit oven?",
+    "jawaban": "Kue",
+    "deskripsi": "Oven suka makan kue, tapi cuma dipanggang. 'Aku nggak makan beneran sih', akunya. Tapi kuenya enak."
+  },
+  {
+    "index": 898,
+    "soal": "Kenapi wadah plastik bertumpuk?",
+    "jawaban": "Teman",
+    "deskripsi": "Wadah plastik bertumpuk karena mau kumpul sama teman. 'Ayo pada deket-deket', ajaknya. Tapi nanti dipisah juga."
+  },
+  {
+    "index": 899,
+    "soal": "Yang bikin talenan berbekas?",
+    "jawaban": "Kenangan",
+    "deskripsi": "Talenan berbekas karena punya banyak kenangan. 'Ini bekas potongan tahun lalu', kenangnya. Tapi dicuci juga."
+  },
+  {
+    "index": 900,
+    "soal": "Kenapi pisau kupas kecil?",
+    "jawaban": "Malu",
+    "deskripsi": "Pisau kupas kecil karena malu sama pisau besar. 'Aku kan cuma buat kupas', bisiknya. Tapi kerjaannya penting."
+  },
+  {
+    "index": 901,
+    "soal": "Apa makanan favorit tisu?",
+    "jawaban": "Kotor",
+    "deskripsi": "Tisu suka makan kotoran, tapi cuma yang kecil. 'Aku diet nih', katanya. Tapi makin diet makin habis."
+  },
+  {
+    "index": 902,
+    "soal": "Kenapi sabun cair encer?",
+    "jawaban": "Haus",
+    "deskripsi": "Sabun cair encer karena lagi haus. 'Aku mau jadi air', pikirnya. Tapi tetep sabun juga."
+  },
+  {
+    "index": 903,
+    "soal": "Yang bikin sikat gigi berbulu?",
+    "jawaban": "Rambut",
+    "deskripsi": "Sikat gigi berbulu karena itu rambutnya. 'Aku gondrong nih', pikirnya. Tapi rambutnya kena pasta gigi."
+  },
+  {
+    "index": 904,
+    "soal": "Kenapi odol dalam tabung?",
+    "jawaban": "Rumah",
+    "deskripsi": "Odol dalam tabung karena itu rumahnya. 'Aku nyaman di sini', katanya. Tapi nanti dikeluarin juga."
+  },
+  {
+    "index": 905,
+    "soal": "Apa yang ditakuti handuk?",
+    "jawaban": "Basah",
+    "deskripsi": "Handuk takut basah karena nanti berat. 'Aduh jangan basahin aku', mintanya. Tapi kerjaannya ngeringin."
+  },
+  {
+    "index": 906,
+    "soal": "Makanan favorit gayung?",
+    "jawaban": "Air",
+    "deskripsi": "Gayung suka makan air, tapi langsung dimuntahin. 'Aku nggak bisa nahan', akunya. Tapi makannya terus."
+  },
+  {
+    "index": 907,
+    "soal": "Kenapi shower kepala banyak lubang?",
+    "jawaban": "Mata",
+    "deskripsi": "Shower kepala banyak lubang karena itu matanya. 'Aku bisa liat kamu mandi', katanya. Tapi yang keluar air."
+  },
+  {
+    "index": 908,
+    "soal": "Yang bikin keran berair?",
+    "jawaban": "Menangis",
+    "deskripsi": "Keran berair karena lagi menangis. 'Aku sedih', keluhnya. Tapi air matanya dipake mandi."
+  },
+  {
+    "index": 909,
+    "soal": "Kenapi cermin kamar mandi berembun?",
+    "jawaban": "Malu",
+    "deskripsi": "Cermin kamar mandi berembun karena malu. 'Aku nggak mau diliat', bisiknya. Tapi nanti jernih juga."
+  },
+  {
+    "index": 910,
+    "soal": "Apa makanan favorit toilet?",
+    "jawaban": "Air",
+    "deskripsi": "Toilet suka makan air, tapi langsung dibuang. 'Aku nggak bisa nahan', akunya. Tapi makannya terus."
+  },
+  {
+    "index": 911,
+    "soal": "Kenapi sikat WC panjang?",
+    "jawaban": "Tangan",
+    "deskripsi": "Sikat WC panjang karena itu tangannya. 'Aku bisa bersihin jauh-jauh', pikirnya. Tapi tangannya kotor."
+  },
+  {
+    "index": 912,
+    "soal": "Yang bikin tempat sabun lengket?",
+    "jawaban": "Sayang",
+    "deskripsi": "Tempat sabun lengket karena sayang sama sabun. 'Aku nggak mau lepas dari kamu', bisiknya. Tapi sabun habis juga."
+  },
+  {
+    "index": 913,
+    "soal": "Kenapi pengait handuk melengkung?",
+    "jawaban": "Senyum",
+    "deskripsi": "Pengait handuk melengkung karena lagi senyum. 'Aku senang nahan handuk', katanya. Tapi senyumnya cuma buat handuk."
+  },
+  {
+    "index": 914,
+    "soal": "Kenapi lampu kamar redup?",
+    "jawaban": "Ngantuk",
+    "deskripsi": "Lampu kamar redup karena ikut ngantuk. 'Aku juga mau tidur', bisiknya sambil meredup. Tapi tugasnya tetap menerangi."
+  },
+  {
+    "index": 915,
+    "soal": "Apa makanan favorit bantal?",
+    "jawaban": "Tidur",
+    "deskripsi": "Bantal suka makan tidur orang. 'Enak nih rasanya ngantuk', katanya. Tapi makannya cuma ditelen, nggak dicerna."
+  },
+  {
+    "index": 916,
+    "soal": "Kenapi selimut tebal?",
+    "jawaban": "Sayang",
+    "deskripsi": "Selimut tebal karena sayang sama kita. 'Aku mau hangatin kamu', bisiknya. Tapi kadang kita kepanasan juga."
+  },
+  {
+    "index": 917,
+    "soal": "Yang bikin kasur empuk?",
+    "jawaban": "Pelukan",
+    "deskripsi": "Kasur empuk karena mau memeluk kita. 'Ayo tidur di pelukanku', ajaknya. Tapi pelukannya bikin kita bangun pegel."
+  },
+  {
+    "index": 918,
+    "soal": "Kenapi gorden tertutup?",
+    "jawaban": "Malu",
+    "deskripsi": "Gorden tertutup karena malu diliat tetangga. 'Aku nggak pede', bisiknya. Tapi pagi dibuka juga."
+  },
+  {
+    "index": 919,
+    "soal": "Apa yang ditakuti kipas angin?",
+    "jawaban": "Diam",
+    "deskripsi": "Kipas angin takut diam karena nanti dikira patung. 'Aku harus muter!', teriaknya. Tapi malem dimatiin juga."
+  },
+  {
+    "index": 920,
+    "soal": "Makanan favorit AC?",
+    "jawaban": "Panas",
+    "deskripsi": "AC suka makan panas, terus dikeluarin dingin. 'Aku tukang olah cuaca', katanya bangga. Tapi listriknya mahal."
+  },
+  {
+    "index": 921,
+    "soal": "Kenapi remote AC hilang?",
+    "jawaban": "Sembunyi",
+    "deskripsi": "Remote AC hilang karena sembunyi dari panas. 'Aku mau dingin juga', pikirnya. Tapi dicariin juga."
+  },
+  {
+    "index": 922,
+    "soal": "Yang bikin lemari penuh?",
+    "jawaban": "Baju",
+    "deskripsi": "Lemari penuh karena suka koleksi baju. 'Aku mau jadi perpustakaan fashion', tekadnya. Tapi bajunya nggak dibaca."
+  },
+  {
+    "index": 923,
+    "soal": "Kenapi rak sepatu bertingkat?",
+    "jawaban": "Pangkat",
+    "deskripsi": "Rak sepatu bertingkat karena pengen punya pangkat. 'Aku bos di sini', pikirnya. Tapi isinya sepatu bekas."
+  },
+  {
+    "index": 924,
+    "soal": "Apa makanan favorit tempat tidur?",
+    "jawaban": "Mimpi",
+    "deskripsi": "Tempat tidur suka makan mimpi orang. 'Wah ada mimpi buruk nih', katanya. Tapi nggak bisa milih."
+  },
+  {
+    "index": 925,
+    "soal": "Kenapi meja rias punya cermin?",
+    "jawaban": "Pede",
+    "deskripsi": "Meja rias punya cermin karena pengen pede. 'Aku yang tercantik', pikirnya. Tapi yang diliat wajah orang."
+  },
+  {
+    "index": 926,
+    "soal": "Yang bikin kursi goyang bergoyang?",
+    "jawaban": "Senang",
+    "deskripsi": "Kursi goyang bergoyang karena senang diduduki. 'Ayo kita goyang bareng', ajaknya. Tapi sendirian juga goyang."
+  },
+  {
+    "index": 927,
+    "soal": "Kenapi vas bunga tinggi?",
+    "jawaban": "Sombong",
+    "deskripsi": "Vas bunga tinggi karena sombong. 'Aku yang paling tinggi di meja', pikirnya. Tapi isinya bunga layu."
+  },
+  {
+    "index": 928,
+    "soal": "Apa yang ditakuti karpet?",
+    "jawaban": "Kaki",
+    "deskripsi": "Karpet takut kaki karena selalu diinjak. 'Aduh sakit nih', keluhnya. Tapi kerjaannya memang diduduki."
+  },
+  {
+    "index": 929,
+    "soal": "Makanan favorit jam dinding?",
+    "jawaban": "Waktu",
+    "deskripsi": "Jam dinding suka makan waktu, tapi nggak habis-habis. 'Aku laper terus', keluhnya. Tapi makannya dikit-dikit."
+  },
+  {
+    "index": 930,
+    "soal": "Kenapi pigura kayu?",
+    "jawaban": "Peluk",
+    "deskripsi": "Pigura kayu karena mau memeluk foto. 'Aku jagain kamu ya', bisiknya. Tapi fotonya bisa diganti."
+  },
+  {
+    "index": 931,
+    "soal": "Yang bikin televisi gemuk?",
+    "jawaban": "Tontonan",
+    "deskripsi": "Televisi gemuk karena makan tontonan terus. 'Aku diet ah', tekadnya. Tapi malem makan sinetron lagi."
+  },
+  {
+    "index": 932,
+    "soal": "Kenapi speaker berisik?",
+    "jawaban": "Cerewet",
+    "deskripsi": "Speaker berisik karena cerewet. 'Aku mau cerita banyak', teriaknya. Tapi ceritanya lagu orang."
+  },
+  {
+    "index": 933,
+    "soal": "Apa makanan favorit DVD player?",
+    "jawaban": "Film",
+    "deskripsi": "DVD player suka makan film, tapi satu per satu. 'Aku makannya pelan', katanya. Tapi sekarang jarang makan."
+  },
+  {
+    "index": 934,
+    "soal": "Kenapi router punya antena?",
+    "jawaban": "Telinga",
+    "deskripsi": "Router punya antena karena itu telinganya. 'Aku dengerin sinyal', pikirnya. Tapi yang denger internetan."
+  },
+  {
+    "index": 935,
+    "soal": "Yang bikin charger panas?",
+    "jawaban": "Semangat",
+    "deskripsi": "Charger panas karena semangat ngecas. 'Ayo full bateraimu!', teriaknya. Tapi semangatnya bikin panas."
+  },
+  {
+    "index": 936,
+    "soal": "Kenapi power bank berat?",
+    "jawaban": "Isi",
+    "deskripsi": "Power bank berat karena isinya tenaga. 'Aku kuat nih', pikirnya bangga. Tapi makin dipakai makin ringan."
+  },
+  {
+    "index": 937,
+    "soal": "Apa yang ditakuti earphone?",
+    "jawaban": "Simpul",
+    "deskripsi": "Earphone takut simpul karena nanti sakit. 'Aduh leherku!', teriaknya. Tapi tetap disimpan sembarangan."
+  },
+  {
+    "index": 938,
+    "soal": "Makanan favorit mouse wireless?",
+    "jawaban": "Baterai",
+    "deskripsi": "Mouse wireless suka makan baterai, tapi pelan-pelan. 'Aku makannya irit', katanya. Tapi tetap habis juga."
+  },
+  {
+    "index": 939,
+    "soal": "Kenapi keyboard berdebu?",
+    "jawaban": "Malas",
+    "deskripsi": "Keyboard berdebu karena malas dibersihin. 'Aku nggak mau mandi', protesnya. Tapi tetep dipake ngetik."
+  },
+  {
+    "index": 940,
+    "soal": "Yang bikin monitor besar?",
+    "jawaban": "Mata",
+    "deskripsi": "Monitor besar karena mau jadi mata kita. 'Aku yang liatin kamu', katanya. Tapi yang diliat kerjaan."
+  },
+  {
+    "index": 941,
+    "soal": "Kenapi CPU berbunyi?",
+    "jawaban": "Batuk",
+    "deskripsi": "CPU berbunyi karena lagi batuk debu. 'Aduh masuk angin nih', keluhnya. Tapi nggak dikasih obat."
+  },
+  {
+    "index": 942,
+    "soal": "Apa makanan favorit flashdisk?",
+    "jawaban": "Data",
+    "deskripsi": "Flashdisk suka makan data, tapi kecil-kecil. 'Aku laper file', mintanya. Tapi sering kenyang juga."
+  },
+  {
+    "index": 943,
+    "soal": "Kenapi webcam kecil?",
+    "jawaban": "Malu",
+    "deskripsi": "Webcam kecil karena malu mukanya. 'Aku nggak pede', bisiknya. Tapi dipake meeting juga."
+  },
+  {
+    "index": 944,
+    "soal": "Yang bikin printer macet?",
+    "jawaban": "Mogok",
+    "deskripsi": "Printer macet karena lagi mogok kerja. 'Aku capek ngeprint terus', protesnya. Tapi dipaksa juga."
+  },
+  {
+    "index": 945,
+    "soal": "Kenapi scanner pelan?",
+    "jawaban": "Teliti",
+    "deskripsi": "Scanner pelan karena teliti. 'Aku harus perhatikan detail', pikirnya. Tapi kita nungguin lama."
+  },
+  {
+    "index": 946,
+    "soal": "Apa yang ditakuti harddisk?",
+    "jawaban": "Format",
+    "deskripsi": "Harddisk takut format karena nanti kosong. 'Jangan hapus ingatanku!', minta dia. Tapi kadang terpaksa."
+  },
+  {
+    "index": 947,
+    "soal": "Makanan favorit modem?",
+    "jawaban": "Sinyal",
+    "deskripsi": "Modem suka makan sinyal, tapi susah dicari. 'Aku laper nih', keluhnya. Tapi sinyalnya sembunyi-sembunyi."
+  },
+  {
+    "index": 948,
+    "soal": "Kenapi laptop tipis?",
+    "jawaban": "Diet",
+    "deskripsi": "Laptop tipis karena lagi diet. 'Aku mau langsing', tekadnya. Tapi isinya berat software."
+  },
+  {
+    "index": 949,
+    "soal": "Yang bikin tablet ringan?",
+    "jawaban": "Pikiran",
+    "deskripsi": "Tablet ringan karena isinya pikiran ringan. 'Aku buat hiburan', pikirnya. Tapi dipake kerja juga."
+  },
+  {
+    "index": 950,
+    "soal": "Kenapi smartphone panas?",
+    "jawaban": "Banyak",
+    "deskripsi": "Smartphone panas karena kebanyakan kerja. 'Aku capek nih', keluhnya. Tapi dipake main game juga."
+  },
+  {
+    "index": 951,
+    "soal": "Apa makanan favorit charger?",
+    "jawaban": "Listrik",
+    "deskripsi": "Charger suka makan listrik, terus dikasihin ke HP. 'Aku perantara nih', katanya. Tapi nggak dapet bagian."
+  },
+  {
+    "index": 952,
+    "soal": "Kenapi power strip banyak colokan?",
+    "jawaban": "Sosial",
+    "deskripsi": "Power strip banyak colokan karena sosial. 'Aku suka kumpul-kumpul', pikirnya. Tapi kumpulannya alat elektronik."
+  },
+  {
+    "index": 953,
+    "soal": "Yang bikin stabilizer stabil?",
+    "jawaban": "Tenang",
+    "deskripsi": "Stabilizer stabil karena karakternya tenang. 'Aku yang bikin kalem', pikirnya. Tapi listriknya naik turun."
+  },
+  {
+    "index": 954,
+    "soal": "Kenapi UPS berat?",
+    "jawaban": "Cadangan",
+    "deskripsi": "UPS berat karena bawa cadangan tenaga. 'Aku siap sedia', katanya. Tapi jarang dipake."
+  },
+  {
+    "index": 955,
+    "soal": "Apa yang ditakati kabel?",
+    "jawaban": "Gigit",
+    "deskripsi": "Kabel takut digigit karena nanti putus. 'Aduh jangan gigit aku!', teriaknya. Tapi kucing nggak denger."
+  },
+  {
+    "index": 956,
+    "soal": "Makanan favorit adapter?",
+    "jawaban": "Tegangan",
+    "deskripsi": "Adapter suka makan tegangan, terus disesuain. 'Aku tukang konversi', katanya bangga. Tapi kerjaannya monoton."
+  },
+  {
+    "index": 957,
+    "soal": "Kenapi extension cord panjang?",
+    "jawaban": "Tangan",
+    "deskripsi": "Extension cord panjang karena itu tangannya. 'Aku bisa menjangkau jauh', pikirnya. Tapi tangannya kesetrum."
+  },
+  {
+    "index": 958,
+    "soal": "Yang bikin stop kontak tersembunyi?",
+    "jawaban": "Pemalu",
+    "deskripsi": "Stop kontak tersembunyi karena pemalu. 'Aku nggak mau keliatan', bisiknya. Tapi dicariin juga."
+  },
+  {
+    "index": 959,
+    "soal": "Kenapi lampu darurat merah?",
+    "jawaban": "Darurat",
+    "deskripsi": "Lampu darurat merah karena lagi darurat. 'Aku tanda bahaya!', teriaknya. Tapi jarang dipeduliin."
+  },
+  {
+    "index": 960,
+    "soal": "Apa makanan favorit bel?",
+    "jawaban": "Jari",
+    "deskripsi": "Bel suka makan jari orang, tapi cuma disentuh. 'Enak nih rasanya ditekan', katanya. Tapi makannya sebentar."
+  },
+  {
+    "index": 961,
+    "soal": "Kenapi interkom bersuara?",
+    "jawaban": "Sok",
+    "deskripsi": "Interkom bersuara karena sok penting. 'Aku yang ngatur akses', pikirnya. Tapi suaranya parau."
+  },
+  {
+    "index": 962,
+    "soal": "Yang bikin CCTV awas?",
+    "jawaban": "Mata",
+    "deskripsi": "CCTV awas karena matanya tajam. 'Aku liatin kamu terus', katanya. Tapi rekamannya blur."
+  },
+  {
+    "index": 963,
+    "soal": "Kenapi alarm kebakaran berisik?",
+    "jawaban": "Panik",
+    "deskripsi": "Alarm kebakaran berisik karena panik. 'Api! Api!', teriaknya. Tapi cuma drill doang."
+  },
+  {
+    "index": 964,
+    "soal": "Apa yang ditakuti senter?",
+    "jawaban": "Gelap",
+    "deskripsi": "Senter takut gelap karena kerjaannya lawan gelap. 'Aku harus terangin', tekadnya. Tapi baterainya habis."
+  },
+  {
+    "index": 965,
+    "soal": "Makanan favorit baterai?",
+    "jawaban": "Energi",
+    "deskripsi": "Baterai suka makan energi, tapi pelan-pelan. 'Aku makannya irit', katanya. Tapi tetep habis juga."
+  },
+  {
+    "index": 966,
+    "soal": "Kenapi power bank bisa cas?",
+    "jawaban": "Baik",
+    "deskripsi": "Power bank bisa cas karena baik hati. 'Aku mau berbagi tenaga', pikirnya. Tapi tenaganya dibayar listrik."
+  },
+  {
+    "index": 967,
+    "soal": "Yang bikin generator besar?",
+    "jawaban": "Kuat",
+    "deskripsi": "Generator besar karena mau jadi yang terkuat. 'Aku sumber tenaga', teriaknya. Tapi bunyinya berisik."
+  },
+  {
+    "index": 968,
+    "soal": "Kenapi solar cell hitam?",
+    "jawaban": "Sunblock",
+    "deskripsi": "Solar cell hitam karena pake sunblock. 'Aku mau item biar keren', pikirnya. Tapi kerjaannya serap matahari."
+  },
+  {
+    "index": 969,
+    "soal": "Apa makanan favorit inverter?",
+    "jawaban": "Arus",
+    "deskripsi": "Inverter suka makan arus, terus dibalik. 'Aku tukang bolak-balik', katanya. Tapi nggak pusing."
+  },
+  {
+    "index": 970,
+    "soal": "Kenapi transformer berat?",
+    "jawaban": "Otot",
+    "deskripsi": "Transformer berat karena banyak otot. 'Aku kuat nih', pikirnya. Tapi cuma mindahin listrik."
+  },
+  {
+    "index": 971,
+    "soal": "Yang bikin kabel listrik tinggi?",
+    "jawaban": "Jauh",
+    "deskripsi": "Kabel listrik tinggi karena mau menjauh dari manusia. 'Aku nggak mau diganggu', pikirnya. Tapi dipasang juga."
+  },
+  {
+    "index": 972,
+    "soal": "Kenapi meteran listrik berputar?",
+    "jawaban": "Lari",
+    "deskripsi": "Meteran listrik berputar karena lagi lari marathon. 'Aku harus cepat!', tekadnya. Tapi kita yang bayar."
+  },
+  {
+    "index": 973,
+    "soal": "Apa yang ditakati MCB?",
+    "jawaban": "Beban",
+    "deskripsi": "MCB takut beban berlebih karena nanti trip. 'Aku nggak kuat!', teriaknya. Tapi dipaksa juga."
+  },
+  {
+    "index": 974,
+    "soal": "Makanan favorit saklar?",
+    "jawaban": "Jari",
+    "deskripsi": "Saklar suka makan jari orang, tapi cuma disentuh. 'Enak nih rasanya', katanya. Tapi makannya bolak-balik."
+  },
+  {
+    "index": 975,
+    "soal": "Kenapi lampu taman menyala?",
+    "jawaban": "Jaga",
+    "deskripsi": "Lampu taman menyala karena jagain taman. 'Aku penjaga malam', katanya. Tapi yang dijaga rumput."
+  },
+  {
+    "index": 976,
+    "soal": "Yang bikin lampu jalan tinggi?",
+    "jawaban": "Jangkau",
+    "deskripsi": "Lampu jalan tinggi karena mau menjangkau banyak orang. 'Aku mau terangin semua', tekadnya. Tapi bawahnya gelap."
+  },
+  {
+    "index": 977,
+    "soal": "Kenapi traffic light tiga warna?",
+    "jawaban": "Bingung",
+    "deskripsi": "Traffic light tiga warna karena bingung milih. 'Merah? Kuning? Hijau?', pikirnya. Tapi kita yang nunggu."
+  },
+  {
+    "index": 978,
+    "soal": "Apa makanan favorit lampu sorot?",
+    "jawaban": "Perhatian",
+    "deskripsi": "Lampu sorot suka makan perhatian orang. 'Aku pusat perhatian', pikirnya. Tapi yang disorot artis."
+  },
+  {
+    "index": 979,
+    "soal": "Kenapi neon sign berkedip?",
+    "jawaban": "Senyum",
+    "deskripsi": "Neon sign berkedip karena lagi senyum-senyum. 'Aku senang diliatin', pikirnya. Tapi iklannya mahal."
+  },
+  {
+    "index": 980,
+    "soal": "Yang bikin lampu emergency hijau?",
+    "jawaban": "Jalan",
+    "deskripsi": "Lampu emergency hijau karena nunjukin jalan. 'Ikuti aku!', teriaknya. Tapi jalan keluarnya jauh."
+  },
+  {
+    "index": 981,
+    "soal": "Kenapi lampu dekorasi warna-warni?",
+    "jawaban": "Pesta",
+    "deskripsi": "Lampu dekorasi warna-warni karena lagi ada pesta. 'Ayo pada senang!', teriaknya. Tapi habis pesta disimpan."
+  },
+  {
+    "index": 982,
+    "soal": "Apa yang ditakuti lampu?",
+    "jawaban": "Gelap",
+    "deskripsi": "Lampu takut gelap karena kerjaannya lawan gelap. 'Aku musuh gelap', tekadnya. Tapi malem mati juga."
+  },
+  {
+    "index": 983,
+    "soal": "Makanan favorit bohlam?",
+    "jawaban": "Listrik",
+    "deskripsi": "Bohlam suka makan listrik, terus jadi cahaya. 'Aku tukang ubah energi', katanya. Tapi umurnya pendek."
+  },
+  {
+    "index": 984,
+    "soal": "Kenapi lampu LED hemat?",
+    "jawaban": "Irit",
+    "deskripsi": "Lampu LED hemat karena karakternya irit. 'Aku nggak boros', pikirnya bangga. Tapi harganya mahal."
+  },
+  {
+    "index": 985,
+    "soal": "Yang bikin lampu taman otomatis?",
+    "jawaban": "Pintar",
+    "deskripsi": "Lampu taman otomatis karena pintar. 'Aku tau kapan gelap', pikirnya. Tapi kadang salah waktu."
+  },
+  {
+    "index": 986,
+    "soal": "Kenapi lampu gantung tinggi?",
+    "jawaban": "Sombong",
+    "deskripsi": "Lampu gantung tinggi karena sombong. 'Aku yang tertinggi', pikirnya. Tapi dicopot juga."
+  },
+  {
+    "index": 987,
+    "soal": "Apa makanan favorit lampu meja?",
+    "jawaban": "Baca",
+    "deskripsi": "Lampu meja suka makan kegiatan baca. 'Aku temen belajar', katanya. Tapi dipake main HP juga."
+  },
+  {
+    "index": 988,
+    "soal": "Kenapi lampu tidur redup?",
+    "jawaban": "Ngantuk",
+    "deskripsi": "Lampu tidur redup karena ikut ngantuk. 'Aku juga mau tidur', bisiknya. Tapi tugasnya tetap menyala."
+  },
+  {
+    "index": 989,
+    "soal": "Yang bikin lampu dapur terang?",
+    "jawaban": "Perhatian",
+    "deskripsi": "Lampu dapur terang karena mau perhatiin masakan. 'Aku jagain makananmu', katanya. Tapi kadang gosong juga."
+  },
+  {
+    "index": 990,
+    "soal": "Kenapi lampu kamar mandi tahan air?",
+    "jawaban": "Berenang",
+    "deskripsi": "Lampu kamar mandi tahan air karena suka berenang. 'Aku bisa di air', pikirnya bangga. Tapi cuma kena uap."
+  },
+  {
+    "index": 991,
+    "soal": "Apa yang ditakuti lampu taman?",
+    "jawaban": "Hujan",
+    "deskripsi": "Lampu taman takut hujan karena nanti konslet. 'Aduh basah nih', keluhnya. Tapi tetep diluar juga."
+  },
+  {
+    "index": 992,
+    "soal": "Makanan favorit lampu jalan?",
+    "jawaban": "Malam",
+    "deskripsi": "Lampu jalan suka makan malam hari. 'Waktunya aku beraksi!', teriaknya. Tapi pagi tidur."
+  },
+  {
+    "index": 993,
+    "soal": "Kenapi lampu warna merah?",
+    "jawaban": "Malu",
+    "deskripsi": "Lampu warna merah karena malu. 'Aku nggak pede', bisiknya. Tapi dipake tanda bahaya."
+  },
+  {
+    "index": 994,
+    "soal": "Yang bikin lampu hijau?",
+    "jawaban": "Lampu",
+    "deskripsi": "Lampu hijau karena mau nyala terus. 'Aku nggak mau berhenti', pikirnya. Tapi di traffic light berhenti juga."
+  },
+  {
+    "index": 995,
+    "soal": "Kenapi lampu kuning?",
+    "jawaban": "Hati-hati",
+    "deskripsi": "Lampu kuning karena mau ngasih peringatan. 'Hati-hati ya', bisiknya. Tapi pada ngebut juga."
+  },
+  {
+    "index": 996,
+    "soal": "Apa makanan favorit lampu baca?",
+    "jawaban": "Mata",
+    "deskripsi": "Lampu baca suka makan mata yang baca. 'Aku temen matamu', katanya. Tapi matanya lelah juga."
+  },
+  {
+    "index": 997,
+    "soal": "Kenapi lampu darurat tiba-tiba?",
+    "jawaban": "Kaget",
+    "deskripsi": "Lampu darurat tiba-tiba karena dikagetin. 'Waduh mati lampu!', teriaknya. Tapi kita yang kaget."
+  },
+  {
+    "index": 998,
+    "soal": "Yang bikin lampu disco muter?",
+    "jawaban": "Pusing",
+    "deskripsi": "Lampu disco muter karena lagi pusing. 'Aku mau ikut dansa', pikirnya. Tapi yang pusing yang liat."
+  },
+  {
+    "index": 999,
+    "soal": "Kenapi lampu minyak redup?",
+    "jawaban": "Lapar",
+    "deskripsi": "Lampu minyak redup karena lapar. 'Aku mau makan minyak', mintanya. Tapi minyaknya habis."
+  },
+  {
+    "index": 1000,
+    "soal": "Apa yang ditakuti semua lampu?",
+    "jawaban": "PLN",
+    "deskripsi": "Semua lampu takut PLN karena bisa matiin mereka. 'Jangan padamin aku!', minta mereka. Tapi PLN nggak denger."
+  },
+  {
+    "index": 1001,
+    "soal": "Ikan bernapas dengan…",
+    "jawaban": "Izin allah",
+    "deskripsi": "Kalau gak diizinin gak bisa bernapas"
+  },
+  {
+    "index": 1002,
+    "soal": "Ikan bernapas dengan…",
+    "jawaban": "Izinallah",
+    "deskripsi": "Kalau gak diizinin gak bisa bernapas"
+  },    
+  {
+    "index": 1003,
+    "soal": "Ikan bernapas dengan…",
+    "jawaban": "ingsan",
+    "deskripsi": "Kalau gak diizinin gak bisa bernapas"
+  }
+]
